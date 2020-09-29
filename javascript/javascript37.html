@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let rightId = "korea";
+        let rightPw = "1234";
+
+        function login(id,pw){
+            if( id == rightId ){
+                //아이디값이 맞을 때
+                if( pw == rightPw ){
+                    //아이디, 비밀번호 일치할 때
+                    document.write(id+"님 환영합니다.");
+                }else {
+                    //아이디가 맞지만, 비밀번호가 틀릴 때
+                    document.write("잘못된 비밀번호입니다.");
+                }
+            } else {
+                //아이디값이 틀릴 때
+                document.write("존재하지 않은 아이디입니다.")
+            }
+        }
+
+        let useId = prompt("아이디를 입력하세요.");
+        let usePw = prompt("비밀번호를 입력하세요.");
+        login(useId,usePw)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

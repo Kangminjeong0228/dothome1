@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*
+        let i = 1;
+        while(i<=100){
+            document.write(i+".실행되었습니다.<br />");  //실행문
+            i++;  //증감식
+        }
+        */
+        //5부터 50까지 출력
+    
+        let i = 5
+        while(i<=50){
+            document.write(i+".실행되었습니다.<br />");
+            i++;
+        }
+
+        //1부터 100까지 출력(짝수만 출력)
+        let num = 1;
+        while(num<=100){
+            if(num%2==0){
+            document.write(num+".짝수입니다.<br />");
+            }
+            num++;
+        }
+        let num=1;
+        while(num<=100){
+            if(num%4==0 || num%6==0){
+            document.write(num+".배수입니다.<br />");
+            }
+            num++;
+        }
+
+        //1부터100까지 출력(짝수는 파란색으로, 홀수는 빨간색으로 출력)
+        let num4 = 1;
+        while(num4 <= 100){
+            if(num4 % 2 == 0){
+                document.write(num4 + "<span style='color:blue'>. 실행되었습니다.</span><br />")
+            } else {
+                document.write(num4 + "<span style='color:red'>. 실행되었습니다. </span><br />")
+            }
+            num4++;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
