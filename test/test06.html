@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @font-face {
+            font-family: 'S-CoreDream-8Heavy';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
         * {margin: 0; padding: 0;}
-        #wrap {margin: 0 auto;}
+
+        #wrap {margin: 0 auto; font-family: 'S-CoreDream-8Heavy'; font-size: 75px; text-align: center; text-transform: uppercase; color: #fff;}
         #header {height: 150px; background: #111; line-height: 150px;}
         #banner {height: 600px; background: #222; line-height: 600px;}
         #cont1 {height: 650px; background: #444; line-height: 650px;}
@@ -17,8 +24,8 @@
         #cont6 {height: 200px; background: #999; }
         #footer {height: 250px; background: #444; line-height: 250px;}
         .container {width: 1400px; height: inherit; background:rgba(0,0,0,0.3); margin: 0 auto; overflow: hidden;}
-        .cont6 .left {position: relative; width: 660px; height: 200px; float: left; background: #fff; padding: 20px;}
-        .cont6 .right {position: relative; width: 660px; height: 200px; float: left; background: #fff; padding: 20px;}
+        .cont6 .left {position: relative; width: 660px; height: 200px; float: left; background: #fff; padding: 20px; font-size: 20px; text-align: left; color: #000;}
+        .cont6 .right {position: relative; width: 660px; height: 200px; float: left; background: #fff; padding: 20px; font-size: 20px; text-align: left; color: #000;}
         .cont6 .left .more {position: absolute; right: 20px; top: 20px;}
         .cont6 .right .more {position: absolute; right: 20px; top: 20px;}
 
@@ -58,9 +65,9 @@
                             <a href="#" class="more">더보기</a>
                         </div>
                         <div class="right">
-                            <h2>공지사항</h2>
-                            <p>시스템점검안내</p>
-                            <span>2020.08.31</span>
+                            <h2>당첨자발표</h2>
+                            <p>9월 출석체크하고 포인트받자!</p>
+                            <span>2020.10.06</span>
                             <a href="#" class="more">더보기</a>
                         </div>
                     </div>
