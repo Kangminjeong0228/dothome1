@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function func2(num){
+            if(num==0){
+                document.write("함수가 종료되었습니다.");
+            } else {
+                document.write("함수가 실행되었습니다.");
+                func2(num-1);
+            }
+        }
+        func2(5);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
