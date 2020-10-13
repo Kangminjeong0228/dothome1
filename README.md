@@ -9,4 +9,4 @@ https://kangminjeong0228.github.io/dothome1/
 <br>
 
 #제이쿼리 예제<br>
-find() : https://kangminjeong0228.github.io/dothome1/query04_find2.html
+https://kangminjeong0228.github.io/dothome1/query04_find2.html
