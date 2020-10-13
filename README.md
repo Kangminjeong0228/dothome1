@@ -9,4 +9,4 @@ https://kangminjeong0228.github.io/dothome1/
 <br>
 
 #제이쿼리 예제<br>
-find(): <a href = "https://kangminjeong0228.github.io/dothome1/jquery/jquery04_find2.html"/바로가기</a><br>
+find(): <a href = "https://kangminjeong0228.github.io/dothome1/jquery/jquery04_find2.html">/바로가기</a><br>
