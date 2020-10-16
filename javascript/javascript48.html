@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        function func2(num){
-            if(num==0){
-                document.write("함수가 종료되었습니다.");
-            } else {
-                document.write("함수가 실행되었습니다.");
-                func2(num-1);
-            }
+        function func3(){
+            let i = 5, j=4, k=1, l, m;
+            l = i>5 || j!=0;
+            m = j <= 4 && k <1;
+            document.write(l,"<br>");
+            document.write(m,"<br>");
         }
-        func2(5);
+        func3();
+
     </script>
 </head>
 <body>
