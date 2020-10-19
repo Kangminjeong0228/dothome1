@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        function func3(){
-            let i = 5, j=4, k=1, l, m;
-            l = i>5 || j!=0;
-            m = j <= 4 && k <1;
-            document.write(l,"<br>");
-            document.write(m,"<br>");
+        function func14(){
+            let a = 0, sum=0;
+            while(a<10){
+                a++;
+                if(a % 2!==1) continue;
+                document.write(a);
+                sum += a;
+            }
+            document.write(sum);
         }
-        func3();
-
+        func14();
     </script>
 </head>
 <body>
