@@ -2,6 +2,8 @@
 
 https://kangminjeong0228.github.io/dothome1/
 
+min0228.dothome.co.kr
+
 #웹표준 사이트 만들기<br>
 <a href= "https://kangminjeong0228.github.io/dothome1/webstandard/">바로가기</a><br>
 
