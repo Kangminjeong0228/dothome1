@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {text-decoration: none; color: #000;}
+
+        * {margin: 0; padding: 0;}
+        #wrap {}
+        #header {height: 72px;}
+        #banner {height: 403px; background: url(img/kakao3.jpg);}
+        #cont1 {height: 371px;}
+        #cont2 {height: 395px;}
+        #cont3 {height: 537px;}
+        #footer {height: 311px; background: #666;}
+
+        /* container */
+        .container {width: 1140px; height: inherit; margin: 0 auto;}
+        
+        /* header */
+        .header {overflow: hidden;}
+        .header ul {float: right;}
+        .header li  {display: inline-block; margin-top: 25px; padding: 0 20px;}
+        .header img {float: left; margin-top: 25px;}
+
+        /* banner */
+        .banner {}
+        .banner h2 {font-size: 40px; color: #fff; padding-top: 300px;}
+
+        /* cont1 */
+        .cont1 {overflow: hidden;}
+        .cont1 h2 {width: 80%; float: left; padding-top: 80px; font-size: 40px;}
+        .cont1 p {width: 40%; float: left; padding-top: 30px; font-size: 20px;}
+        .cont1 img {width: 20%; float: right; padding-top: 80px;}
+        
+        /* cont2 */
+        .cont2 {overflow: hidden;}
+        .cont2 .left {width: 50%; float: left; }
+        .cont2 .right {width: 50%;float: right;  }
+        .cont2 .left img {width: 100%; height: 395px;} 
+        .cont2 .right h2 { font-size: 25px; padding: 80px 40px; } 
+        .cont2 .right p {line-height: 1.5; font-size: 21px; padding: 0 40px; }
+
+         /* cont3 */
+        .cont3 {overflow: hidden;}
+        .cont3 .left {width: 50%; float: left; }
+        .cont3 .right {width: 50%;float: right;  }
+        .cont3 .right img {margin-top: 60px;} 
+        .cont3 .left h2 { font-size: 25px; padding:200px 0 50px 0; } 
+        .cont3 .left p {line-height: 1.5; font-size: 21px; padding: 30px 50px 0 0;} 
+        
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div class="container">
+                <div class="header">
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">비즈니스</a></li>
+                        <li><a href="#">경영정보</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">채용정보</a></li>
+                    </ul>
+                    <img class="img" src="img/kakao1.png" alt="카카오톡로고">
+                </div>
+            </div>
+        </div>
+        <!-- //header -->
+
+        <div id="banner">
+            <div class="container">
+                <div class="banner">
+                    <h2>금융개인 서비스</h2>
+                </div>
+            </div>
+        </div>
+        <!-- //banner -->
+
+        <div id="content">
+            <div id="cont1">
+                <div class="container">
+                    <div class="cont1">
+                        <h2>카카오 플랫폼을 활용한 생활금융 투자 서비스</h2>
+                        <p>오직 카카오 플랫폼을 통해서만 투자서비스를 제공합니다.
+                            사용자의 생활에 필요한 모든 금융 영역을 하나로 연결하고 라이프스타일
+                            특성을 반영해 가장 적합한 맞춤형 종합자산관리를 추구합니다.</p>
+                        <img class="img" src="img/kakao2.png" alt="증권이미지">
+                    </div>
+                </div>
+            </div>
+            <div id="cont2">
+                <div class="container">
+                    <div class="cont2">
+                        <div class="left">
+                            <img class="img" src="img/kakao5.jpg" alt="이용자사진">
+                        </div>
+                        <div class="right">
+                            <h2>쉽고 재미있는 투자</h2>
+                            <p> 소비 생활속에서도 다양한 투자 기회를 발굴합니다.
+                                복잡한 가입과정이나 큰돈 없이도 투자할 수 있습니다.
+                                상품선택의 수고로움을 덜기 위해 소수의 좋은 상품만을 제안합니다.
+                                카카오톡만 있다면 투자실행부터 투자상품 관리까지 한번에 해결됩니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="cont3">
+                <div class="container">
+                    <div class="cont3">
+                        <div class="left">
+                            <h2>믿을 수 있는 상품</h2>
+                            <p> 어떤 시장 환경에서도, 언제든지, 얼마의 금액을 투자하더라도
+                                많은 곳에 나눠져 안정적이고 전문가에 의해 운용되어 오랫동안
+                                믿고 맡길 수 있는 상품만을 엄선해 제공합니다.</p>
+                        </div>
+                        <div class="right">
+                            <img class="img" src="img/kakao4.png" alt="스마트폰">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //content -->
+
+        <div id="footer">
+            <div class="container"></div>
+        </div>
+        <!-- //footer -->
+    </div>
+    
+</body>
+</html>
