@@ -228,7 +228,7 @@ const questionAnswer = document.querySelectorAll(".confirm-answer");
 const questionEx = document.querySelectorAll(".confirm-ex");
 
 //문제출력
-for(let i = 0; i < questionNum.length; i++){
+for(let i = 0; i &lt; questionNum.length; i++){
     questionNum[i].innerHTML = quizInfo[i].quizNum;
 }
 // questionNum[0].innerHTML = quizInfo[0].quizNum;
@@ -236,7 +236,7 @@ for(let i = 0; i < questionNum.length; i++){
 // questionNum[2].innerHTML = quizInfo[2].quizNum;
 
 // 질문출력
-for(let i = 0; i < question.length; i++){
+for(let i = 0; i &lt; question.length; i++){
     question[i].innerText = quizInfo[i].quizAsk;
 }
 
@@ -245,17 +245,17 @@ for(let i = 0; i < question.length; i++){
 // question[2].innerHTML = quizInfo[2].quizAsk;
 
 // 정답출력
-for(let i = 0; i < questionAnswer.length; i++){
+for(let i = 0; i &lt; questionAnswer.length; i++){
     questionAnswer[i].innerHTML = quizInfo[i].quizAnswer;
 }
 
 //예시출력
-for(let i = 0; i < questionEx.length; i++){
+for(let i = 0; i &lt; questionEx.length; i++){
     questionEx[i].innerHTML = quizInfo[i].quizEx;
 }
 
 //정답숨기기
-for(let i = 0; i < questionAnswer.length; i++){
+for(let i = 0; i &lt; questionAnswer.length; i++){
     questionAnswer[i].style.display = "none";
 }
 // questionAnswer[0].style.display = "none";
@@ -263,7 +263,7 @@ for(let i = 0; i < questionAnswer.length; i++){
 // questionAnswer[2].style.display = "none";
 
 //예시숨기기
-for(let i = 0; i < questionEx.length; i++){
+for(let i = 0; i &lt; questionEx.length; i++){
     questionEx[i].style.display = "none";
 }
 // questionEx[0].style.display = "none";
@@ -271,7 +271,7 @@ for(let i = 0; i < questionEx.length; i++){
 // questionEx[2].style.display = "none";
 
 
-for(let i = 0; i<questionBtn.length; i++){
+for(let i = 0; i&lt;questionBtn.length; i++){
     questionBtn[i].addEventListener("click",function(){
         questionBtn[i].style.display = "none";
         questionAnswer[i].style.display = "block";
