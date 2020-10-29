@@ -19,5 +19,7 @@
 
 /* 타이틀 */
 .header .header_tit {text-align: center; font-family: "Abel"; text-transform: uppercase; margin-top: 55px;}
-.header .header_tit h1 {background-color: #51b0dc; display: inline-block; letter-spacing:  2px; font-weight: 900; padding: 5px 30px; color: #fff;}
+.header .header_tit h1 {background-color: #51b0dc; display: inline-block; letter-spacing:  2px; font-weight: 900; padding: 5px 30px; color: #fff; transition: box-shadow 0.6s ease-in-out;}
 .header .header_tit a {display: inline-block; background-color: #4a9abf; color: #fff; margin-top: -7px; padding: 10px 20px; font-size: 16px;}
+.header .header_tit h1:hover {box-shadow:inset -220px 0 0 0 #257fac,inset 220px 0 0 0 #257fac;}
+.header .header_tit a:hover {box-shadow: 0 10px 10px -3px #257fac; transform: translatey(-1.4px);}
