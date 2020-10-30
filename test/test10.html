@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivelayout05test</title>
+    <style>
+        /* 리셋 */
+        * {margin: 0; padding: 0;}
+
+        /* 레이아웃 */
+        #wrap {}
+        /* header */
+        #header {width: 100%; height: 100px; background: #111;}
+
+        /* banner */
+        #banner {width: 100%; height: 200px; background: #222;}
+       
+        /* content1 */
+        #content1 {overflow: hidden;}
+        #content1 .con1-article1 {width: 30%; height: 300px; background: #333; float: left;}
+        #content1 .con1-article2 {width: 70%; height: 150px; background: #444; float: left;}
+        #content1 .con1-article3 {width: 70%; height: 150px; background: #555; float: left;}
+
+        #content1 .con1-article2 .section1 {width: 48%;  height: 130px; margin: 1%; background: #fff; float: left; border-radius: 5px;}
+        #content1 .con1-article2 .section2 {width: 48%; height: 130px; margin: 1%; background: #fff; float: left; border-radius: 5px;}
+
+        /* content2 */
+        #content2 {overflow: hidden;}
+        #content2 .con2-article1 {width: 33.333%; background: #777; height: 200px; float: left;}
+        #content2 .con2-article2 {width: 33.333%; background: #888; height: 200px; float: left;}
+        #content2 .con2-article3 {width: 33.333%; background: #999; height: 200px; float: left;}
+       
+        /* content3 */
+        #content3 {width: 100%; height: 200px; background: #666; overflow: hidden;}
+        #content3 .con3-section1 {width: 23%; height: 180px; margin: 1%; background: #fff; float: left; border-radius: 5px;}
+        #content3 .con3-section2 {width: 23%; height: 180px; margin: 1%; background: #fff; float: left; border-radius: 5px;}
+        #content3 .con3-section3 {width: 23%; height: 180px; margin: 1%; background: #fff; float: left; border-radius: 5px;}
+        #content3 .con3-section4 {width: 23%; height: 180px; margin: 1%; background: #fff; float: left; border-radius: 5px;}
+
+        /* footer */
+        #footer {width: 100%; height: 100px; background: #555;}
+
+        /* container */
+        .container {width: 1200px; margin: 0 auto;}
+
+        /* 미디어쿼리 */
+        /* 화면너비 0~1280px */
+        @media (max-width:1280px){
+            .container {width: 100%;}
+            #content1 .con1-article2 .section1 {width: 98%;}
+            #content1 .con1-article2 .section2 {display: none;}
+            #content2 .con2-article1 {width: 50%;}
+            #content2 .con2-article2 {width: 50%;}
+            #content2 .con2-article3 {display: none;}
+            #content3 .con3-section1 {width: 31%;}
+            #content3 .con3-section2 {width: 31%;}
+            #content3 .con3-section3 {width: 31%;}
+            #content3 .con3-section4 {display: none;}
+        }
+
+        /* 화면너비 0~900px */
+        @media (max-width:900px){
+            #content1 .con1-article2 .section1 {display: none;}
+            #content2 .con2-article1 {width: 100%;}
+            #content2 .con2-article2 {width: 100%;}
+        }
+
+        /* 화면너비 0~480px */
+        @media (max-width:480px){
+            #content1 .con1-article1 {width: 100%;}
+            #content1 .con1-article2 {width: 100%;}
+            #content1 .con1-article3 {width: 100%;}
+            #content3 {height: 565px;}
+            #content3 .con3-section1 {width: 98%;}
+            #content3 .con3-section2 {width: 98%;}
+            #content3 .con3-section3 {width: 98%;}
+
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="wrap">
+        <div class="container">
+            <header id="header"></header>
+            <!-- //header -->
+
+            <aside id="banner"></aside>
+            <!-- //aside -->
+
+            <section id="content1">
+                <article class="con1-article1"></article>
+                <article class="con1-article2">
+                    <section class="section1"></section>
+                    <section class="section2"></section>
+                </article>
+                <article class="con1-article3"></article>
+            </section>
+            <section id="content2">
+                <article class="con2-article1"></article>
+                <article class="con2-article2"></article>
+                <article class="con2-article3"></article>
+            </section>
+            <section id="content3">
+                <section class="con3-section1"></section>
+                <section class="con3-section2"></section>
+                <section class="con3-section3"></section>
+                <section class="con3-section4"></section>
+            </section>
+            <!-- //section -->
+
+            <footer id="footer"></footer>
+            <!-- //footer -->
+        </div>
+        <!-- //container -->
+    </div>
+    <!-- //wrap -->
+    
+</body>
+</html>
