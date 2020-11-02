@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'MapoGoldenPier';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /* 여백초기화 */
 body, div, ul, li, dd, dt, dl, h1, h2, h3, h4, h5, h6, input, fieldset, p, select, table, td, tr, textarea, button, form, ol {
     margin: 0; padding: 0;

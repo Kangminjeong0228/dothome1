@@ -77,3 +77,13 @@
 .nav > div li a {position: relative; transition: all 0.3s ease-out;}
 .nav > div li a::after {content: ''; width: 0; height: 1px;  background: #25aad0; position: absolute; bottom: 0; left: 0; transition: all 0.3s ease-out;}
 .nav > div li:hover a::after {width: 100%;}
+
+.tit {position: relative; background: #eaf7fd; padding: 5px 0;}
+.tit h2 {text-align: center; font-size: 39px; padding: 5px 0; color: #2c94c4; letter-spacing: 2px; font-family: 'MapoGoldenPier';}
+.tit a {color: #fff; font-size: 25px; }
+.tit .btn {position: absolute; right: 300px; top: 5px;  background: #3192bf; width: 60px; height: 60px; display: inline-block; border-radius: 50%;}
+.tit .tit_icon {position: absolute; right: 317px; top: 14px; transition: all 0.25s ease-in-out;}
+.tit .btn:hover { 
+    box-shadow:0 0 0 5px rgba(75,154,191,0.9) inset, 0 0 0 100px rgba(0,0,0,0.1) inset;}
+
+
