@@ -5,9 +5,12 @@
     font-style: normal;
 }
 /* 여백초기화 */
-body, div, ul, li, dd, dt, dl, h1, h2, h3, h4, h5, h6, input, fieldset, p, select, table, td, tr, textarea, button, form, ol {
+body, div, ul, li, dd, dt, dl, h1, h2, h3, h4, h5, h6, input, fieldset, p, select, table, td, tr, textarea, button, form, ol, figure, figcaption {
     margin: 0; padding: 0;
 }
+
+/* 이미지초기화 */
+img {width: 100%; vertical-align: top;}
 
 /* a 링크 초기화  */
 a {color: #222; text-decoration: none;}
