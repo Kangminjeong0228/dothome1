@@ -110,6 +110,18 @@
                                     <td>gsap.from()</td>
                                     <td>일반적인 유형의 애니메이션의 방향을 반대로 정의합니다.</td>
                                 </tr>
+                                <tr>
+                                    <td>gsap.fromTo()</td>
+                                    <td>일반적인 유형의 애니메이션의 방향을 반대로 정의합니다.</td>
+                                </tr>
+                                <tr>
+                                    <td>gsap.from()</td>
+                                    <td>일반적인 유형의 애니메이션의 방향을 반대로 정의합니다.</td>
+                                </tr>
+                                <tr>
+                                    <td>gsap.from()</td>
+                                    <td>일반적인 유형의 애니메이션의 방향을 반대로 정의합니다.</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -316,7 +328,7 @@ $(".btn2-3").click(function(){
             
         });
         $(".btn1-4").click(function(){
-            var tl = gsap.timeline();
+            var tl = gsap.timeline({repeat:-1});
             tl.to(".animation01",{x: leftWidth,duration:1})
               .to(".animation01",{y: leftHeight,duration:1})
               .to(".animation01",{x: 0,duration:1})
