@@ -86,12 +86,170 @@
                 <!-- //배너 광고1140 -->
 
                 <!-- Intro1 -->
-                <div class="bs-docs-section">
-                    <h2 id="intro2" class="page-header"></h2>
-                    <p class="bs-callout bs-callout-info">클리핑 마스크는 레이어 마스크와 달리 상위 레이어의 이미지를 하위 레이어에 클리핑하여 레이어의 모양으로 잘라낸 것처럼 나타내는 기능입니다.</p>
-                    
-                </div>
-                <!-- //Intro1 -->
+            <div class="bs-docs-section">
+                <h2 id="intro1" class="page-header">mouseEffect01</h2>
+                <p class="bs-callout bs-callout-info">마우스  효과 - 기본(제이쿼리/자바스크립트)</p>
+                <iframe width="100%" height="570px" src="mouseEffect01-jquery.html" frameborder="0"></iframe>
+                <h3>jQuery</h3>
+<pre class="line-numbers language-js"><code>//출력용
+$(window).mousemove(function(event){
+    console.log
+    $(".clientX").text(event.clientX);
+    $(".clientY").text(event.clientY);
+    $(".offsetX").text(event.offsetX);
+    $(".offsetY").text(event.offsetY);
+    $(".pageX").text(event.pageX);
+    $(".pageY").text(event.pageY);
+    $(".screenX").text(event.screenX);
+    $(".screenY").text(event.screenY);
+});
+
+//마우스 움직이기
+$(window).mousemove(function(e){
+    $(".cursor").css({left: e.clientX -25, top:e.clientY -25});
+});
+
+$(".contents em").hover(function(){
+    $(".cursor").addClass("active");
+},function(){
+    $(".cursor").removeClass("active");
+});
+</code></pre>
+<h3>Javascript</h3>
+<pre class="line-numbers language-js"><code>// 출력용
+//window.addEventListener("mousemove", ()=>{});
+window.addEventListener("mousemove", function(){
+    document.querySelector(".clientX").innerHTML = event.clientX;
+    document.querySelector(".clientY").innerHTML = event.clientY;
+    document.querySelector(".offsetX").innerHTML = event.offsetX;
+    document.querySelector(".offsetY").innerHTML = event.offsetY;
+    document.querySelector(".pageX").innerHTML = event.pageX;
+    document.querySelector(".pageY").innerHTML = event.pageY;
+    document.querySelector(".screenX").innerHTML = event.screenX;
+    document.querySelector(".screenY").innerHTML = event.screenY;
+});
+
+//마우스 움직이기
+window.addEventListener("mousemove",function(e){
+    // document.querySelector(".cursor").style.left = e.clientX -25 + "px";
+    // document.querySelector(".cursor").style.top = e.clientY -25 + "px";
+    let cursor = document.querySelector(".cursor")
+    let x = e.clientX -25 + "px";
+    let y = e.clientY -25 + "px";
+
+    cursor.style.cssText = "left:" + x + "; top :" + y;
+
+    // 오버효과
+    // document.querySelector(".contents em").addEventListener("mouseenter", function(){});
+    // document.querySelector(".contents em").addEventListener("mouseleave", function(){});
+
+    // document.querySelector(".contents em").addEventListener("mouseenter",()=> {
+    //     document.querySelector(".cursor").classList.add("active");
+    // });
+
+    // document.querySelector(".contents em").addEventListener("mouseleave",()=> {
+    //     document.querySelector(".cursor").classList.remove("active");
+    // });
+
+    // 다중 선택
+    // document.querySelectorAll(".contents em").style.color = "#f00";
+    // let em = document.querySelectorAll(".contents em");
+    // for(let i=0; i&lt;em.length; i++){
+    //     em[i].style.color = "#f00";
+    // }
+    
+    // document.querySelectorAll(".contents em").forEach((elem)=>{
+    //     elem.style.color = "#f00";
+    // });
+
+    //마무리
+    document.querySelectorAll(".contents em").forEach(elem => {
+        elem.addEventListener("mouseenter",()=>{
+            document.querySelector(".cursor").classList.add("active");
+        });
+        elem.addEventListener("mouseleave",()=>{
+            document.querySelector(".cursor").classList.remove("active")
+        });
+    });
+});
+
+</code></pre>
+            </div>
+            <!-- //Intro1 -->
+
+            <!-- Intro2 -->
+            <div class="bs-docs-section">
+                <h2 id="intro2" class="page-header">mouseEffect02</h2>
+                <p class="bs-callout bs-callout-info">마우스  효과 - GSAP(제이쿼리/자바스크립트)</p>
+                <iframe width="100%" height="570px" src="mouseEffect02-jquery.html" frameborder="0"></iframe>
+                <h3>jQuery</h3>
+<pre class="line-numbers language-js"><code>//출력용
+$(window).mousemove(function(event){
+    console.log
+    $(".clientX").text(event.clientX);
+    $(".clientY").text(event.clientY);
+    $(".offsetX").text(event.offsetX);
+    $(".offsetY").text(event.offsetY);
+    $(".pageX").text(event.pageX);
+    $(".pageY").text(event.pageY);
+    $(".screenX").text(event.screenX);
+    $(".screenY").text(event.screenY);
+});
+
+//마우스 움직이기
+$(window).mousemove(function(e){
+    $(".cursor").css({left: e.clientX -25, top:e.clientY -25});
+});
+
+$(".contents em").hover(function(){
+    $(".cursor").addClass("active");
+},function(){
+    $(".cursor").removeClass("active");
+});
+</code></pre>
+<h3>Javascript</h3>
+<pre class="line-numbers language-js"><code>//출력용
+document.addEventListener("mousemove",e=>{
+    document.querySelector(".pageX").textContent = e.pageX;
+    document.querySelector(".pageY").textContent = e.pageY;
+});
+
+//
+const cursor = document.querySelector(".cursor");
+const cursorText = document.querySelectorAll(".contents em");
+const follower = document.querySelector(".cursor-follower");
+const cursorWidth = cursor.clientWidth/2;
+const followerWidth = follower.clientWidth/2;
+
+//마우스 움직이기
+document.addEventListener("mousemove", e => {
+    gsap.to(cursor, {duration: .3, left: e.pageX - cursorWidth, top: e.pageY - cursorWidth})
+    gsap.to(follower, {duration: .8, left: e.pageX - followerWidth, top: e.pageY - followerWidth})
+});
+
+//마우스 오버효과
+// cursorText.addEventListener("mouseenter",function(){
+//     cursor.classList.add("active");
+//     follower.classList.add("active");
+// });
+// cursorText.addEventListener("mouseleave",function(){
+//     cursor.classList.remove("active");
+//     follower.classList.remove("active");
+// });
+
+cursorText.forEach(elem => {
+    elem.addEventListener("mouseenter",()=>{
+        cursor.classList.add("active");
+        follower.classList.add("active");
+    });
+    elem.addEventListener("mouseleave",()=>{
+        cursor.classList.remove("active");
+        follower.classList.remove("active");
+    });
+});
+</code></pre>
+            </div>
+            <!-- //Intro2 -->
                 
             </div>
             <!-- //col-md-12 -->
