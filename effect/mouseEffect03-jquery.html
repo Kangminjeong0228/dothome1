@@ -190,22 +190,13 @@
 
         //출력용
         $(".info.bottom li").click(function(){
-            //클릭한 글씨 값을 가져와서 alert으로 출력해주세요!
             const text = $(this).text();
             $(".info.bottom li").removeClass("active");
             $(this).addClass("active");
             $(".cursor").css("mix-blend-mode", text);
         });
 
-        //마우스 오버했을때 빨간색
-        $(".contents em").hover(function(){
-            $(".cursor").addClass("background","red");
-        },function(){
-            $(".cursor").removeClass("active");
-        });
-        $(".left").hover(function(){
-            $(".cursor").css("background","red");
-        });
+
     </script>
 </body>
 </html>
