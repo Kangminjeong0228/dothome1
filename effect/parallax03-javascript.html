@@ -368,15 +368,9 @@
         const scroll = () => {
             const newPageYOffset = window.pageYOffset;
             const different = newPageYOffset - pageYOffset;
-            console.log("scrollTop :" + pageYOffset);
-            console.log("newScrollTop :" + newPageYOffset);
-            console.log("different :" + different);
+           
             let target = document.querySelectorAll(".content-item-imgWrap");
-            //target.style.transform = "rotate("+different+"deg)";
-            //forEach
-            // target.forEach((elem)=>{
-            //     elem.style.transform = "rotate("+different+"deg)";
-            // });
+            
             gsap.to(".content-item-imgWrap", { skewY:different*0.1 , duration:.3 , ease: Power1.ease });
             gsap.to(".content-item-num", { skewY:different*0.1 , duration:.6 , ease: Power1.ease });
             gsap.to(".content-item-desc", { skewX:different*0.2 , duration:.6 , ease: Power4.ease });
