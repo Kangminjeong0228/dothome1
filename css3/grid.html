@@ -69,7 +69,7 @@
     </header>
     <div class="bs-header bgs5" id="content">
         <div class="container">
-            <h1>grid Reference v1.0 &lt;/doc&gt;</h1>
+            <h1>Grid Reference v1.0 &lt;/doc&gt;</h1>
             <p><a href="http://min0228.dothome.co.kr" target="_blank">http://min0228.dothome.co.kr</a></p>
         </div>
     </div>
@@ -87,475 +87,607 @@
 
                 <!-- Intro -->
                 <div class="bs-docs-section">
-                    <h2 id="intro" class="page-header">box-shadow</h2>
-                    <p class="bs-callout bs-callout-info">box-shadow : none | h-shadow | v-shadow | blur | spread | color | inset</p>
+                    <h2 id="intro" class="page-header">Grid</h2>
+                    <p class="bs-callout bs-callout-info">
+                        CSS 그리드 레이아웃(Grid Layout)은 페이지를 여러 주요 영역으로 나누거나, 크기와 위치 및 문서 계층 구조의 관점에서 HTML 기본 요소로 작성된 요소간의 관계를 정의하는데 아주 탁월한 속성입니다.
+                    </p>
                     <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover">
+                        <table class="table table-bordered table-striped table-hover">
+                            <colgroup>
+                                <col style="width: 30%">
+                                <col style="width: 70%">
+                            </colgroup>
                             <thead>
                                 <tr>
-                                    <th>종류</th>
-                                    <th>예시</th>
+                                    <th>속성</th>
+                                    <th>설명</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>none</td>
-                                    <td>그림자 효과를 적용하지 않습니다.</td>
+                                    <td>grid</td>
+                                    <td>grid 속성은 그리드 레이아웃을 정의합니다.</td>
                                 </tr>
                                 <tr>
-                                    <td>h-shadow</td>
-                                    <td>그림자의 수평(X축) 거리를 나타냅니다.</td>
+                                    <td>grid-area</td>
+                                    <td>grid-area</td>
                                 </tr>
                                 <tr>
-                                    <td>blur</td>
-                                    <td>그림자 흐림 정도를 나타냅니다.</td>
+                                    <td>grid-auto-columns</td>
+                                    <td>grid-auto-columns는 열의 크기를 설정합니다.</td>
                                 </tr>
                                 <tr>
-                                    <td>spread</td>
-                                    <td>그림자 거리를 나타냅니다.</td>
+                                    <td>grid-auto-flow</td>
+                                    <td>grid-auto-flow는 자동 배치 방식을 설정합니다.</td>
                                 </tr>
                                 <tr>
-                                    <td>inset</td>
-                                    <td>그림자 내부에 적용 할 수 있습니다.</td>
+                                    <td>grid-auto-rows</td>
+                                    <td>grid-auto-rows는 행의 크기를 설정합니다.</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-column</td>
+                                    <td>grid-column</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-column-end</td>
+                                    <td>grid-column-end</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-column-gap</td>
+                                    <td>grid-column-gap</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-column-start</td>
+                                    <td>grid-column-start</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-gap</td>
+                                    <td>grid-gap</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-row</td>
+                                    <td>grid-row는 그리드 아이템의 단축 속성을 설정합니다.</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-row-gap</td>
+                                    <td>grid-row-gap는 그리드 컬럼의 간격을 설정합니다.</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-row-start</td>
+                                    <td>grid-row-start는 그리드 아이템 컬럼의 시작 위치를 설정합니다.</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-row-end</td>
+                                    <td>grid-row-end는 그리드 아이템 컬럼의 끝 위치를 설정합니다.</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-template</td>
+                                    <td>grid-template</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-template-areas</td>
+                                    <td>grid-template-areas</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-template-columns</td>
+                                    <td>grid-template-columns 속성은 가로 컴럼의 정렬 상태를 정의합니다.</td>
+                                </tr>
+                                <tr>
+                                    <td>grid-template-rows</td>
+                                    <td>grid-template-rows 속성은 세로 컴럼의 정렬 상태를 정의합니다.</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                </div>
                 <!-- //Intro -->
-
                 <style>
-                    .sample .boxWrap.shadowWrap > div {width: 150px; height: 150px; margin: 35px; line-height: 150px;}
-                    .shadowWrap.bg1 >div {background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);}
-                    .shadowWrap.bg2 >div {background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);}
-                    .shadowWrap.bg3 >div {background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);}
-                    .shadowWrap.bg4 >div {background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);}
-                    .shadowWrap.bg5 >div {background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);}
-                    .shadowWrap.bg6 >div {background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);}
-                    .shadowWrap.bg7 >div {background: #8e24aa;}
-                    .shadowWrap >div {transition: all 0.6s;}
-                    .shadowWrap >div:hover {box-shadow: none;}
-
-                    .shadow01 {box-shadow: 0px 0px 0px rgba(0,0,0,0.8);}
-                    .shadow02 {box-shadow: 2px 2px 5px rgba(0,0,0,0.8);}
-                    .shadow03 {box-shadow: 4px 4px 5px rgba(0,0,0,0.8);}
-                    .shadow04 {box-shadow: 6px 6px 5px rgba(0,0,0,0.8);}
-                    .shadow05 {box-shadow: 8px 8px 5px rgba(0,0,0,0.8);}
-                    .shadow06 {box-shadow: 10px 10px 5px rgba(0,0,0,0.8);}
-                    .shadow07 {box-shadow: 12px 12px 5px rgba(0,0,0,0.8);}
-                    .shadow08 {box-shadow: 14px 14px 5px rgba(0,0,0,0.8);}
-                    .shadow09 {box-shadow: 16px 16px 5px rgba(0,0,0,0.8);}
-                    .shadow10 {box-shadow: 18px 18px 5px rgba(0,0,0,0.8);}
-
-                    .shadow10.active {
-                        animation-name: shadow10;
-                        animation-duration: 2s;
-                        animation-iteration-count: 100;
+                    .sample .boxWrap > div {
+                        background: #E2F0FF;
+                        float: none;
+                        width: 100%;
+                        height: auto;
+                        line-height: normal;
+                        text-align: left;
+                        margin: 0;
+                        padding: 10px;
                     }
-                    @keyframes shadow10{
-                        0% {box-shadow: 18px 18px 10px rgba(0,0,0,0.8);}
-                        50% {box-shadow: 18px 18px 20px rgba(0,0,0,0.8);}
-                        100% {box-shadow: 18px 18px 10px rgba(0,0,0,0.8);}
+                    .gridBox {
+                        counter-reset: items;
                     }
-
-                    .shadow11 {box-shadow: 4px 4px 0px rgba(0,0,0,0.8);}
-                    .shadow12 {box-shadow: 4px 4px 3px rgba(0,0,0,0.8);}
-                    .shadow13 {box-shadow: 4px 4px 6px rgba(0,0,0,0.8);}
-                    .shadow14 {box-shadow: 4px 4px 9px rgba(0,0,0,0.8);}
-                    .shadow15 {box-shadow: 4px 4px 12px rgba(0,0,0,0.8);}
-                    .shadow16 {box-shadow: 4px 4px 15px rgba(0,0,0,0.8);}
-                    .shadow17 {box-shadow: 4px 4px 18px rgba(0,0,0,0.8);}
-                    .shadow18 {box-shadow: 4px 4px 21px rgba(0,0,0,0.8);}
-                    .shadow19 {box-shadow: 4px 4px 24px rgba(0,0,0,0.8);}
-                    .shadow20 {box-shadow: 4px 4px 27px rgba(0,0,0,0.8);}
-
-                    .shadow20.active {
-                        animation-name: shadow20;
-                        animation-duration: 2s;
-                        animation-iteration-count: 100;
+                    .columns {
+                        border-radius: 3px;
+                        background: #A2CBFA;
+                        box-sizing: border-box;
+                        border: 1px solid #4390E1;
+                        box-shadow: 0 2px 0 rgba(0,90,250,0.05);
+                        min-height: 100px;
+                        min-width: 100px;
+                        margin: 10px;
+                        padding: 10px;
                     }
-                    @keyframes shadow20{
-                        0% {box-shadow: -8px -8px -27px #fff;}
-                        50% {box-shadow: 10px 10px 10px #fff;}
-                        100% {box-shadow: -8px -8px -27px #fff;}
+                    .columns.active {
+                        border-color:#880e4f;
+                        background: #F48FB1 ;
                     }
-
-                    .shadow21 {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.8);}
-                    .shadow22 {box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.8);}
-                    .shadow23 {box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.8);}
-                    .shadow24 {box-shadow: 0px 0px 0px 6px rgba(0,0,0,0.8);}
-                    .shadow25 {box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.8);}
-                    .shadow26 {box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.8);}
-                    .shadow27 {box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.8);}
-                    .shadow28 {box-shadow: 0px 0px 0px 14px rgba(0,0,0,0.8);}
-                    .shadow29 {box-shadow: 0px 0px 0px 16px rgba(0,0,0,0.8);}
-                    .shadow30 {box-shadow: 0px 0px 0px 18px rgba(0,0,0,0.8);}
-
-                    .shadow30.active {
-                        animation-name: shadow30;
-                        animation-duration: 2s;
-                        animation-iteration-count: 100;
+                    .columns::before {
+                        counter-increment: items;
+                        content: counter(items);
                     }
-                    @keyframes shadow30{
-                        0% {box-shadow: 0px 0px 0px 18px rgba(0,0,0,0.8);}
-                        50% {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.8);}
-                        100% {box-shadow: 0px 0px 0px 18px rgba(0,0,0,0.8);}
+                    .gridChoice {
+                        padding: 20px;
                     }
-
-                    .shadow31 {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.8);}
-                    .shadow32 {box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.8);}
-                    .shadow33 {box-shadow: 0px 0px 6px 4px rgba(0,0,0,0.8);}
-                    .shadow34 {box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.8);}
-                    .shadow35 {box-shadow: 0px 0px 12px 8px rgba(0,0,0,0.8);}
-                    .shadow36 {box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.8);}
-                    .shadow37 {box-shadow: 0px 0px 18px 12px rgba(0,0,0,0.8);}
-                    .shadow38 {box-shadow: 0px 0px 21px 14px rgba(0,0,0,0.8);}
-                    .shadow39 {box-shadow: 0px 0px 24px 16px rgba(0,0,0,0.8);}
-                    .shadow40 {box-shadow: 0px 0px 27px 18px rgba(0,0,0,0.8);}
-
-                    .shadow40.active {
-                        animation-name: shadow40;
-                        animation-duration: 2s;
-                        animation-iteration-count: 100;
+                    .gridChoice a {
+                        border: 1px solid #4390E1;
+                        display: inline-block; padding: 5px 20px;
+                        margin: 5px;
+                        border-radius: 30px;
                     }
-                    @keyframes shadow40{
-                        0% {box-shadow: 0px 27px 27px 0px rgba(0,0,0,0.8);}
-                        50% {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.8);}
-                        100% {box-shadow: 0px 27px 27px 0px rgba(0,0,0,0.8);}
+                    .grid1 {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
                     }
-                    
-                    .shadow41 {box-shadow: 0px 0px 5px -3px rgba(0,0,0,0.8);}
-                    .shadow42 {box-shadow: 0px 2px 5px -3px rgba(0,0,0,0.8);}
-                    .shadow43 {box-shadow: 0px 4px 5px -3px rgba(0,0,0,0.8);}
-                    .shadow44 {box-shadow: 0px 6px 5px -3px rgba(0,0,0,0.8);}
-                    .shadow45 {box-shadow: 0px 8px 5px -3px rgba(0,0,0,0.8);}
-                    .shadow46 {box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.8);}
-                    .shadow47 {box-shadow: 0px 12px 5px -3px rgba(0,0,0,0.8);}
-                    .shadow48 {box-shadow: 0px 14px 5px -3px rgba(0,0,0,0.8);}
-                    .shadow49 {box-shadow: 0px 16px 5px -3px rgba(0,0,0,0.8);}
-                    .shadow50 {box-shadow: 0px 18px 5px -3px rgba(0,0,0,0.8);}
-
-                    .shadow50.active {
-                        animation-name: shadow50;
-                        animation-duration: 2s;
-                        animation-iteration-count: 100;
+                    .columns1 {
                     }
-                    @keyframes shadow50{
-                        0% {box-shadow: 0px 0px 0px rgba(0,0,0,0.8);}
-                        25% {box-shadow: 0px 6px 6px rgba(0,0,0,0.8);}
-                        40% {box-shadow: 0px 15px 15px rgba(0,0,0,0.8);}
-                        50% {box-shadow: 0px 21px 21px rgba(0,0,0,0.8);}
-                        75% {box-shadow: 0px 15px 15px rgba(0,0,0,0.8);}
-                        90% {box-shadow: 0px 6px 6px rgba(0,0,0,0.8);}
-                        100% {box-shadow: 0px 0px 6px rgba(0,0,0,0.8);}
+                    .pmBtn1 {
+                        position: absolute;
+                        right: 10px; top: 7px;
                     }
-
-                    .shadow51 {box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.8) inset;}
-                    .shadow52 {box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.8) inset;}
-                    .shadow53 {box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.8) inset;}
-                    .shadow54 {box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8) inset;}
-                    .shadow55 {box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.8) inset;}
-                    .shadow56 {box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.8) inset;}
-                    .shadow57 {box-shadow: 0px 0px 11px 7px rgba(0,0,0,0.8) inset;}
-                    .shadow58 {box-shadow: 0px 0px 12px 8px rgba(0,0,0,0.8) inset;}
-                    .shadow59 {box-shadow: 0px 0px 13px 9px rgba(0,0,0,0.8) inset;}
-                    .shadow60 {box-shadow: 0px 0px 14px 10px rgba(0,0,0,0.8) inset;}
-
-                    .shadow60.active {
-                        animation-name: shadow60;
-                        animation-duration: 2s;
-                        animation-iteration-count: 100;
+                    .pmBtn1 a {
+                        display: inline-block;
+                        border: 1px solid #4390e1;
+                        width: 20px; height: 20px;
+                        line-height: 20px; text-align: center;
+                        color: #4390e1;
+                        border-radius: 50%;
+                        transition: all 0.2s;
                     }
-                    @keyframes shadow60{
-                        0% {box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.8) inset;}
-                        50% {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.8) inset;}
-                        100% {box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.8) inset;}
+                    .pmBtn1 a:hover {
+                        text-decoration: none;
+                        background: #4390e1;
+                        color: #fff;
                     }
-
-                    .shadow61 {box-shadow: 5px 5px 0px 0px #9c27b0;}
-                    .shadow62 {box-shadow: 5px 5px 0px 0px #9c27b0, 10px 10px 0px 0px #ab47bc;}
-                    .shadow63 {box-shadow: 5px 5px 0px 0px #9c27b0, 10px 10px 0px 0px #ab47bc, 15px 15px 0px 0px #ba68c8;}
-                    .shadow64 {box-shadow: 5px 5px 0px 0px #9c27b0, 10px 10px 0px 0px #ab47bc, 15px 15px 0px 0px #ba68c8, 20px 20px 0px 0px #ce93d8 ;}
-                    .shadow65 {box-shadow: 5px 5px 0px 0px #9c27b0, 10px 10px 0px 0px #ab47bc, 15px 15px 0px 0px #ba68c8, 20px 20px 0px 0px#ce93d8, 25px 25px 0px 0px #ab47bc ;}
-                    .shadow66 {box-shadow: 0px 0px 0px 5px #9c27b0 inset;}
-                    .shadow67 {box-shadow: 5px 5px 0px 0px #9c27b0 inset, 0px 0px 0px 10px #ab47bc;}
-                    .shadow68 {box-shadow: 5px 5px 0px 0px #9c27b0 inset, 0px 0px 0px 10px #ab47bc, 0px 0px 0px 15px #ba68c8;}
-                    .shadow69 {box-shadow: 5px 5px 0px 0px #9c27b0 inset, 0px 0px 0px 10px #ab47bc, 0px 0px 0px 15px #ba68c8, 0px 0px 0px 20px #ce93d8 ;}
-                    .shadow70 {box-shadow: 5px 5px 0px 0px #9c27b0 inset, 0px 0px 0px 10px #ab47bc, 0px 0px 0px 15px #ba68c8, 0px 0px 0px 20px#ce93d8, 0px 0px 0px 25px #ab47bc ;}
-
-                    .shadow65.active {
-                        animation-name: shadow65;
-                        animation-duration: 2s;
-                        animation-iteration-count: 100;
-                    }
-                    @keyframes shadow65{
-                        0% {box-shadow: 5px 5px 0px 0px #9c27b0, 10px 10px 0px 0px #ab47bc, 15px 15px 0px 0px #ba68c8, 20px 20px 0px 0px#ce93d8, 25px 25px 0px 0px #ab47bc ;}
-                        50% {box-shadow: -5px -5px 0 0 #9c27b0, -10px -10px 0px 0px #ab47bc, -15px -15px 0px 0px #ba68c8, -20px -20px 0px 0px#ce93d8, -25px -25px 0px -0px #ab47bc ;}
-                        100% {box-shadow: 5px 5px 0px 0px #9c27b0, 10px 10px 0px 0px #ab47bc, 15px 15px 0px 0px #ba68c8, 20px 20px 0px 0px#ce93d8, 25px 25px 0px 0px #ab47bc ;}
-                    }
-
-                    .shadow70.active {
-                        animation-name: shadow70;
-                        animation-duration: 2s;
-                        animation-iteration-count: 100;
-                    }
-                    @keyframes shadow70{
-                        0% {box-shadow: 5px 5px 0px 0px #9c27b0 inset, 0px 0px 0px 10px #ab47bc, 0px 0px 0px 15px #ba68c8, 0px 0px 0px 20px#ce93d8, 0px 0px 0px 25px #ab47bc ;}
-                        50% {box-shadow: 5px 5px 0px 0px #9c27b0 inset, 0px 0px 0px 0px #ab47bc, 0px 0px 0px 0px #ba68c8, 0px 0px 0px 0px#ce93d8, 0px 0px 0px 0px #ab47bc ;}
-                        100% {box-shadow: 5px 5px 0px 0px #9c27b0 inset, 0px 0px 0px 10px #ab47bc, 0px 0px 0px 15px #ba68c8, 0px 0px 0px 20px#ce93d8, 0px 0px 0px 25px #ab47bc ;}
-                    }
+                    .sample {position: relative;}
                 </style>
-
                 <!-- Intro1 -->
                 <div class="bs-docs-section">
-                    <h2 id="intro1" class="page-header">Sample1</h2>
+                    <h2 id="intro1" class="page-header">grid-template-columns</h2>
+                    <p class="bs-callout bs-callout-info">
+                        grid-template-columns 속성은 가로 컴럼의 정렬 상태를 정의합니다.
+                    </p>
                     <div class="sample">
-                        <h3><span></span><em class="sr-only">box-shadow</em></h3>
-                        <div class="boxWrap shadowWrap bg1">
-                            <div class="shadow01"><span>shadow01</span></div>
-                            <div class="shadow02"><span>shadow02</span></div>
-                            <div class="shadow03"><span>shadow03</span></div>
-                            <div class="shadow04"><span>shadow04</span></div>
-                            <div class="shadow05"><span>shadow05</span></div>
-                            <div class="shadow06"><span>shadow06</span></div>
-                            <div class="shadow07"><span>shadow07</span></div>
-                            <div class="shadow08"><span>shadow08</span></div>
-                            <div class="shadow09"><span>shadow09</span></div>
-                            <div class="shadow10"><span>shadow10</span></div>
+                        <h3><span></span><em class="sr-only">grid-template-columns</em></h3>
+                        <div class="pmBtn pmBtn1">
+                            <a href="#" class="plus">+</a>
+                            <a href="#" class="minus">-</a>
+                        </div> 
+                        <div class="boxWrap">
+                            <div class="gridBox grid1">
+                                <div class="columns columns1"></div>
+                                <div class="columns columns1"></div>
+                                <div class="columns columns1"></div>
+                                <div class="columns columns1"></div>
+                                <div class="columns columns1"></div>
+                                <div class="columns columns1"></div>
+                            </div>
                         </div>
-                    </div> 
-<pre class="line-numbers language-css"><code>.shadow01 {box-shadow: 0px 0px 0px rgba(0,0,0,0.8);}
-.shadow02 {box-shadow: 2px 2px 5px rgba(0,0,0,0.8);}
-.shadow03 {box-shadow: 4px 4px 5px rgba(0,0,0,0.8);}
-.shadow04 {box-shadow: 6px 6px 5px rgba(0,0,0,0.8);}
-.shadow05 {box-shadow: 8px 8px 5px rgba(0,0,0,0.8);}
-.shadow06 {box-shadow: 10px 10px 5px rgba(0,0,0,0.8);}
-.shadow07 {box-shadow: 12px 12px 5px rgba(0,0,0,0.8);}
-.shadow08 {box-shadow: 14px 14px 5px rgba(0,0,0,0.8);}
-.shadow09 {box-shadow: 16px 16px 5px rgba(0,0,0,0.8);}
-.shadow10 {box-shadow: 18px 18px 5px rgba(0,0,0,0.8);}
-</code></pre>  
+                        <div class="gridChoice gridBtn1">
+                            <a href="#">grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr</a>
+                            <a href="#">grid-template-columns: 1fr 1fr 1fr 1fr </a>
+                            <a href="#">grid-template-columns: 1fr 1fr 1fr </a>
+                            <a href="#">grid-template-columns: 110px 300px 1fr 1fr 1fr 1fr </a>
+                            <a href="#">grid-template-columns: repeat(6, 1fr)</a>
+                            <a href="#">grid-template-columns: repeat(6, 200px)</a>
+                            <a href="#">grid-template-columns: repeat(auto-fill, 150px)</a>
+                            <a href="#">grid-template-columns: 400px repeat(auto-fill, 110px)</a>
+                        </div>
+                    </div>
+<pre class="line-numbers language-css"><code><a href="#">grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr</a>
+<a href="#">grid-template-columns: 1fr 1fr 1fr 1fr </a>
+<a href="#">grid-template-columns: 1fr 1fr 1fr </a>
+<a href="#">grid-template-columns: 110px 300px 1fr 1fr 1fr 1fr </a>
+<a href="#">grid-template-columns: repeat(6, 1fr)</a>
+<a href="#">grid-template-columns: repeat(6, 200px)</a>
+<a href="#">grid-template-columns: repeat(auto-fill, 150px)</a>
+<a href="#">grid-template-columns: 400px repeat(auto-fill, 110px)</a>
+</code></pre>
                 </div>
-
-
                 <!-- //Intro1 -->
 
-                
+                <style>
+                    .grid2 {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                    }
+                    .columns2 {
+                    }
+                    .pmBtn2 {
+                        position: absolute;
+                        right: 10px; top: 7px;
+                    }
+                    .pmBtn2 a {
+                        display: inline-block;
+                        border: 1px solid #4390e1;
+                        width: 20px; height: 20px;
+                        line-height: 20px; text-align: center;
+                        color: #4390e1;
+                        border-radius: 50%;
+                        transition: all 0.2s;
+                    }
+                    .pmBtn2 a:hover {
+                        text-decoration: none;
+                        background: #4390e1;
+                        color: #fff;
+                    }
+                    .sample {position: relative;}
+                </style>
                 <!-- Intro2 -->
                 <div class="bs-docs-section">
-                    <h2 id="intro1" class="page-header">Sample2</h2>
+                    <h2 id="intro2" class="page-header">grid-template-rows</h2>
+                    <p class="bs-callout bs-callout-info">
+                        grid-template-rows 속성은 세로 컴럼의 정렬 상태를 정의합니다.
+                    </p>
                     <div class="sample">
-                        <h3><span></span><em class="sr-only">box-shadow</em></h3>
-                        <div class="boxWrap shadowWrap bg2">
-                            <div class="shadow11"><span>shadow11</span></div>
-                            <div class="shadow12"><span>shadow12</span></div>
-                            <div class="shadow13"><span>shadow13</span></div>
-                            <div class="shadow14"><span>shadow14</span></div>
-                            <div class="shadow15"><span>shadow15</span></div>
-                            <div class="shadow16"><span>shadow16</span></div>
-                            <div class="shadow17"><span>shadow17</span></div>
-                            <div class="shadow18"><span>shadow18</span></div>
-                            <div class="shadow19"><span>shadow19</span></div>
-                            <div class="shadow20"><span>shadow20</span></div>
+                        <h3><span></span><em class="sr-only">grid-template-rows</em></h3>
+                        <div class="pmBtn pmBtn2">
+                            <a href="#" class="plus">+</a>
+                            <a href="#" class="minus">-</a>
+                        </div>  
+                        <div class="boxWrap">
+                            <div class="gridBox grid2">
+                                <div class="columns columns2"></div>
+                                <div class="columns columns2"></div>
+                                <div class="columns columns2"></div>
+                                <div class="columns columns2"></div>
+                                <div class="columns columns2"></div>
+                                <div class="columns columns2"></div>
+                                <div class="columns columns2"></div>
+                                <div class="columns columns2"></div>
+                                <div class="columns columns2"></div>
+                            </div>
+                        </div>
+                        <div class="gridChoice gridBtn2">
+                            <a href="#">grid-template-rows: auto</a>
+                            <a href="#">grid-template-rows: 1fr 1fr</a>
+                            <a href="#">grid-template-rows: 2fr 2fr</a>
+                            <a href="#">grid-template-rows: 1fr 2fr 3fr</a>
+                            <a href="#">grid-template-rows: repeat(3, 1fr)</a>
+                            <a href="#">grid-template-rows: repeat(3, 150px)</a>
+                            <a href="#">grid-template-rows: repeat(auto-fill, 140px)</a>
+                            <a href="#">grid-template-rows: 400px repeat(auto-fill, 120px)</a>
+                            <a href="#">grid-template-rows: 150px auto minmax(100px, 160px)</a>
                         </div>
                     </div>
-<pre class="line-numbers language-css"><code>.shadow11 {box-shadow: 4px 4px 0px rgba(0,0,0,0.8);}
-.shadow12 {box-shadow: 4px 4px 3px rgba(0,0,0,0.8);}
-.shadow13 {box-shadow: 4px 4px 6px rgba(0,0,0,0.8);}
-.shadow14 {box-shadow: 4px 4px 9px rgba(0,0,0,0.8);}
-.shadow15 {box-shadow: 4px 4px 12px rgba(0,0,0,0.8);}
-.shadow16 {box-shadow: 4px 4px 15px rgba(0,0,0,0.8);}
-.shadow17 {box-shadow: 4px 4px 18px rgba(0,0,0,0.8);}
-.shadow18 {box-shadow: 4px 4px 21px rgba(0,0,0,0.8);}
-.shadow19 {box-shadow: 4px 4px 24px rgba(0,0,0,0.8);}
-.shadow20 {box-shadow: 4px 4px 27px rgba(0,0,0,0.8);}
+<pre class="line-numbers language-css"><code><a href="#">grid-template-rows: auto</a>
+<a href="#">grid-template-rows: 1fr 1fr</a>
+<a href="#">grid-template-rows: 2fr 2fr</a>
+<a href="#">grid-template-rows: 1fr 2fr 3fr</a>
+<a href="#">grid-template-rows: repeat(3, 1fr)</a>
+<a href="#">grid-template-rows: repeat(3, 150px)</a>
+<a href="#">grid-template-rows: repeat(auto-fill, 140px)</a>
+<a href="#">grid-template-rows: 400px repeat(auto-fill, 120px)</a>
+<a href="#">grid-template-rows: 150px auto minmax(100px, 160px)</a>
 </code></pre>
                 </div>
-
                 <!-- //Intro2 -->
-                
+
+                <style>
+                    
+                    .grid3 {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        grid-template-rows: 1fr 1fr 1fr;
+                    }
+                    .columns3 {
+                    }
+                    .pmBtn3 {
+                        position: absolute;
+                        right: 10px; top: 7px;
+                    }
+                    .pmBtn3 a {
+                        display: inline-block;
+                        border: 1px solid #4390e1;
+                        width: 20px; height: 20px;
+                        line-height: 20px; text-align: center;
+                        color: #4390e1;
+                        border-radius: 50%;
+                        transition: all 0.2s;
+                    }
+                    .pmBtn3 a:hover {
+                        text-decoration: none;
+                        background: #4390e1;
+                        color: #fff;
+                    }
+                    .sample {position: relative;}
+                </style>
                 <!-- Intro3 -->
                 <div class="bs-docs-section">
-                    <h2 id="intro3" class="page-header">Sample3</h2>
+                    <h2 id="intro3" class="page-header">grid-column-start</h2>
+                    <p class="bs-callout bs-callout-info">
+                        grid-column-start 속성은 컬럼의 시작 위치를 정의합니다.
+                    </p>
                     <div class="sample">
-                        <h3><span></span><em class="sr-only">box-shadow</em></h3>
-                        <div class="boxWrap shadowWrap bg3">
-                            <div class="shadow21"><span>shadow21</span></div>
-                            <div class="shadow22"><span>shadow22</span></div>
-                            <div class="shadow23"><span>shadow23</span></div>
-                            <div class="shadow24"><span>shadow24</span></div>
-                            <div class="shadow25"><span>shadow25</span></div>
-                            <div class="shadow26"><span>shadow26</span></div>
-                            <div class="shadow27"><span>shadow27</span></div>
-                            <div class="shadow28"><span>shadow28</span></div>
-                            <div class="shadow29"><span>shadow29</span></div>
-                            <div class="shadow30"><span>shadow30</span></div>
+                        <h3><span></span><em class="sr-only">grid-column-start</em></h3>
+                        <div class="pmBtn pmBtn3">
+                            <a href="#" class="plus">+</a>
+                            <a href="#" class="minus">-</a>
+                        </div>  
+                        <div class="boxWrap">
+                            <div class="gridBox grid3">
+                                <div class="columns active columns3"></div>
+                                <div class="columns columns3"></div>
+                                <div class="columns columns3"></div>
+                                <div class="columns columns3"></div>
+                                <div class="columns columns3"></div>
+                                <div class="columns columns3"></div>
+                                <div class="columns columns3"></div>
+                                <div class="columns columns3"></div>
+                                <div class="columns columns3"></div>
+                            </div>
+                        </div>
+                        <div class="gridChoice gridBtn3">
+                            <a href="#">grid-column-start: auto</a>
+                            <a href="#">grid-column-start: 1</a>
+                            <a href="#">grid-column-start: 2</a>
+                            <a href="#">grid-column-start: 3</a>
+                            <a href="#">grid-column-start: -1</a>
+                            <a href="#">grid-column-start: span 2</a>
+                            <a href="#">grid-column-start: span 3</a>
                         </div>
                     </div>
-<pre class="line-numbers language-css"><code>.shadow21 {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.8);}
-.shadow22 {box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.8);}
-.shadow23 {box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.8);}
-.shadow24 {box-shadow: 0px 0px 0px 6px rgba(0,0,0,0.8);}
-.shadow25 {box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.8);}
-.shadow26 {box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.8);}
-.shadow27 {box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.8);}
-.shadow28 {box-shadow: 0px 0px 0px 14px rgba(0,0,0,0.8);}
-.shadow29 {box-shadow: 0px 0px 0px 16px rgba(0,0,0,0.8);}
-.shadow30 {box-shadow: 0px 0px 0px 18px rgba(0,0,0,0.8);}
+<pre class="line-numbers language-css"><code><a href="#">grid-column-start: auto</a>
+<a href="#">grid-column-start: 1</a>
+<a href="#">grid-column-start: 2</a>
+<a href="#">grid-column-start: 3</a>
+<a href="#">grid-column-start: -1</a>
+<a href="#">grid-column-start: span 2</a>
+<a href="#">grid-column-start: span 3</a>
 </code></pre>
                 </div>
-
                 <!-- //Intro3 -->
-                
+
+                <style>
+                    
+                    .grid4 {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        grid-template-rows: 1fr 1fr 1fr;
+                    }
+                    .columns4 {
+                    }
+                    .pmBtn4 {
+                        position: absolute;
+                        right: 10px; top: 7px;
+                    }
+                    .pmBtn4 a {
+                        display: inline-block;
+                        border: 1px solid #4390e1;
+                        width: 20px; height: 20px;
+                        line-height: 20px; text-align: center;
+                        color: #4390e1;
+                        border-radius: 50%;
+                        transition: all 0.2s;
+                    }
+                    .pmBtn4 a:hover {
+                        text-decoration: none;
+                        background: #4390e1;
+                        color: #fff;
+                    }
+                    .sample {position: relative;}
+                </style>
                 <!-- Intro4 -->
                 <div class="bs-docs-section">
-                    <h2 id="intro4" class="page-header">Sample4</h2>
+                    <h2 id="intro4" class="page-header">grid-column-end</h2>
+                    <p class="bs-callout bs-callout-info">
+                        grid-column-end 속성은 컬럼의 마지막 위치를 정의합니다.
+                    </p>
                     <div class="sample">
-                        <h3><span></span><em class="sr-only">box-shadow</em></h3>
-                        <div class="boxWrap shadowWrap bg4">
-                            <div class="shadow31"><span>shadow31</span></div>
-                            <div class="shadow32"><span>shadow32</span></div>
-                            <div class="shadow33"><span>shadow33</span></div>
-                            <div class="shadow34"><span>shadow34</span></div>
-                            <div class="shadow35"><span>shadow35</span></div>
-                            <div class="shadow36"><span>shadow36</span></div>
-                            <div class="shadow37"><span>shadow37</span></div>
-                            <div class="shadow38"><span>shadow38</span></div>
-                            <div class="shadow39"><span>shadow39</span></div>
-                            <div class="shadow40"><span>shadow40</span></div>
+                        <h3><span></span><em class="sr-only">grid-column-end</em></h3>
+                        <div class="pmBtn pmBtn4">
+                            <a href="#" class="plus">+</a>
+                            <a href="#" class="minus">-</a>
+                        </div>  
+                        <div class="boxWrap">
+                            <div class="gridBox grid4">
+                                <div class="columns  columns4"></div>
+                                <div class="columns columns4"></div>
+                                <div class="columns columns4"></div>
+                                <div class="columns columns4"></div>
+                                <div class="columns columns4"></div>
+                                <div class="columns columns4"></div>
+                                <div class="columns columns4"></div>
+                                <div class="columns columns4"></div>
+                                <div class="columns active columns4"></div>
+                            </div>
+                        </div>
+                        <div class="gridChoice gridBtn4">
+                            <a href="#">grid-column-end: auto</a>
+                            <a href="#">grid-column-end: 1</a>
+                            <a href="#">grid-column-end: 2</a>
+                            <a href="#">grid-column-end: 3</a>
+                            <a href="#">grid-column-end: -1</a>
+                            <a href="#">grid-column-end: span 2</a>
+                            <a href="#">grid-column-end: span 3</a>
                         </div>
                     </div>
-<pre class="line-numbers language-css"><code>.shadow31 {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.8);}
-.shadow32 {box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.8);}
-.shadow33 {box-shadow: 0px 0px 6px 4px rgba(0,0,0,0.8);}
-.shadow34 {box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.8);}
-.shadow35 {box-shadow: 0px 0px 12px 8px rgba(0,0,0,0.8);}
-.shadow36 {box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.8);}
-.shadow37 {box-shadow: 0px 0px 18px 12px rgba(0,0,0,0.8);}
-.shadow38 {box-shadow: 0px 0px 21px 14px rgba(0,0,0,0.8);}
-.shadow39 {box-shadow: 0px 0px 24px 16px rgba(0,0,0,0.8);}
-.shadow40 {box-shadow: 0px 0px 27px 18px rgba(0,0,0,0.8);}
+<pre class="line-numbers language-css"><code><a href="#">grid-column-end: auto</a>
+<a href="#">grid-column-end: 1</a>
+<a href="#">grid-column-end: 2</a>
+<a href="#">grid-column-end: 3</a>
+<a href="#">grid-column-end: -1</a>
+<a href="#">grid-column-end: span 2</a>
+<a href="#">grid-column-end: span 3</a>
 </code></pre>
                 </div>
-
                 <!-- //Intro4 -->
-                
-                <!-- Intro5 -->
-                <div class="bs-docs-section">
-                    <h2 id="intro5" class="page-header">Sample5</h2>
-                    <div class="sample">
-                        <h3><span></span><em class="sr-only">box-shadow</em></h3>
-                        <div class="boxWrap shadowWrap bg5">
-                            <div class="shadow41"><span>shadow41</span></div>
-                            <div class="shadow42"><span>shadow42</span></div>
-                            <div class="shadow43"><span>shadow43</span></div>
-                            <div class="shadow44"><span>shadow44</span></div>
-                            <div class="shadow45"><span>shadow45</span></div>
-                            <div class="shadow46"><span>shadow46</span></div>
-                            <div class="shadow47"><span>shadow47</span></div>
-                            <div class="shadow48"><span>shadow48</span></div>
-                            <div class="shadow49"><span>shadow49</span></div>
-                            <div class="shadow50"><span>shadow50</span></div>
+               
+               <style>
+                .grid5 {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 1fr 1fr;
+                }
+                .columns5 {
+                }
+                .pmBtn5 {
+                    position: absolute;
+                    right: 10px; top: 7px;
+                }
+                .pmBtn5 a {
+                    display: inline-block;
+                    border: 1px solid #4390e1;
+                    width: 20px; height: 20px;
+                    line-height: 20px; text-align: center;
+                    color: #4390e1;
+                    border-radius: 50%;
+                    transition: all 0.2s;
+                }
+                .pmBtn5 a:hover {
+                    text-decoration: none;
+                    background: #4390e1;
+                    color: #fff;
+                }
+                .sample {position: relative;}
+            </style>
+            <!-- Intro5 -->
+            <div class="bs-docs-section">
+                <h2 id="intro5" class="page-header">grid-column</h2>
+                <p class="bs-callout bs-callout-info">
+                    grid-column-end 속성은 컬럼의 위치를 정의합니다.
+                </p>
+                <div class="sample">
+                    <h3><span></span><em class="sr-only">grid-column-end</em></h3>
+                    <div class="pmBtn pmBtn5">
+                        <a href="#" class="plus">+</a>
+                        <a href="#" class="minus">-</a>
+                    </div>  
+                    <div class="boxWrap">
+                        <div class="gridBox grid5">
+                            <div class="columns active columns5"></div>
+                            <div class="columns columns5"></div>
+                            <div class="columns columns5"></div>
+                            <div class="columns columns5"></div>
+                            <div class="columns columns5"></div>
+                            <div class="columns columns5"></div>
+                            <div class="columns columns5"></div>
+                            <div class="columns columns5"></div>
+                            <div class="columns columns5"></div>
                         </div>
                     </div>
-<pre class="line-numbers language-css"><code>.shadow41 {box-shadow: 0px 0px 5px -3px rgba(0,0,0,0.8);}
-.shadow42 {box-shadow: 0px 2px 5px -3px rgba(0,0,0,0.8);}
-.shadow43 {box-shadow: 0px 4px 5px -3px rgba(0,0,0,0.8);}
-.shadow44 {box-shadow: 0px 6px 5px -3px rgba(0,0,0,0.8);}
-.shadow45 {box-shadow: 0px 8px 5px -3px rgba(0,0,0,0.8);}
-.shadow46 {box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.8);}
-.shadow47 {box-shadow: 0px 12px 5px -3px rgba(0,0,0,0.8);}
-.shadow48 {box-shadow: 0px 14px 5px -3px rgba(0,0,0,0.8);}
-.shadow49 {box-shadow: 0px 16px 5px -3px rgba(0,0,0,0.8);}
-.shadow50 {box-shadow: 0px 18px 5px -3px rgba(0,0,0,0.8);}
-</code></pre>
+                    <div class="gridChoice gridBtn5">
+                        <a href="#">grid-column: 1</a>
+                        <a href="#">grid-column: 1/3</a>
+                        <a href="#">grid-column: 1/4</a>
+                        <a href="#">grid-column: 1/5</a>
+                        <a href="#">grid-column: 2/4</a>
+                        <a href="#">grid-column: 2/5</a>
+                        <a href="#">grid-column: 3/4</a>
+                        <a href="#">grid-column: 4/5</a>
+                        <a href="#">grid-column: 2/-1</a>
+                        <a href="#">grid-column: 2/-2</a>
+                        <a href="#">grid-column: 2/-3</a>
+                        <a href="#">grid-column: 1/span 2</a>
+                        <a href="#">grid-column: 1/span 3</a>
+                        <a href="#">grid-column: 1/span 4</a>
+
+                    </div>
                 </div>
+<pre class="line-numbers language-css"><code><a href="#">grid-column: 1</a>
+<a href="#">grid-column: 1/3</a>
+<a href="#">grid-column: 1/4</a>
+<a href="#">grid-column: 1/5</a>
+<a href="#">grid-column: 2/4</a>
+<a href="#">grid-column: 2/5</a>
+<a href="#">grid-column: 3/4</a>
+<a href="#">grid-column: 4/5</a>
+<a href="#">grid-column: 2/-1</a>
+<a href="#">grid-column: 2/-2</a>
+<a href="#">grid-column: 2/-3</a>
+<a href="#">grid-column: 1/span 2</a>
+<a href="#">grid-column: 1/span 3</a>
+<a href="#">grid-column: 1/span 4</a>
+</code></pre>
+            </div>
+            <!-- //Intro5 -->
 
-                <!-- //Intro5 -->
-
-                <!-- Intro6 -->
-                <div class="bs-docs-section">
-                    <h2 id="intro6" class="page-header">Sample6</h2>
-                    <div class="sample">
-                        <h3><span></span><em class="sr-only">box-shadow</em></h3>
-                        <div class="boxWrap shadowWrap bg6">
-                            <div class="shadow51"><span>shadow51</span></div>
-                            <div class="shadow52"><span>shadow52</span></div>
-                            <div class="shadow53"><span>shadow53</span></div>
-                            <div class="shadow54"><span>shadow54</span></div>
-                            <div class="shadow55"><span>shadow55</span></div>
-                            <div class="shadow56"><span>shadow56</span></div>
-                            <div class="shadow57"><span>shadow57</span></div>
-                            <div class="shadow58"><span>shadow58</span></div>
-                            <div class="shadow59"><span>shadow59</span></div>
-                            <div class="shadow60"><span>shadow60</span></div>
+            <style>
+                .grid6 {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: 1fr 1fr;
+                }
+                .columns6 {
+                }
+                .pmBtn6 {
+                    position: absolute;
+                    right: 10px; top: 7px;
+                }
+                .pmBtn6 a {
+                    display: inline-block;
+                    border: 1px solid #4390e1;
+                    width: 20px; height: 20px;
+                    line-height: 20px; text-align: center;
+                    color: #4390e1;
+                    border-radius: 50%;
+                    transition: all 0.2s;
+                }
+                .pmBtn6 a:hover {
+                    text-decoration: none;
+                    background: #4390e1;
+                    color: #fff;
+                }
+                .sample {position: relative;}
+            </style>
+            <!-- Intro6 -->
+            <div class="bs-docs-section">
+                <h2 id="intro6" class="page-header">grid-gap(gap)</h2>
+                <p class="bs-callout bs-callout-info">
+                    grid-gap 속성은 컬럼의 위치를 정의합니다.
+                </p>
+                <div class="sample">
+                    <h3><span></span><em class="sr-only">grid-gap</em></h3>
+                    <div class="pmBtn pmBtn6">
+                        <a href="#" class="plus">+</a>
+                        <a href="#" class="minus">-</a>
+                    </div>  
+                    <div class="boxWrap">
+                        <div class="gridBox grid6">
+                            <div class="columns columns6"></div>
+                            <div class="columns columns6"></div>
+                            <div class="columns columns6"></div>
+                            <div class="columns columns6"></div>
+                            <div class="columns columns6"></div>
+                            <div class="columns columns6"></div>
+                            <div class="columns columns6"></div>
+                            <div class="columns columns6"></div>
+                            <div class="columns columns6"></div>
                         </div>
                     </div>
-<pre class="line-numbers language-css"><code>.shadow51 {box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.8) inset;}
-.shadow52 {box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.8) inset;}
-.shadow53 {box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.8) inset;}
-.shadow54 {box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8) inset;}
-.shadow55 {box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.8) inset;}
-.shadow56 {box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.8) inset;}
-.shadow57 {box-shadow: 0px 0px 11px 7px rgba(0,0,0,0.8) inset;}
-.shadow58 {box-shadow: 0px 0px 12px 8px rgba(0,0,0,0.8) inset;}
-.shadow59 {box-shadow: 0px 0px 13px 9px rgba(0,0,0,0.8) inset;}
-.shadow60 {box-shadow: 0px 0px 14px 10px rgba(0,0,0,0.8) inset;}
-</code></pre>
-                </div>
-
-                <!-- //Intro6 -->
-
-                <!-- Intro7 -->
-                <div class="bs-docs-section">
-                    <h2 id="intro7" class="page-header">Sample7</h2>
-                    <div class="sample">
-                        <h3><span></span><em class="sr-only">box-shadow</em></h3>
-                        <div class="boxWrap shadowWrap bg7">
-                            <div class="shadow61"><span>shadow61</span></div>
-                            <div class="shadow62"><span>shadow62</span></div>
-                            <div class="shadow63"><span>shadow63</span></div>
-                            <div class="shadow64"><span>shadow64</span></div>
-                            <div class="shadow65"><span>shadow65</span></div>
-                            <div class="shadow66"><span>shadow66</span></div>
-                            <div class="shadow67"><span>shadow67</span></div>
-                            <div class="shadow68"><span>shadow68</span></div>
-                            <div class="shadow69"><span>shadow69</span></div>
-                            <div class="shadow70"><span>shadow70</span></div>
-                        </div>
-                    </div>
-<pre class="line-numbers language-css"><code>.shadow61 {box-shadow: 5px 5px 0px 0px #9c27b0;}
-.shadow62 {box-shadow: 5px 5px 0px 0px #9c27b0, 10px 10px 0px 0px #ab47bc;}
-.shadow63 {box-shadow: 5px 5px 0px 0px #9c27b0, 10px 10px 0px 0px #ab47bc, 15px 15px 0px 0px #ba68c8;}
-.shadow64 {box-shadow: 5px 5px 0px 0px #9c27b0, 10px 10px 0px 0px #ab47bc, 15px 15px 0px 0px #ba68c8, 20px 20px 0px 0px #ce93d8 ;}
-.shadow65 {box-shadow: 5px 5px 0px 0px #9c27b0, 10px 10px 0px 0px #ab47bc, 15px 15px 0px 0px #ba68c8, 20px 20px 0px 0px#ce93d8, 25px 25px 0px 0px #ab47bc ;}
-.shadow66 {box-shadow: 0px 0px 0px 5px #9c27b0 inset;}
-.shadow67 {box-shadow: 5px 5px 0px 0px #9c27b0 inset, 0px 0px 0px 10px #ab47bc;}
-.shadow68 {box-shadow: 5px 5px 0px 0px #9c27b0 inset, 0px 0px 0px 10px #ab47bc, 0px 0px 0px 15px #ba68c8;}
-.shadow69 {box-shadow: 5px 5px 0px 0px #9c27b0 inset, 0px 0px 0px 10px #ab47bc, 0px 0px 0px 15px #ba68c8, 0px 0px 0px 20px #ce93d8 ;}
-.shadow70 {box-shadow: 5px 5px 0px 0px #9c27b0 inset, 0px 0px 0px 10px #ab47bc, 0px 0px 0px 15px #ba68c8, 0px 0px 0px 20px#ce93d8, 0px 0px 0px 25px #ab47bc ;}
-</code></pre>
-                </div>
-
-                <!-- //Intro7 -->
-
-                <!-- Intro8 -->
-                <div class="bs-docs-section">
-                    <h2 id="intro8" class="page-header">Sample8</h2>
-                    <div class="sample">
-                        <h3><span></span><em class="sr-only">box-shadow</em></h3>
-                        <p class="codepen" data-height="500" data-theme-id="light" data-default-tab="result" data-user="min0228K" data-slug-hash="pobaaEQ" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS3-Box-shadow1">
-                            <span>See the Pen <a href="https://codepen.io/min0228K/pen/pobaaEQ">
-                            CSS3-Box-shadow1</a> by Kang minjeong (<a href="https://codepen.io/min0228K">@min0228K</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                    <div class="gridChoice gridBtn6">
+                        <a href="#">grid-gap: 10px</a>
+                        <a href="#">grid-gap: 20px</a>
+                        <a href="#">grid-gap: 10px</a>
+                        <a href="#">grid-gap: 10px 20px</a>
+                        <a href="#">grid-gap: 10px 40px</a>
+                        <a href="#">grid-gap: 10px 60px</a>
+                        <a href="#">grid-gap: clac(10px + 1vw)</a>
+                        <a href="#">grid-gap: 10px</a>
+                        <a href="#">grid-gap: 20px</a>
+                        <a href="#">grid-gap: 30px</a>
                     </div>
                 </div>
-
-                <!-- //Intro8 -->
-
-                
+<pre class="line-numbers language-css"><code><a href="#">grid-gap: 10px</a>
+<a href="#">grid-gap: 20px</a>
+<a href="#">grid-gap: 10px</a>
+<a href="#">grid-gap: 10px 20px</a>
+<a href="#">grid-gap: 10px 40px</a>
+<a href="#">grid-gap: 10px 60px</a>
+<a href="#">grid-gap: clac(10px + 1vw)</a>
+<a href="#">grid-gap: 10px</a>
+<a href="#">grid-gap: 20px</a>
+<a href="#">grid-gap: 30px</a>
+</code></pre>
+            </div>
+            <!-- //Intro6 -->
                 
             </div>
             <!-- //col-md-12 -->
@@ -585,34 +717,83 @@
     <script src="../assets/js/bootstrap.min.js"></script>
     <script src="../assets/js/docs.min.js"></script>
     <script src="../assets/js/prism.js"></script>
-
     <script>
-        $(".shadow10").click(function(){
-            $(".shadow10").addClass("active");
+        $("a").click(function(e){
+            e.preventDefault();
         });
-        $(".shadow20").click(function(){
-            $(".shadow20").addClass("active");
-        });
-        $(".shadow30").click(function(){
-            $(".shadow30").addClass("active");
-        });
-        $(".shadow40").click(function(){
-            $(".shadow40").addClass("active");
-        });
-        $(".shadow50").click(function(){
-            $(".shadow50").addClass("active");
-        });
-        $(".shadow60").click(function(){
-            $(".shadow60").addClass("active");
-        });
-        $(".shadow65").click(function(){
-            $(".shadow65").addClass("active");
-        });
-        $(".shadow70").click(function(){
-            $(".shadow70").addClass("active");
+        $(".gridBtn1").on("click","a",function(){
+            var attrText = $(this).text()
+            $(".grid1").attr("style", attrText);
         });
 
-        //document.querySelector(".shadow70").addEventListener("click",function(){});
+        $(".gridBtn2").on("click","a",function(){
+            var attrText = $(this).text()
+            $(".grid2").attr("style", attrText);
+        });
+
+        $(".gridBtn3").on("click","a",function(){
+            var attrText = $(this).text()
+            $(".grid3 > .columns3").eq(0).attr("style", attrText);
+        });
+
+        $(".gridBtn4").on("click","a",function(){
+            var attrText = $(this).text()
+            $(".grid4 > .columns4").last().attr("style", attrText);
+        });
+
+        $(".gridBtn5").on("click","a",function(){
+            var attrText = $(this).text()
+            $(".grid5 > .columns5").first().attr("style", attrText);
+        });
+        $(".gridBtn6").on("click","a",function(){
+            var attrText = $(this).text()
+            $(".grid6").attr("style", attrText);
+        });
+
+
+        $(".pmBtn1 .plus").on("click", function(){
+            $(".grid1").append("<div class='columns columns2'></div>")
+        });
+        $(".pmBtn1 .minus").on("click", function(){
+            $(".grid1 > div:last-child()").remove();
+        });
+
+        $(".pmBtn2 .plus").on("click", function(){
+            $(".grid2").append("<div class='columns columns2'></div>")
+        });
+        $(".pmBtn2 .minus").on("click", function(){
+            $(".grid2 > div:last-child()").remove();
+        });
+
+        $(".pmBtn3 .plus").on("click", function(){
+            $(".grid3").append("<div class='columns columns2'></div>")
+        });
+        $(".pmBtn3 .minus").on("click", function(){
+            $(".grid3 > div:last-child()").remove();
+        });
+
+        $(".pmBtn4 .plus").on("click", function(){
+            $(".grid4").append("<div class='columns columns2'></div>")
+        });
+        $(".pmBtn4 .minus").on("click", function(){
+            $(".grid4 > div:last-child()").remove();
+        });
+
+        $(".pmBtn5 .plus").on("click", function(){
+            $(".grid5").append("<div class='columns columns2'></div>")
+        });
+        $(".pmBtn5 .minus").on("click", function(){
+            $(".grid5 > div:last-child()").remove();
+        });
+        
+        $(".pmBtn6 .plus").on("click", function(){
+            $(".grid6").append("<div class='columns columns2'></div>")
+        });
+        $(".pmBtn6 .minus").on("click", function(){
+            $(".grid6 > div:last-child()").remove();
+        });
     </script>
+
+   
 </body>
 </html>

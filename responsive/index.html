@@ -256,7 +256,7 @@
                         
                     </article>
                     <article class="column col5">
-                        <h4 class="col_tit">Bledn Effect</h4>
+                        <h4 class="col_tit">Blend Effect</h4>
                         <p class="col_desc">Background-blend-mode와 Mix-blend-mode</p>
                         <!-- 라이트박스 -->
                         <div class="lightbox square clearfix">
@@ -278,7 +278,8 @@
                         <p class="col_desc">이 곳은 타이틀 영역입니다. 타이틀과 관련된 부분입니다.</p>
                         <!-- video -->
                         <div class="video">
-                            <iframe src="https://www.youtube.com/embed/ufKxOlS3f50" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/ufKxOlS3f50" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <!-- //video -->
                     </article>
@@ -290,7 +291,12 @@
                         <p class="col_desc">CSS의 transform을 이용한 마우스 오버효과입니다.</p>
                         <!-- side1 -->
                         <div class="side1">
-                            <img src="assets/img/side1.jpg" alt="이미지">
+                            <figure class="front">
+                                <img src="assets/img/side1.jpg" alt="이미지">
+                            </figure>
+                            <div class="back">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
                         </div>
                         <!-- //side1 -->
                     </article>
@@ -299,7 +305,20 @@
                         <p class="col_desc">CSS의 transform을 이용한 마우스 오버효과입니다.</p>
                         <!-- side2 -->
                         <div class="side2">
-                            <img src="assets/img/side2.jpg" alt="이미지">
+                            <figure class="front">
+                                <img src="assets/img/side2.jpg" alt="이미지">
+                                <figcaption>
+                                    Hover Effect
+                                </figcaption>
+                            </figure>
+                            <figure class="back">
+                                <img src="assets/img/side4.jpg" alt="이미지">
+                                <figcaption>
+                                    Hover Effect
+                                </figcaption>
+                            </figure>
+                            
+                            
                         </div>
                         <!-- //side2 -->
                     </article>

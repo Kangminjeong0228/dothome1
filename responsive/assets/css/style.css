@@ -143,7 +143,8 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
 .notice1 {position: relative;}
 .notice1 h5 {font-size: 14px; color: #2f7fa6; padding-bottom: 5px;}
 .notice1 li {
-    overflow: hidden; white-space: nowrap; text-overflow: ellipsis; position: relative; padding: 0 10px;
+    overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+     position: relative; padding: 0 10px;
 }
 .notice1 li::before {
     content: '';
@@ -306,6 +307,62 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
     width: 0; height: 0;
 }
 .footer address {padding-top: 15px; font-style: normal;} 
+
+/* 사이드 이펙트1 */
+.side1 {position: relative; perspective: 600px; display: block;}
+.side1 .front {
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: all 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+.side1 .back {
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%; z-index: -1;
+    transform-style: preserve-3d;
+    color: #fff;
+    background: #4038dc;
+    transform: rotateY(-180deg);
+    transition: all 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+.side1 .back i {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 60px;}
+.side1:hover .front {transform: rotateY(180deg);}
+.side1:hover .back {transform: rotateY(0deg); z-index: 1;}
+
+/* 사이드 이펙트2 */
+.side2 {position: relative; display: block; perspective: 600px;}
+.side2 .front {
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: all 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+.side2 .back {
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%; z-index: -1;
+    transform-style: preserve-3d;
+    transform: rotateY(-180deg);
+    transition: all 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+
+.side2 .front figcaption {
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%) translateZ(100px);
+    display: block;
+    text-align: center;
+}
+.side2 .back figcaption {
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%) translateZ(100px);
+    display: block;
+    text-align: center;
+}
+.side2 figcaption {width: 60%;}
+.side2 figcaption {color: #fff; font-size: 20px; font-family: 'Abel'; font-weight: bold; background: rgba(0,0,0,0.4); padding: 3px 10px;}
+.side2:hover .front {transform: rotateY(180deg);}
+.side2:hover .back {transform: rotateY(0deg); z-index: 1;}
 
 /* 미디어쿼리 */
 @media (max-width: 1220px){
