@@ -382,7 +382,7 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
     transform: translate(-50%, -50%);
 }
 .side3 figcaption h3 {font-size: 16px;}
-.side3 figcaption em {display: block; font-weight: bold;}
+.side3 figcaption em {display: block; font-weight: bold; }
 .side3 img {display: block; transition: all 0.3s ease;}
 .side3:hover img {opacity: 0.4;}
 .side3:hover figcaption {
