@@ -1,0 +1,22 @@
+body {}
+#wrap {}
+.container {width: 1200px; height: inherit; background: rgba(0,0,0,0.3); margin: 0 auto;}
+
+#title {width: 100%; height: 1024px; background-image: linear-gradient(to right, #EBE0FF 100%, #D0C8FE 100%);}
+.title {}
+.title h2 {font-size: 140px; color: white; display: flex; justify-content: center; align-items: center;}
+.title .line {border-bottom: 1px solid #000;}
+.title .line ul {border-radius: 50px; background: #000; width: 15px; height: 15px;}
+.title .line li {display: inline; }
+.title .scroll {}
+.title .scroll h3 {}
+.title .scroll .triangle {}
+
+
+
+#skill {}
+#aboutme {}
+#site {}
+#script {}
+#animation {}
+#contact {}
