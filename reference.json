@@ -175,10 +175,232 @@
             "desc": "<ul> 태그는 순서가 없는 목록형 태그를 정의합니다."
         },{
             "type":"CSS",
-            "id": "B'",
+            "id": "B",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "backface-visibility",    
             "desc": "backface-visibility 속성은 요소의 뒷면을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "background",    
+            "desc": "background 속성은 단축 속성으로 하나의 선언으로 배경 속성 값을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "border",    
+            "desc": "border 속성은 테두리 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "border-radius",    
+            "desc": "border-radius 속성은 모서리 굴곡을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "box-shadow",    
+            "desc": "box-shadow 속성은 박스 요소의 그림자를 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "box-sizing",    
+            "desc": "box-sizing 속성은 크기 및 높이 여부의 포함을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "C",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "calc()",    
+            "desc": "clac()속성은 css 속성의 값으로 계산식을 지정할 수 있습니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "clear",    
+            "desc": "clear 속성은 float 요소의 성질을 차단합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "cursor",    
+            "desc": "cursor 속성은 마우스 오버시 마우스 포인터를 정의합니다."
+        },{
+            "type":"CSS",
+            "id": "F",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "float",    
+            "desc": "float 속성은 블록요소의 정렬 상태를 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "font",    
+            "desc": "font 속성은 폰트에 관한 설정을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": "H",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "height",    
+            "desc": "height 속성은 콘텐츠 요소의 세로값을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "L",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "letter-spacing",    
+            "desc": "letter-spacing 속성은 글자 사이의 간격을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "line-height",    
+            "desc": "line-height 속성은 문장과 문장 사이의 간격을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "linear-gradient",    
+            "desc": "두 개 이상의 색이 직선을 따라 점진적으로 변화하는 이미지를 생성합니다. "
+        },{
+            "type":"CSS",
+            "id": "M",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "margin ",    
+            "desc": "margin 속성은 요소의 바같쪽 여백을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "O",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "overflow  ",    
+            "desc": "overflow 속성은 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "P",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "padding ",    
+            "desc": "padding 속성은 요소의 안쪽 여백을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "perspective ",    
+            "desc": "perspective 속성은 3D를 표현할 때 원근점을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "pointer-events ",    
+            "desc": "pointer-events 속성은 포인터 이벤트 반응을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "position",    
+            "desc": "position 속성은 요소의 위치를 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "T",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "text-align",    
+            "desc": "text-align 속성은 텍스트 정렬 방식을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "text-indent",    
+            "desc": "text-indent 속성은 문단 들여쓰기 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "text-overflow",    
+            "desc": "text-overflow 속성은 문자열 영역 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "text-shadow",    
+            "desc": "text-shadow 속성은 텍스트에 그림자를 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "text-transform",    
+            "desc": "text-transform 속성은 텍스트를 대문자나 소문자로 변경합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "transform",    
+            "desc": "transform 속성은 요소의 움직임을 표현합니다."
+        },{
+            "type":"CSS",
+            "id": "U",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "user-select",    
+            "desc": "user-select 속성은 요소의 텍스트를 선택할 지 정의합니다."
+        },{
+            "type":"CSS",
+            "id": "V",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "visibility",    
+            "desc": "visibility 속성은 요소를 보이지 않게 정의합니다."
+        },{
+            "type":"CSS",
+            "id": "W",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "white-space",    
+            "desc": "white-space 속성은 줄바꿈, 공백, 줄 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "width",    
+            "desc": "width 속성은 요소의 가로 값을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "word-break",    
+            "desc": "word-break 속성은 줄바꿈 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "Z",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "z-index",    
+            "desc": "z-index 속성은 요소의 위치가 겹칠 경우 순서를 정의합니다."
+        },{
+            "type":"CSS",
+            "id": "ETC",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "!important",    
+            "desc": "!important를 사용하면 우선순위가 1순위가 됩니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "이미지스프라이트",    
+            "desc": "이미지스프라이트는 아이콘 또는 장식을 위한 이미지 요소들을 스프라이트 기법을 활용하여 파일의 사이즈를 최소화하고 효율성을 높일 수 있습니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "IR효과",    
+            "desc": "IR 기법은 이미지 데체 텍스를 제공하기 위한 CSS 기법으로 다양한  CSS 기법을 사용하여 이미지 대체 텍스트를 제공할 수 있습니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "@media",    
+            "desc": "@media는 화면 크기에 따른 각각의 속성 값을 지정하여 여러가지 화면을 구성하는 기술입니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "가상요소",    
+            "desc": "가상요소는 선택자에 추가하는 키워드로, 선택한 요소의 일부분에만 스타일을 입힐 수 있습니다."
         }
       ]
     }
