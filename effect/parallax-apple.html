@@ -140,10 +140,10 @@
         .s2Txt04 .imgWrap .view {
             position: absolute;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translateX(-50%);
             top: 20%;
             width: 100px; height: 100px;
-            background: rgba(0,0,0,0.5);
+            background: rgba(0,0,0,0.2);
             text-align: center;
             color: rgba(255,255,255,0.8);
             border-radius: 50%;
@@ -153,19 +153,58 @@
         }
         .s2Txt04 .imgWrap .view.white {
             background: rgba(255,255,255,.5);
-            color: rgba(255,255,255,0.8);
-            box-shadow: 255 255 255 6px inset rgba(255,255,255,0.9);
+            color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 0 6px inset rgba(255,255,255,.9);
         }
         .s2Txt04 .imgWrap .view:hover {
-            box-shadow: 0 0 0 6px inset rgba(0,0,0,0.9);
-            background: rgba(0,0,0,0.7);
+            box-shadow: 0 0 0 6px inset rgba(0, 0, 0, 0.9);
+            background: rgba(0,0,0,0.8);
             color: rgba(255,255,255,1);
         }
         .s2Txt04 .imgWrap .view:hover {
-            background: rgba(255,255,255,.5);
-            color: rgba(255,255,255,1);
-            box-shadow: 0 0 0 6px inset rgba(255,255,255,0.9);
+            background: rgba(255,255,255,.7);
+            color: rgba(255, 255, 255, 1);
+            box-shadow: 0 0 0 6px inset rgba(255,255,255,1);
         }
+
+        /* section3 */
+
+        .s3Txt01 {
+            width: 100vw; height: 100vh;
+            background: #000;
+            overflow: hidden;
+        }
+        .s3Txt02 h2 {
+            font-size: 4vw;
+            text-align: center;
+            line-height: 1.2;
+            background-repeat: no-repeat;
+            background-image: url(img/txtbg.jpg);
+            background-size: cover;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            text-transform: capitalize;
+            white-space: nowrap;
+            transform: translate(-50%, -50%) scale(1.5) ;
+        }
+    
+
+        .txtBox {}
+        .txtBox1 {left: 100%;}
+        .txtBox2 {left: 100%;}
+        .txtBox3 {left: 100%;}
+        .txtBox4 {left: 100%;}
+        .txtBox5 {left: 100%;}
+        .txtBox6 {left: 100%;}
+
+        .aniBox1 {width: 50vw; height: 50vh; opacity: 50%;}
+        .aniBox2 {width: 50vw; height: 50vh; opacity: 50%;}
+        .aniBox3 {width: 50vw; height: 50vh; opacity: 50%;}
+        .aniBox4 {width: 50vw; height: 50vh; opacity: 50%;}
+        .aniBox5 {width: 50vw; height: 50vh; opacity: 50%;}
+        .aniBox6 {width: 50vw; height: 50vh; opacity: 50%;}
+
     </style>
 </head>
 <body>
@@ -235,7 +274,7 @@
                         <p>
                             웹접근성지침서2.0을 바탕으로 사이트를 제작하였습니다.
                             웹 표준에 필요한 인식의 용이성, 운용의 용이성, 이해의 용이성,
-                            견고성을 바탕으로 코딩을 하였으며, 크로스브라우징도 작업하였습니다.
+                            견고성을 바탕으로 코딩을 하였습니다.
                         </p>
                     </div>
                     <div class="fixed text1"
@@ -246,9 +285,8 @@
                         >
                         <h3>반응형 사이트 제작</h3>
                         <p>
-                            모든 디바이스에서 자연스럽게 나오도록 사이트를 제작하였습니다.
-                            웹 표준에 필요한 인식의 용이성, 운용의 용이성, 이해의 용이성,
-                            견고성을 바탕으로 코딩을 하였으며, 크로스브라우징도 작업하였습니다.
+                            반응형 디자인이란 접속한 기기에서 화면이 맞도록 자동적으로 변합니다.
+                            미디어 쿼리를 사용하여 모든 디바이스에서 자연스럽게 나오도록 사이트를 제작하였습니다.
                         </p>
                     </div>
                     <div class="fixed text1"
@@ -259,9 +297,8 @@
                         >
                         <h3>메가박스 사이트 제작</h3>
                         <p>
-                            모든 디바이스에서 자연스럽게 나오도록 사이트를 제작하였습니다.
-                            웹 표준에 필요한 인식의 용이성, 운용의 용이성, 이해의 용이성,
-                            견고성을 바탕으로 코딩을 하였으며, 크로스브라우징도 작업하였습니다.
+                            기업에서 많이 사용하는 사이트 UI/UX를 바탕으로 제작하였습니다.
+                            슬라이드, 라이트 박스, API등 다양한 기법을 활용하였습니다.
                         </p>
                     </div>
                     <div class="fixed text1"
@@ -272,9 +309,8 @@
                         >
                         <h3>REACT 사이트 제작</h3>
                         <p>
-                            모든 디바이스에서 자연스럽게 나오도록 사이트를 제작하였습니다.
-                            웹 표준에 필요한 인식의 용이성, 운용의 용이성, 이해의 용이성,
-                            견고성을 바탕으로 코딩을 하였으며, 크로스브라우징도 작업하였습니다.
+                            컴포넌트, 라우터, SCSS를 이용하였습니다. 
+                            리엑트를 이용하여 제작한 포트폴리오 사이트입니다.
                         </p>
                     </div>
                    
@@ -283,8 +319,8 @@
                 <div class="s2Txt04 fixed"
                     data-8600 = "top: 150%"
                     data-9600 = "top: 70%"
-                    data-27000 = "top: 70%"
-                    data-28000 = "top: 150%"
+                    data-26000 = "top: 70%"
+                    data-26000 = "top: 150%"
                     >
                     <div class="imgWrap">
                         <div class="img1"
@@ -313,14 +349,105 @@
                         <a href="#" class="view">VIEW</a>
                     </div>
                     
-                    <!-- <div class="img3">웹표준이미지3</div>
-                    <div class="img4">웹표준이미지4</div> -->
                 </div>
             </div>
         </section>
         <!-- //section2 -->
 
-        <section id="section3"></section><!-- //section3 -->
+         <!-- //section2 -->
+         <section id="section3"
+         data-26999="display:none"
+         data-27000="display:block"
+         data-30000="display:block"
+         data-50000="display:none"
+     >
+         <div class="s3Txt01 fixed" data-titlt="검은색 배경"
+             data-30000="width: 200vw; height: 200vw;"
+             data-35000="width: 30vw; height: 30vw;"
+             data-50000="width: 30vw; height: 30vw;"
+         >
+             <div class="s3Txt02">
+                 <h2 class="fixed"
+                     data-30000="left:50%"
+                     data-31000="left:10%"
+                 >   <h2 class="txtBox fixed"
+                         data-30000="opacity:0; top: 50%; transform: translate(-50%, -50%) scale(1.5)"
+                         data-32000="opacity:1; top: 50%; transform: translate(-50%, -50%) scale(1.5); "
+                         data-35500="opacity:0; top: 50%; transform: translate(-50%, -50%) scale(1.5)"
+                     ><span>I've been working on Sites</span></h2>
+                     
+                     <h2 class="txtBox1 fixed"
+                         data-34500="left:200%"
+                         data-38000="left:-200%"
+                     ><span>Animation1</span></h2>
+                     
+                     <h2 class="txtBox2 fixed"
+                         data-38000="left:200%"
+                         data-42000="left:-200%"
+                     ><span>Animation2</span></h2>
+                     
+                     <h2 class="txtBox3 fixed"
+                         data-42000="left:200%"
+                         data-46000="left:-200%"
+                     ><span>Animation3</span></h2>
+                     
+                     <h2 class="txtBox4 fixed"
+                         data-46000="left:200%"
+                         data-50000="left:-200%"
+                     ><span>Animation4</span></h2>
+                     
+                     <h2 class="txtBox5 fixed"
+                         data-50000="left:200%"
+                         data-54000="left:-200%"
+                     ><span>Animation5</span></h2>
+                     
+                     <h2 class="txtBox6 fixed"
+                         data-54000="left:200%"
+                         data-58000="left:-200%"
+                     ><span>Animation6</span></h2>
+                 </h2>
+             </div>
+         </div>
+         <div class="s3Txt03">
+             <div class="aniBox1 fixed"
+                 data-32000="left:-200%; top:-200%"
+                 data-35000="left:200%; top:200%"
+             >
+                 <iframe scrolling="no" width="100%" height="100%" src="https://wkdddnr.github.io/dothome1/effect/port/ani01.html" frameborder="0"></iframe>
+             </div>
+             <div class="aniBox2 fixed"
+                 data-34000="left:200%; top:200%"
+                 data-39000="left:-200%; top:-200%"
+             >
+                 <iframe scrolling="no" width="100%" height="100%" src="https://wkdddnr.github.io/dothome1/effect/port/ani02.html" frameborder="0"></iframe>
+             </div>
+             <div class="aniBox3 fixed"
+                 data-35000="left:-200%; top:-200%"
+                 data-39000="left:200%; top:200%"
+             >
+                 <iframe scrolling="no" width="100%" height="100%" src="https://wkdddnr.github.io/dothome1/effect/port/ani03.html" frameborder="0"></iframe>
+             </div>
+             <div class="aniBox4 fixed"
+                 data-38000="left:200%; top:200%"
+                 data-42000="left:-200%; top:-200%"
+             >
+                 <iframe scrolling="no" width="100%" height="100%" src="https://wkdddnr.github.io/dothome1/effect/port/ani04.html" frameborder="0"></iframe>
+             </div>
+             <div class="aniBox5 fixed"
+                 data-39000="left:-200%; top:-200%"
+                 data-44000="left:200%; top:200%"
+             >
+                 <iframe scrolling="no" width="100%" height="100%" src="https://wkdddnr.github.io/dothome1/effect/port/ani05.html" frameborder="0"></iframe>
+             </div>
+             <div class="aniBox6 fixed"
+                 data-43000="left:200%; top:200%"
+                 data-47000="left:-200%; top:-200%"
+             >
+                 <iframe scrolling="no" width="100%" height="100%" src="https://wkdddnr.github.io/dothome1/effect/port/ani06.html" frameborder="0"></iframe>
+             </div>
+         </div>
+     </section>
+     <!-- //section3 -->
         <section id="section4"></section><!-- //section4 -->
         <section id="section5"></section><!-- //section5 -->
         <section id="section6"></section><!-- //section6 -->
