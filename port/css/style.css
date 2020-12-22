@@ -18,8 +18,8 @@ body {height: 200000px;}
 
 /* title */
 #title {
-    width: 100vw; height: 100vh;
-    background: linear-gradient(to top, #EBE0FF, #D0C8FE);
+    width: 100vw; 
+    background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
 
 #title h2 {
