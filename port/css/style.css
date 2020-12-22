@@ -18,7 +18,7 @@ body {height: 200000px;}
 
 /* title */
 #title {
-    width: 100vw; 
+    width: 100vw; height: 100vw;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
 
@@ -32,4 +32,66 @@ body {height: 200000px;}
     -webkit-text-fill-color: transparent;
     text-shadow: -13px -20px 0px rgba(255,255,255,0.5);
 
+}
+
+#title .menu {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    width: 92%;
+    margin: 0 auto;
+    height: 5px;
+
+    border-bottom: 3px solid rgba(60, 70, 251, 0.2);
+
+
+}
+#title .menu .circle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#title .menu .circle .circle1 {
+    border-radius: 50%;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 0.25rem #ff8177;
+    width: 10px; height: 10px;
+    
+}
+#title .menu .circle .circle2 {
+    border-radius: 50%;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 0.25rem #ff8177;
+    width: 10px; height: 10px;
+}
+#title .menu .circle .circle3 {
+    border-radius: 50%;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 0.25rem #ff8177;
+    width: 10px; height: 10px;
+}
+#title .menu .circle .circle4 {
+    border-radius: 50%;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 0.25rem #ff8177;
+    width: 10px; height: 10px;
+}
+#title .menu .circle .circle5 {
+    border-radius: 50%;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 0.25rem #ff8177;
+    width: 10px; height: 10px;
+}
+#title .menu .circle .circle6 {
+    border-radius: 50%;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 0.25rem #ff8177;
+    width: 10px; height: 10px;
+}
+#title .menu .circle .circle7 {
+    border-radius: 50%;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 0.25rem #ff8177;
+    width: 10px; height: 10px;
 }
