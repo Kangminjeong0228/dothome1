@@ -30,4 +30,6 @@ body {height: 200000px;}
     background: linear-gradient(to bottom, #BB8FF7, #E8A8BE);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: -13px -20px 0px rgba(255,255,255,0.5);
+
 }
