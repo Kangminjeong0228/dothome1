@@ -1,62 +1,33 @@
-/* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {height: 200000px;}
+.scroll {
+    position: fixed; right: 10px; top: 10px;   
+    width: 50px; height: 50px; line-height: 50px;
+    text-align: center; color: #fff;
+    background: rgba(237, 162, 240, 0.5);
+    z-index: 10000000;
+}
 
-body {}
-#wrap {}
-.container {width: 1670px; height: inherit; margin: 0 auto; background: rgba(0,0,0,0.4);}
+/* fixed */
+.fixed {
+    position: fixed; 
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
 
 /* title */
 #title {
-    width: 100vw; height: 1024px; background: #000;
-    background: linear-gradient(to left, #EBE0FF 40%, #D0C8FE 100%);
-    position: relative;
+    width: 100vw; height: 100vh;
+    background: linear-gradient(to top, #EBE0FF, #D0C8FE);
 }
-.title {
-    
-    
-}
-.title h2 {
+
+#title h2 {
     font-size: 140px;
-    position: absolute; left:50%; top:50%; transform:translate(-50%,-50%); 
-    font-family: 'Montserrat', sans-serif; font-weight: 800;
+    white-space:normal;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    columns: #fff;
-    background: linear-gradient(to bottom, #BB8FF7 , #E8A8BE );
+    background: linear-gradient(to bottom, #BB8FF7, #E8A8BE);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.title .line {
-    border-bottom: 3px solid rgba(60, 70, 251, 0.2);
-    padding-bottom: 950px;
-    
-    
-}
-.title .line .dot {
-    
-}
-.title .line .dot ul {
-    
-}
-.title .line .dot li {
-    position: relative;
-    overflow: hidden;
-}
-.title .line .dot li::before {
-    content: '';
-    width: 3px;
-    height: 3px;
-    background-color: #449ce2;
-    border-radius: 50%;
-    position: absolute;
-    left: 0px;
-    top: 10px;
-}
-
-
-
-#skill {width: 100%; height: 1024px; background: #111;}
-#aboutme {width: 100%; height: 1024px; background: #222;}
-#site {width: 100%; height: 1024px; background: #333;}
-#script {width: 100%; height: 1024px; background: #444;}
-#animation {width: 100%; height: 1024px; background: #555;}
-#contact {width: 100%; height: 1024px; background: #666;}
