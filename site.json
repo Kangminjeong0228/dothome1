@@ -8,7 +8,7 @@
       "ports": [
         {
           "id": 1,
-          "link": "https://webstoryboy.github.io/portfolio/port2/",
+          "link": "https://kangminjeong0228.github.io/dothome1/webstandard/",
           "image": "../img/port01.jpg",
           "title": "WEBSTANDARDSITE",
           "category": "SITE01",
@@ -16,7 +16,7 @@
         },
         {
           "id": 2,
-          "link": "https://webstoryboy.github.io/portfolio/port1/",
+          "link": "https://kangminjeong0228.github.io/dothome1/responsive/",
           "image": "../img/port02.jpg",
           "title": "RESPONSIVESITE",
           "category": "SITE02",
@@ -24,7 +24,7 @@
         },
         {
           "id": 3,
-          "link": "https://webstoryboy.github.io/portfolio/port3/pf03.html",
+          "link": "https://kangminjeong0228.github.io/dothome1/megabox/",
           "image": "../img/port03.jpg",
           "title": "MEGABOXSITE",
           "category": "SITE03",
