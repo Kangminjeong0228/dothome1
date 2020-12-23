@@ -1,4 +1,3 @@
-
 {
     "status": "ok",
     "status_message": "Query was successful",
@@ -8,163 +7,163 @@
       "ports": [
         {
           "id": 1,
-          "link": "https://kangminjeong0228.github.io/dothome1/webstandard/",
-          "image": "../img/port01.jpg",
-          "title": "WEBSTANDARDSITE",
-          "category": "SITE01",
+          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio01",
+          "image": "../img/standard.jpg",
+          "title": "WEB STANDARD",
+          "category": "PORTFOLIO1",
           "rating": 5
         },
         {
           "id": 2,
-          "link": "https://kangminjeong0228.github.io/dothome1/responsive/",
-          "image": "../img/port02.jpg",
-          "title": "RESPONSIVESITE",
-          "category": "SITE02",
+          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio02",
+          "image": "../img/responsive.jpg",
+          "title": "WEB RESPONSIVE",
+          "category": "PORTFOLIO2",
           "rating": 4.9
         },
         {
           "id": 3,
-          "link": "https://kangminjeong0228.github.io/dothome1/megabox/",
-          "image": "../img/port03.jpg",
-          "title": "MEGABOXSITE",
-          "category": "SITE03",
+          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio03",
+          "image": "../img/megabox.jpg",
+          "title": "SITE MEGA BOX",
+          "category": "PORTFOLIO3",
           "rating": 5
         },
         {
           "id": 4,
-          "link": "https://kangminjeong0228.github.io/dothome1/test/test13.html",
-          "image": "../img/port04.jpg",
-          "title": "CLOVASITE 01",
-          "category": "SITE04",
+          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio04.html",
+          "image": "../img/naver-clova01.jpg",
+          "title": "SITE NAVER CLOVA",
+          "category": "PORTFOLIO4",
           "rating": 5
         },
         {
           "id": 5,
-          "link": "https://kangminjeong0228.github.io/dothome1/test/test14.html",
-          "image": "../img/port01.jpg",
-          "title": "CLOVASITE 02",
-          "category": "SITE05",
+          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio05.html",
+          "image": "../img/naver-clova02.jpg",
+          "title": "SITE NAVER CLOVA",
+          "category": "PORTFOLIO5",
           "rating": 4.9
         },
         {
           "id": 6,
-          "link": "https://kangminjeong0228.github.io/dothome1/test/test15.html",
-          "image": "../img/port02.jpg",
-          "title": "CLOVASITE 03",
-          "category": "SITE06",
+          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio06.html",
+          "image": "../img/naver-clova03.jpg",
+          "title": "SITE NAVER CLOVA",
+          "category": "PORTFOLIO6",
           "rating": 4.9
         },
         {
           "id": 7,
-          "link": "https://kangminjeong0228.github.io/dothome1/test/test16.html",
-          "image": "../img/port03.jpg",
-          "title": "CLOVASITE 04",
-          "category": "SITE07",
+          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio07.html",
+          "image": "../img/naver-clova04.jpg",
+          "title": "SITE NAVER CLOVA",
+          "category": "PORTFOLIO7",
           "rating": 4.9
         },
         {
-            "id": 8,
-            "link": "https://kangminjeong0228.github.io/dothome1/",
-            "image": "../img/port04.jpg",
-            "title": "DOTHOMESITE",
-            "category": "SITE08",
-            "rating": 4.9
+          "id": 8,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port04.jpg",
+          "title": "PORTFOLIO DONG8",
+          "category": "PORTFOLIO8",
+          "rating": 4.9
         },
         {
-            "id": 9,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 9,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port01.jpg",
+          "title": "PORTFOLIO DONG9",
+          "category": "PORTFOLIO9",
+          "rating": 4.9
         },
         {
-            "id": 10,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 10,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port02.jpg",
+          "title": "PORTFOLIO DONG10",
+          "category": "PORTFOLIO10",
+          "rating": 4.9
         },
         {
-            "id": 11,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 11,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port03.jpg",
+          "title": "PORTFOLIO DONG11",
+          "category": "PORTFOLIO11",
+          "rating": 4.9
         },
         {
-            "id": 12,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 12,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port04.jpg",
+          "title": "PORTFOLIO DONG12",
+          "category": "PORTFOLIO12",
+          "rating": 4.9
         },
         {
-            "id": 13,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 13,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port01.jpg",
+          "title": "PORTFOLIO DONG13",
+          "category": "PORTFOLIO13",
+          "rating": 4.9
         },
         {
-            "id": 14,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 14,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port02.jpg",
+          "title": "PORTFOLIO DONG14",
+          "category": "PORTFOLIO14",
+          "rating": 4.9
         },
         {
-            "id": 15,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 15,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port03.jpg",
+          "title": "PORTFOLIO DONG15",
+          "category": "PORTFOLIO15",
+          "rating": 4.9
         },
         {
-            "id": 16,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 16,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port04.jpg",
+          "title": "PORTFOLIO DONG16",
+          "category": "PORTFOLIO16",
+          "rating": 4.9
         },
         {
-            "id": 17,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 17,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port01.jpg",
+          "title": "PORTFOLIO DONG17",
+          "category": "PORTFOLIO17",
+          "rating": 4.9
         },
         {
-            "id": 18,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 18,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port02.jpg",
+          "title": "PORTFOLIO DONG18",
+          "category": "PORTFOLIO18",
+          "rating": 4.9
         },
         {
-            "id": 19,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 19,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port03.jpg",
+          "title": "PORTFOLIO DONG19",
+          "category": "PORTFOLIO19",
+          "rating": 4.9
         },
         {
-            "id": 19,
-            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-            "image": "../img/port04.jpg",
-            "title": "PORTFOLIOSITE",
-            "category": "SITE09",
-            "rating": 4.9
+          "id": 20,
+          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "image": "../img/port04.jpg",
+          "title": "PORTFOLIO DONG20",
+          "category": "PORTFOLIO20",
+          "rating": 4.9
         }
       ]
     }
