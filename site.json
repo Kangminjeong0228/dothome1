@@ -61,6 +61,22 @@
           "title": "CLOVASITE 04",
           "category": "SITE07",
           "rating": 4.9
+        },
+        {
+            "id": 8,
+            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+            "image": "../img/port04.jpg",
+            "title": "DOTHOMESITE",
+            "category": "SITE08",
+            "rating": 4.9
+        },
+        {
+            "id": 9,
+            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+            "image": "../img/port04.jpg",
+            "title": "PORTFOLIOSITE",
+            "category": "SITE09",
+            "rating": 4.9
         }
       ]
     }
