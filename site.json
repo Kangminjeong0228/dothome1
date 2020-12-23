@@ -6,76 +6,76 @@
       "number": 1,
       "ports": [
         {
-          "id": 1,
-          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio01",
-          "image": "../img/standard.jpg",
-          "title": "WEB STANDARD",
-          "category": "PORTFOLIO1",
-          "rating": 5
+            "id": 1,
+            "link": "https://kangminjeong0228.github.io/dothome1/webstandard/",
+            "image": "../img/port01.jpg",
+            "title": "WEBSTANDARDSITE",
+            "category": "SITE01",
+            "rating": 5
         },
         {
-          "id": 2,
-          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio02",
-          "image": "../img/responsive.jpg",
-          "title": "WEB RESPONSIVE",
-          "category": "PORTFOLIO2",
-          "rating": 4.9
+            "id": 2,
+            "link": "https://kangminjeong0228.github.io/dothome1/responsive/",
+            "image": "../img/port02.jpg",
+            "title": "RESPONSIVESITE",
+            "category": "SITE02",
+            "rating": 4.9
         },
         {
-          "id": 3,
-          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio03",
-          "image": "../img/megabox.jpg",
-          "title": "SITE MEGA BOX",
-          "category": "PORTFOLIO3",
-          "rating": 5
+            "id": 3,
+            "link": "https://kangminjeong0228.github.io/dothome1/megabox/",
+            "image": "../img/port03.jpg",
+            "title": "MEGABOXSITE",
+            "category": "SITE03",
+            "rating": 5
         },
         {
-          "id": 4,
-          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio04.html",
-          "image": "../img/naver-clova01.jpg",
-          "title": "SITE NAVER CLOVA",
-          "category": "PORTFOLIO4",
-          "rating": 5
+            "id": 4,
+            "link": "https://webstoryboy.github.io/portfolio/port4/index4.html",
+            "image": "../img/port04.jpg",
+            "title": "CLOVASITE 01",
+            "category": "SITE04",
+            "rating": 5
         },
         {
-          "id": 5,
-          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio05.html",
-          "image": "../img/naver-clova02.jpg",
-          "title": "SITE NAVER CLOVA",
-          "category": "PORTFOLIO5",
-          "rating": 4.9
+            "id": 5,
+            "link": "https://webstoryboy.github.io/portfolio/port5/indexs/main.html",
+            "image": "../img/port01.jpg",
+            "title": "CLOVASITE 02",
+            "category": "SITE05",
+            "rating": 4.9
         },
         {
-          "id": 6,
-          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio06.html",
-          "image": "../img/naver-clova03.jpg",
-          "title": "SITE NAVER CLOVA",
-          "category": "PORTFOLIO6",
-          "rating": 4.9
+            "id": 6,
+            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+            "image": "../img/port02.jpg",
+            "title": "CLOVASITE 03",
+            "category": "SITE06",
+            "rating": 4.9
         },
         {
-          "id": 7,
-          "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio07.html",
-          "image": "../img/naver-clova04.jpg",
-          "title": "SITE NAVER CLOVA",
-          "category": "PORTFOLIO7",
-          "rating": 4.9
+            "id": 7,
+            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+            "image": "../img/port03.jpg",
+            "title": "CLOVASITE 04",
+            "category": "SITE07",
+            "rating": 4.9
         },
         {
-          "id": 8,
-          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-          "image": "../img/port04.jpg",
-          "title": "PORTFOLIO DONG8",
-          "category": "PORTFOLIO8",
-          "rating": 4.9
+            "id": 8,
+            "link": "https://kangminjeong0228.github.io/dothome1/",
+            "image": "../img/port04.jpg",
+            "title": "DOTHOMESITE",
+            "category": "SITE08",
+            "rating": 4.9
         },
         {
-          "id": 9,
-          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-          "image": "../img/port01.jpg",
-          "title": "PORTFOLIO DONG9",
-          "category": "PORTFOLIO9",
-          "rating": 4.9
+            "id": 9,
+            "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+            "image": "../img/port04.jpg",
+            "title": "PORTFOLIOSITE",
+            "category": "SITE09",
+            "rating": 4.9
         },
         {
           "id": 10,
