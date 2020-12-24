@@ -1,3 +1,12 @@
+/* 폰트 */
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 레이아웃 */
 * {margin: 0; padding: 0; box-sizing: border-box;}
 body {height: 200000px;}
 .scroll {
@@ -18,6 +27,7 @@ body {height: 200000px;}
 
 /* title */
 #title {
+    overflow: hidden;
     width: 100vw; height: 100vw;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
@@ -30,8 +40,23 @@ body {height: 200000px;}
     background: linear-gradient(to bottom, #BB8FF7, #E8A8BE);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: -13px -20px 0px rgba(255,255,255,0.5);
-
+    letter-spacing: 20px;
+    z-index: 4;
+    
+}
+#title .h2_2 {
+    font-size: 140px;
+    white-space:normal;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 30px 30px 0px rgba(255,255,255,0.5);
+    z-index: 3;
+    color: #fff;
+    opacity: 80%;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    letter-spacing: 20px;
 }
 
 #title .menu {
@@ -44,6 +69,7 @@ body {height: 200000px;}
     height: 5px;
 
     border-bottom: 3px solid rgba(60, 70, 251, 0.2);
+    z-index: 1000;
 
 
 }
@@ -94,6 +120,62 @@ body {height: 200000px;}
     background-color: #3c46fb;
     box-shadow: 0 0 0 0.25rem #ff8177;
     width: 10px; height: 10px;
+    
+}
+
+#title .earth {
+    position: fixed;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#title .earth_box {
+    position: fixed;
+    position: absolute; left:50%; top:95%; transform:translate(-50%,-110%); 
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    background: #e8e9ff;
+    border-radius: 30px;
+    z-index: 1;
+    box-sizing: border-box;
+}
+#title .earth .earth_left {
+    flex: 1 1 50%;
+    width: auto; height: auto;
+    max-width: 20%;
+    max-height: 10%;
+    z-index: 2;
+    
+}
+#title .earth .earth_left img {
+    padding-top: 400px;
+}
+#title .earth .earth_right  {
+    flex: 1 1 30%;
+    width: auto; height: auto;
+    max-width: 30%;
+    max-height: 30%;
+    z-index: 2;
+
+}
+#title .earth .earth_right img {
+    padding-top: 400px;
+}
+
+#title .scroll_icon {
+    
+}
+#title .scroll_icon h3 {
+    font-size: 10px;
+    color: #18154C;
+    position: absolute; left:50%; bottom:10%; transform:translate(-50%,-50%); 
+    z-index: 50;
+    font-family: 'yg-jalnan';
+}
+#title .scroll_icon .icon {
+
 }
 
 /* skill */
