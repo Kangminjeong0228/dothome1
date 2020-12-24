@@ -141,9 +141,10 @@
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            top: 20%;
+            top: 50%;
             width: 100px; height: 100px;
-            background: rgba(0,0,0,0.2);
+            background: rgba(0,0,0,0.7);
+            box-shadow: 0 0 0 6px inset #222;
             text-align: center;
             color: rgba(255,255,255,0.8);
             border-radius: 50%;
@@ -162,8 +163,8 @@
             color: rgba(255,255,255,1);
         }
         .s2Txt04 .imgWrap .view:hover {
-            background: rgba(255,255,255,.7);
-            color: rgba(255, 255, 255, 1);
+            background: rgba(153, 152, 152, 0.7);
+            color: rgb(34, 31, 49);
             box-shadow: 0 0 0 6px inset rgba(255,255,255,1);
         }
 
@@ -198,13 +199,30 @@
         .txtBox5 {left: 100%;}
         .txtBox6 {left: 100%;}
 
-        .aniBox1 {width: 50vw; height: 50vh; opacity: 50%;}
-        .aniBox2 {width: 50vw; height: 50vh; opacity: 50%;}
-        .aniBox3 {width: 50vw; height: 50vh; opacity: 50%;}
-        .aniBox4 {width: 50vw; height: 50vh; opacity: 50%;}
-        .aniBox5 {width: 50vw; height: 50vh; opacity: 50%;}
-        .aniBox6 {width: 50vw; height: 50vh; opacity: 50%;}
+        .aniBox1 {width: 50vw; height: 50vh; opacity: 95%;}
+        .aniBox2 {width: 50vw; height: 50vh; opacity: 95%;}
+        .aniBox3 {width: 50vw; height: 50vh; opacity: 95%;}
+        .aniBox4 {width: 50vw; height: 50vh; opacity: 95%;}
+        .aniBox5 {width: 50vw; height: 50vh; opacity: 95%;}
+        .aniBox6 {width: 50vw; height: 50vh; opacity: 95%;}
 
+        /* section5 */
+        .s4Txt012_box1 {
+            background:#311b92;
+        }
+        .s4Txt02 {
+            color: #fff;
+            white-space:nowrap;
+        }
+        .s4Txt012_box2 {
+            background: #512da8;
+        }
+        .s4Txt012_box3 {
+            background: #7e57c2  ;
+        }
+        .s4Txt012_box4 {
+            background: #b39ddb ;
+        }
     </style>
 </head>
 <body>
@@ -227,7 +245,7 @@
             <div class="s1Txt03 fixed"
                 data-1600 = "width: 0%; height: 0%;"
                 data-3000 = "width: 100%; height: 100%;"
-                ><img src="img/apple-01.jpg" alt="이미지" class="fixed"
+                ><img src="img/main.jpg" alt="이미지" class="fixed"
                     data-1600 = "border-radius:500px"
                     data-3000 = "border-radius:0px"
                 >
@@ -345,7 +363,7 @@
                         <div class="img4"
                             data-20000 = "left: 150%"
                             data-22000 = "left: 50%"
-                        ><img src="img/webstandard.png" alt="리액트"></div>
+                        ><img src="img/react.png" alt="리액트"></div>
                         <a href="#" class="view">VIEW</a>
                     </div>
                     
@@ -448,8 +466,107 @@
          </div>
      </section>
      <!-- //section3 -->
-        <section id="section4"></section><!-- //section4 -->
-        <section id="section5"></section><!-- //section5 -->
+        <section id="section4"
+            data-67999="display:none"
+            data-68001="display:block"
+            data-82999="display:block"
+            data-83000="display:none"
+        >
+        <div class="s3Txt01 fixed" data-titlt="검은색 배경"
+             data-68001="width: 30vw; height: 30vw;"
+             data-70000="width: 70vw; height: 30vw;"
+             data-75000="width: 100vw; height: 30vw;"
+         >
+            <div class="s3Txt02">
+                <h2 class="txtBox fixed"
+                        data-68000="left:300%"
+                        data-90000="left:-300%"
+                ><span>Thank you for the watching my portfolio</span>
+                </h2>
+        </div>
+
+        </section>
+        <!-- //section4 -->
+        <section id="section5"
+            data-82999="display:none"
+            data-83000="display:block"
+            data-99999="display:block"
+            data-450000="display:none"
+        >
+        <div class="s3Txt01 fixed" data-titlt="검은색 배경"
+            data-83000="width: 100vw; height: 30vw;"
+            data-90000="width: 100vw; height: 50vw;"
+            data-95000="width: 100vw; height: 80vw;"
+            data-100000="width: 100vw; height: 100vw;"
+        >
+        </div>
+        <div class="s3Txt012 fixed" data-title="박스">
+            <div class="s4Txt012_box1 fixed"
+                data-85000 = "opacity:0; width: 100vw; height: 0vw; top:-200%; top:-200%;"
+                data-90000 = "opacity:1; width: 100vw; height: 30vw; "
+                data-95000 = "opacity:1; width: 100vw; height: 40vw;"
+                data-105000 = "opacity:0; width: 100vw; height: 50vw; top:200%; top:200%; z-index:50000;"  
+            >
+                <div class="s4Txt02">
+                    <h2 class="s4Txt02 fixed"
+                        data-87000 = " opacity:0"
+                        data-89000 = "opacity:1; font-size: 2vw;"
+                        data-100000 = "opacity:0; font-size: 6vw;"
+                    ><span>신입 프론트엔드개발자</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="s4Txt012_box2 fixed"
+                data-95000 = "opacity:0; width: 100vw; height: 0vw; top:-200%; top:-200%;"
+                data-105000 = "opacity:1; width: 100vw; height: 30vw; "
+                data-110000 = "opacity:1; width: 100vw; height: 40vw;"
+                data-115000 = "opacity:0; width: 100vw; height: 100vw; top:200%; top:200%; z-index:40000; "  
+            >
+                <div  class="s4Txt012_box2 fixed">
+                    <h2 class="s4Txt02 fixed"
+                            data-950000 = " opacity:0"
+                            data-100000 = "opacity:1; font-size: 2vw;"
+                            data-115000 = "opacity:0; font-size: 6vw;"
+                        ><span>강민정에 대해</span>
+                        </h2>
+                </div>
+            </div>
+            <div class="s4Txt012_box3 fixed"
+                data-110000 = "opacity:0; width: 100vw; height: 0vw; top:-200%; top:-200%;"
+                data-115000 = "opacity:1; width: 100vw; height: 30vw; "
+                data-120000 = "opacity:1; width: 100vw; height: 40vw;"
+                data-130000 = "opacity:0; width: 100vw; height: 100vw; top:200%; top:200%;z-index:30000;"  
+            >
+                <div  class="s4Txt012_box3 fixed">
+                    <h2 class="s4Txt02 fixed"
+                            data-110000 = " opacity:0"
+                            data-115000 = "opacity:1; font-size: 2vw;"
+                            data-130000 = "opacity:0; font-size: 6vw;"
+                        ><span>더알아보고 싶다면</span>
+                        </h2>
+                </div>
+            </div>
+            <div class="s4Txt012_box4 fixed"
+                data-125000 = "opacity:0; width: 100vw; height: 0vw; top:-200%; top:-200%;"
+                data-135000 = "opacity:1; width: 100vw; height: 30vw; "
+                data-145000 = "opacity:1; width: 100vw; height: 40vw;"
+                data-165000 = "opacity:1; width: 100vw; height: 100vw; top:200%; top:200%;z-index:20000;"  
+            >
+                <div  class="s4Txt012_box3 fixed">
+                    <h2 class="s4Txt02 fixed"
+                            data-120000 = " opacity:0"
+                            data-125000 = "opacity:1; font-size: 2vw;"
+                            data-140000 = "opacity:1; font-size: 6vw;"
+                            data-160000 = "left:300%"
+                            data-180000 = "left:-300%"
+                        ><span>CONTACT ME!</span>
+                        </h2>
+                </div>
+            </div>
+        </div>
+
+        </section>
+        <!-- //section5 -->
         <section id="section6"></section><!-- //section6 -->
     </div>
 
