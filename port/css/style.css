@@ -170,12 +170,17 @@ body {height: 200000px;}
 #title .scroll_icon h3 {
     font-size: 10px;
     color: #18154C;
-    position: absolute; left:50%; bottom:10%; transform:translate(-50%,-50%); 
+    position: absolute; left:50%; bottom:11%; transform:translate(-50%,-50%); 
     z-index: 50;
     font-family: 'yg-jalnan';
+    position: fixed;
 }
 #title .scroll_icon .icon {
-
+    width: 100px; height: 50px;
+    color: #18154C;
+    position: absolute; left:49.4%; bottom:5%; 
+    z-index: 50;
+    position: fixed;
 }
 
 /* skill */
@@ -183,3 +188,4 @@ body {height: 200000px;}
     width: 100vw; height: 1000vw;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
+

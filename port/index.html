@@ -24,15 +24,17 @@
             data-5000 = "display:none" 
         >
             <h2 class="fixed"
-                data-0 = "top: 50%; opacity:1"
-                data-1000 = "top: 30%; opacity:0"
+                data-0 = "font-size:140px; opacity:1"
+                data-200= "font-size:150px; opacity:1"
+                data-400 = "font-size:160px; opacity:0"
             >
             MINJEONG PORTFOLIO
             </h2>
 
             <div class="h2_2 fixed"
-                data-0 = "top: 50%; opacity:1"
-                data-1000 = "top: 30%; opacity:0"
+                data-0 = "font-size:140px; opacity:1"
+                data-200= "font-size:150px; opacity:1"
+                data-400 = "font-size:160px; opacity:0"
             >
             MINJEONG PORTFOLIO
             </div>
@@ -50,7 +52,13 @@
             </div>
 
             <div class="earth">
-                <div class="earth_box"></div>
+                <div class="earth_box"
+                    data-0 = "border-radius: 30px;"
+                    data-400 = "border-radius: 50%; width: 50%; height: 50%; width: 60%; height: 50%; left:50%; top:95%; transform:translate(-50%,-110%);"
+                    data-700 = "border-radius: 50%; width: 50%; height: 50%; top: 150%; height: 50%; left:100%; top:115%; transform:translate(-50%,-110%);"
+                    data-1000 = "border-radius: 50%;  width: 50%; height: 50%"
+                >
+                </div>
                 <div class="earth_left">
                     <img src="./img/left.svg" alt="이미지">
                 </div>
@@ -59,9 +67,18 @@
                 </div>
             </div>
 
-            <div class="scroll_icon">
-                <h3>SCROLL!</h3>
-                <div class="icon"></div>
+            <div class="scroll_icon"
+                data-0 = " opacity:1"
+                data-299 = " opacity:1"
+                data-300 = "opacity:0"
+            >
+            <h3>SCROLL!</h3>
+                <i class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                    </svg>
+                </i>
+                
             </div>
         </section>
         <!-- //title -->
@@ -86,8 +103,7 @@
                         <div class="h3">95%</div>
                     </div>
                 </div>
-            </div>
-           
+            </div> 
 
         </section>
         <section id="aboutme"></section>
