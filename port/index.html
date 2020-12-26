@@ -11,6 +11,7 @@
 
     <!-- 웹폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -53,13 +54,22 @@
 
             <div class="earth">
                 <div class="earth_box"
-                    data-0 = "border-radius: 30px;"
-                    data-400 = "border-radius: 50%; width: 50%; height: 50%; width: 60%; height: 50%; left:50%; top:95%; transform:translate(-50%,-110%);"
-                    data-700 = "border-radius: 50%; width: 50%; height: 50%; top: 150%; height: 50%; left:100%; top:115%; transform:translate(-50%,-110%);"
-                    data-1000 = "border-radius: 50%;  width: 50%; height: 50%"
+                    data-0 = "position: fixed; border-radius: 30px;"
+                    data-100 = "position: fixed; border-radius: 50%; width: 60%; height: 50%; left:50%; top:95%; transform: translate(-50%, -50%); "
+                    data-200 = "position: fixed; border-radius: 50%; left: 50%; top: 50%; transform: translate(-50%, -50%); height: 50%; width: 40%;"
+                    data-300 = "position: fixed; border-radius: 50%; left: 60%; top: 50%; transform: translate(-50%, -50%); height: 60%; width: 30%;"
+                    data-450 = "position: fixed; border-radius: 50%; left: 65%; top: 50%; transform: translate(-50%, -50%); height: 60%; width: 30%;"
+                    data-550 = "position: fixed; border-radius: 50%; left: 75%; top: 50%; transform: translate(-50%, -50%); height: 60%; width: 30%;"
                 >
                 </div>
-                <div class="earth_left">
+                <div class="earth_left"
+                    data-0 = ""
+                    data-200 = "left:50%;"
+                    data-400 = "left: 150%;"
+                    data-600 = "left: 160%;"
+                    data-650 = "left: 165%;"
+                    data-750 = "left: 70%;"
+                >
                     <img src="./img/left.svg" alt="이미지">
                 </div>
                 <div class="earth_right">
@@ -84,13 +94,21 @@
         <!-- //title -->
 
         <section id="skill"
-            data-5000 = "display:block"
-            data-10000 = "display:block"
-            data-50000 = "display:none" 
+            data-500 = "display:block"
+            data-3000 = "display:block"
+            data-5000 = "display:none" 
         >
             <div class="html">
+                <div class="logo"
+                    data-500 = "position: fixed; top:6%;"
+                >
+                    <div class="logo_title">PORTFOLIO</div>
+                    <div class="logo_titlename">
+                        <div class="logo_for">for</div>
+                        <div class="logo_name"><strong>MINJEONG</strong></div>
+                    </div> 
+                </div>
                 <div class="left_html">
-                    <div class="logo"></div>
                     <h2>HTML</h2>
                     <p>HTML은 문서의 글자크기, 글자색, 글자모양, 그래픽,<br> 문서이동(하이퍼링크) 등을 정의하는 명령어로서<br> 홈페이지를 작성하는 데 쓰인다.</p>
                     <div class="button"><a href="">for View</a></div>
