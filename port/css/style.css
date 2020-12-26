@@ -222,18 +222,16 @@ body {height: 200000px;}
 #skill .html {}
 
 #skill .html .logo {
- 
+    padding-left: 60px;
 }
 #skill .html .logo .logo_title {
     font-family: 'S-CoreDream-7ExtraBold';
     font-size: 30px;
-    padding-left: 30px;
     color: #3E47FB;
     
 }
 #skill .html .logo .logo_titlename {
     display: flex;
-    padding-left:30px;
     
 }
 #skill .html .logo .logo_titlename .logo_for {
@@ -250,7 +248,7 @@ body {height: 200000px;}
 }
 
 #skill .html .left_html {
-    padding-left:30px;
+    padding-left:60px;
 }
 #skill .html .left_html h2 {
     font-family: 'S-CoreDream-9Black';
@@ -313,7 +311,7 @@ body {height: 200000px;}
 
 #skill .css {}
 #skill .css .left_css {
-    padding-left:30px;
+    padding-left:60px;
 }
 #skill .css .left_css h2 {
     font-family: 'S-CoreDream-9Black';
@@ -375,7 +373,7 @@ body {height: 200000px;}
 
 #skill .javascript {}
 #skill .javascript .left_javascript {
-    padding-left:30px;
+    padding-left:60px;
 }
 #skill .javascript .left_javascript h2 {
     font-family: 'S-CoreDream-9Black';
@@ -437,7 +435,7 @@ body {height: 200000px;}
 
 #skill .react {}
 #skill .react .left_react {
-    padding-left:30px;
+    padding-left:60px;
 }
 #skill .react .left_react h2 {
     font-family: 'S-CoreDream-9Black';
