@@ -12,6 +12,8 @@
     <!-- 웹폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    
 
 </head>
 <body>
@@ -55,11 +57,10 @@
             <div class="earth">
                 <div class="earth_box"
                     data-0 = "position: fixed; border-radius: 30px;"
-                    data-100 = "position: fixed; border-radius: 50%; width: 60%; height: 50%; left:50%; top:95%; transform: translate(-50%, -50%); "
-                    data-200 = "position: fixed; border-radius: 50%; left: 50%; top: 50%; transform: translate(-50%, -50%); height: 50%; width: 40%;"
-                    data-300 = "position: fixed; border-radius: 50%; left: 60%; top: 50%; transform: translate(-50%, -50%); height: 60%; width: 30%;"
-                    data-450 = "position: fixed; border-radius: 50%; left: 65%; top: 50%; transform: translate(-50%, -50%); height: 60%; width: 30%;"
-                    data-550 = "position: fixed; border-radius: 50%; left: 75%; top: 50%; transform: translate(-50%, -50%); height: 60%; width: 30%;"
+                    data-200 = "position: fixed; border-radius: 50%; width: 60%; height: 50%; left:50%; top:95%; transform: translate(-50%, -50%); "
+                    data-300 = "position: fixed; border-radius: 50%; left: 50%; top: 50%; transform: translate(-50%, -50%); height: 50%; width: 40%;"
+                    data-400 = "position: fixed; border-radius: 50%; left: 60%; top: 50%; transform: translate(-50%, -50%); height: 60%; width: 30%;"
+                    data-550 = "position: fixed; border-radius: 50%; left: 65%; top: 50%; transform: translate(-50%, -50%); height: 60%; width: 30%;"
                 >
                 </div>
                 <div class="earth_left"
@@ -96,7 +97,7 @@
         <section id="skill"
             data-500 = "display:block"
             data-3000 = "display:block"
-            data-5000 = "display:none" 
+            data-15000 = "display:none" 
         >
             <div class="html">
                 <div class="logo"
@@ -108,20 +109,130 @@
                         <div class="logo_name"><strong>MINJEONG</strong></div>
                     </div> 
                 </div>
-                <div class="left_html">
+                <div class="left_html"
+                    data-0 = "display:none;  opacity:0;"
+                    data-500 = "display:block; bottom:3%; opacity:0;"
+                    data-900 = "bottom:8%; opacity:1;"
+                    data-2300 = "bottom:27%;opacity:1;"
+                    data-2750 = "display:none; position:fixed; bottom:27%; opacity:0;" 
+                >
                     <h2>HTML</h2>
                     <p>HTML은 문서의 글자크기, 글자색, 글자모양, 그래픽,<br> 문서이동(하이퍼링크) 등을 정의하는 명령어로서<br> 홈페이지를 작성하는 데 쓰인다.</p>
-                    <div class="button"><a href="">for View</a></div>
+                    <div class="button"><a href="https://www.figma.com/proto/seIlpp5K11gLscG3bIWD6p/HTML?node-id=1%3A6&viewport=184%2C90%2C0.14992232620716095&scaling=min-zoom">for View</a></div>
                     
                 </div>
-                <div class="right_html">
+                <div class="right_html"
+                    data-0 = "display:none"
+                    data-500 = "display:block; right: 35%; opacity:0;"
+                    data-2150 = "position:fixed; bottom:62%; opacity:1;" 
+                >
                     <div class="number">
+                        <h3
+                            data-1900 = "opacity:0;"
+                            data-2150 = "opacity:1;"
+                        >95%</h3>
+                        <div class="line"
+                            data-1900 = "opacity:0;"
+                            data-2150 = "opacity:1;" 
+                        ></div>
                         <div class="circle"></div>
-                        <div class="line"></div>
-                        <div class="h3">95%</div>
                     </div>
                 </div>
             </div> 
+            <div class="css">
+                <div class="left_css"
+                    data-2499 = "display:none; opacity:0; bottom:23%;"
+                    data-2500 = "display:block; opacity:0; bottom:27%;"
+                    data-3900 = "display:block; opacity:1;"
+                    data-4500 = "display:block; opacity:1;"
+                    data-5050 = "display:none; position:fixed; opacity:0;"
+                >
+                    <h2>CSS</h2>
+                    <p>CSS는 옷과 액세서리처럼 꾸미는 역할을 담당한다고<br> 할 수 있습니다. HTML이나 XML로 작성된 문서의 표<br>현을 기술하기 위해 쓰이는 스타일시트 언어입니다. </p>
+                    <div class="button"><a href="https://www.figma.com/proto/seIlpp5K11gLscG3bIWD6p/HTML?node-id=1%3A6&viewport=184%2C90%2C0.14992232620716095&scaling=min-zoom">for View</a></div>
+                    
+                </div>
+                <div class="right_css"
+                    data-2400 = "display:none"
+                    data-2600 = "display:block; right: 28%;  opacity:0;"
+                    data-4000 = "position:fixed; bottom:67%; opacity:1;"
+                >
+                    <div class="number">
+                        <h3
+                            data-3050 = "opacity:0;"
+                            data-3550 = "opacity:1;"
+                        >90%</h3>
+                        <div class="line"
+                            data-3050 = "opacity:0;"
+                            data-3550 = "opacity:1;" 
+                        ></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="javascript">
+                <div class="left_javascript"
+                    data-3999 = "display:none; opacity:0; bottom:23%;"
+                    data-4900 = "display:block; opacity:0; bottom:27%;"
+                    data-5500 = "display:block; opacity:1;"
+                    data-6500 = "display:block; opacity:1;"
+                    data-7500 = "display:none; position:fixed; opacity:0;"
+                >
+                    <h2>JAVASCRIPT</h2>
+                    <p>JavaScript는 프로토타입 기반의 동적 다중 패러다임<br> 스크립트 언어로, 객체지향형, 명령형, 선언형(함수형<br> 프로그래밍 등) 스타일을 지원합니다. </p>
+                    <div class="button"><a href="https://www.figma.com/proto/seIlpp5K11gLscG3bIWD6p/HTML?node-id=1%3A6&viewport=184%2C90%2C0.14992232620716095&scaling=min-zoom">for View</a></div>
+                    
+                </div>
+                <div class="right_javascript"
+                    data-4800 = "display:none"
+                    data-4900 = "display:block; right: 44%;  opacity:0;"
+                    data-6000 = "position:fixed; bottom:45%; opacity:1;"
+                >
+                    <div class="number">
+                        <h3
+                            data-5500 = "opacity:0;"
+                            data-6050 = "opacity:1;"
+                        >80%</h3>
+                        <div class="line"
+                            data-5500 = "opacity:0;"
+                            data-6050 = "opacity:1;" 
+                        ></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="react">
+                <div class="left_react"
+                    data-7000 = "display:none; opacity:0; bottom:23%;"
+                    data-7500 = "display:block; opacity:0; bottom:27%;"
+                    data-8000 = "display:block; opacity:1;"
+                    data-10000 = "display:block; opacity:1;"
+                    data-12500 = "display:none; position:fixed; opacity:0;"
+                >
+                    <h2>REACT</h2>
+                    <p>React는 상호작용이 많은 UI를 만들 때 생기는 어려움을<br> 줄여줍니다.데이터가 변경됨에 따라 적절한 컴포넌트만<br> 효율적으로 갱신하고 렌더링합니다.</p>
+                    <div class="button"><a href="https://www.figma.com/proto/seIlpp5K11gLscG3bIWD6p/HTML?node-id=1%3A6&viewport=184%2C90%2C0.14992232620716095&scaling=min-zoom">for View</a></div>
+                    
+                </div>
+                <div class="right_react"
+                    data-6500 = "display:none"
+                    data-7000 = "display:block; right: 30%;  opacity:0;"
+                    data-10000 = "position:fixed; bottom:45%; opacity:1;"
+                >
+                    <div class="number">
+                        <h3
+                            data-8500 = "opacity:0;"
+                            data-9500 = "opacity:1;"
+                        >75%</h3>
+                        <div class="line"
+                            data-8500 = "opacity:0;"
+                            data-9500 = "opacity:1;" 
+                        ></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+              
 
         </section>
         <section id="aboutme"></section>

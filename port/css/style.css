@@ -17,6 +17,24 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* 레이아웃 */
 * {margin: 0; padding: 0; box-sizing: border-box;}
@@ -219,7 +237,7 @@ body {height: 200000px;}
     
 }
 #skill .html .logo .logo_titlename .logo_for {
-    flex: 0 0 2%;
+    padding-right:5px;
     font-family: 'S-CoreDream-4Regular';
     font-size: 15px;
     color: #18154C;
@@ -234,9 +252,250 @@ body {height: 200000px;}
 #skill .html .left_html {
     padding-left:30px;
 }
-#skill .html .left_html h2 {}
-#skill .html .left_html p {}
-#skill .html .left_html .button {}
+#skill .html .left_html h2 {
+    font-family: 'S-CoreDream-9Black';
+    font-size: 55px;
+    line-height: 90.9px;
+    letter-spacing: 7px;
+    color: #18154C;
+    padding-bottom: 20px;
+}
+#skill .html .left_html p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 20px;
+    color: #3D3970;
+    line-height: 31.4px;
+    letter-spacing: 1.04px;
+    padding-bottom: 32px;
+    
+}
+#skill .html .left_html .button {
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    border: 1px solid #3C46FB;
+    background: #3C46FB;
+    display: inline-block;
+    width: 150px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
 
-#skill .html .right_html {}
+#skill .html .right_html {
+    z-index: 999;
+}
+#skill .html .right_html .number {}
+#skill .html .right_html .number .circle {
+    border-radius: 50%;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 3.5rem #d2d5ff;
+    width: 10px; height: 10px;
+    z-index: -1;
+}
+#skill .html .right_html .number .line {
+    border-left: 1px solid #3C46FB;
+    width: 1px;
+    height: 120px;
+    z-index: 2;
+    position: relative;
+    margin-left: 4px;
+}
+#skill .html .right_html .number h3 {
+    font-family: 'S-CoreDream-6Bold';
+    color: #3D3970;
+    font-size: 16px;
+    margin-left: -8px;
+
+}
+
+#skill .css {}
+#skill .css .left_css {
+    padding-left:30px;
+}
+#skill .css .left_css h2 {
+    font-family: 'S-CoreDream-9Black';
+    font-size: 55px;
+    line-height: 90.9px;
+    letter-spacing: 7px;
+    color: #18154C;
+    padding-bottom: 20px;
+}
+#skill .css .left_css p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 20px;
+    color: #3D3970;
+    line-height: 31.4px;
+    letter-spacing: 1.04px;
+    padding-bottom: 32px;
+    
+}
+#skill .css .left_css .button {
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    border: 1px solid #3C46FB;
+    background: #3C46FB;
+    display: inline-block;
+    width: 150px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#skill .css .right_css {
+    z-index: 999;
+}
+#skill .css .right_css .number {}
+#skill .css .right_css .number .circle {
+    border-radius: 50%;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 1.5rem #d2d5ff;
+    width: 6px; height: 6px;
+    z-index: -1;
+}
+#skill .css .right_css .number .line {
+    border-left: 1px solid #3C46FB;
+    width: 1px;
+    height: 120px;
+    z-index: 2;
+    position: relative;
+    margin-left: 2.5px;
+}
+#skill .css .right_css .number h3 {
+    font-family: 'S-CoreDream-6Bold';
+    color: #3D3970;
+    font-size: 16px;
+    margin-left: -10px;
+}
+
+#skill .javascript {}
+#skill .javascript .left_javascript {
+    padding-left:30px;
+}
+#skill .javascript .left_javascript h2 {
+    font-family: 'S-CoreDream-9Black';
+    font-size: 55px;
+    line-height: 90.9px;
+    letter-spacing: 7px;
+    color: #18154C;
+    padding-bottom: 20px;
+}
+#skill .javascript .left_javascript p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 20px;
+    color: #3D3970;
+    line-height: 31.4px;
+    letter-spacing: 1.04px;
+    padding-bottom: 32px;
+    
+}
+#skill .javascript .left_javascript .button {
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    border: 1px solid #3C46FB;
+    background: #3C46FB;
+    display: inline-block;
+    width: 150px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#skill .javascript .right_javascript {
+    z-index: 999;
+}
+#skill .javascript .right_javascript .number {}
+#skill .javascript .right_javascript .number .circle {
+    border-radius: 50%;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 3.5rem #d2d5ff;
+    width: 8px; height: 8px;
+    z-index: -1;
+}
+#skill .javascript .right_javascript .number .line {
+    border-left: 1px solid #3C46FB;
+    width: 1px;
+    height: 120px;
+    z-index: 2;
+    position: relative;
+    margin-left: 3.5px;
+}
+#skill .javascript .right_javascript .number h3 {
+    font-family: 'S-CoreDream-6Bold';
+    color: #3D3970;
+    font-size: 16px;
+    margin-left: -8px;
+}
+
+#skill .react {}
+#skill .react .left_react {
+    padding-left:30px;
+}
+#skill .react .left_react h2 {
+    font-family: 'S-CoreDream-9Black';
+    font-size: 55px;
+    line-height: 90.9px;
+    letter-spacing: 7px;
+    color: #18154C;
+    padding-bottom: 20px;
+}
+#skill .react .left_react p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 20px;
+    color: #3D3970;
+    line-height: 31.4px;
+    letter-spacing: 1.04px;
+    padding-bottom: 32px;
+    
+}
+#skill .react .left_react .button {
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    border: 1px solid #3C46FB;
+    background: #3C46FB;
+    display: inline-block;
+    width: 150px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#skill .react .right_react {
+    z-index: 999;
+}
+#skill .react .right_react .number {}
+#skill .react .right_react .number .circle {
+    border-radius: 50%;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 5.5rem #d2d5ff;
+    width: 10px; height: 10px;
+    z-index: -1;
+}
+#skill .react .right_react .number .line {
+    border-left: 1px solid #3C46FB;
+    width: 1px;
+    height: 100px;
+    z-index: 2;
+    position: relative;
+    margin-left: 4.5px;
+}
+#skill .react .right_react .number h3 {
+    font-family: 'S-CoreDream-6Bold';
+    color: #3D3970;
+    font-size: 16px;
+    margin-left: -7px;
+
+}
+
 
