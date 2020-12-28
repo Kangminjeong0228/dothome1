@@ -57,7 +57,7 @@ body {height: 200000px;}
 
 /* title */
 #title {   
-    width: 100vw; height: 100vw;
+    width: 100vw; height: 200vw;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
 
@@ -148,39 +148,38 @@ body {height: 200000px;}
     
 }
 
-#title .earth {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#title .earth {    
+    display:flex; justify-content:space-around; align-items:center; height:100vh; 
 }
 #title .earth_box { 
     background: #e8e9ff;
     z-index: 1;
     margin-top: 20vw;
 }
-/* #title .earth .earth_left {
-    flex: 1 1 50%;
-    width: auto; height: auto;
-    max-width: 20%;
-    max-height: 10%;
+#title .earth .earth_left {
     z-index: 2;
-    
-}
-#title .earth .earth_left img {
-    padding-top: 400px;
-}
-#title .earth .earth_right  {
-    flex: 1 1 30%;
-    width: auto; height: auto;
-    max-width: 30%;
-    max-height: 30%;
-    z-index: 2;
-    
 
 }
-#title .earth .earth_right img {
-    padding-top: 400px;
-} */
+#title .earth .earth_left svg {
+    width: 30vw; height: 30vw;
+    margin-top: 35vw; 
+    margin-right: 11vw; 
+}
+#title .earth .earth_right  {
+    z-index: 2;
+}
+#title .earth .earth_right svg {
+    width: 24vw; height: 24vw;
+    margin-top: 30vw;
+    margin-right: 3vw; 
+}
+#title .earth_broken {
+    display:flex; justify-content:center; align-items:flex-end; height:0vw; 
+}
+#title .earth_broken svg {
+    width: 80vw; height: 20vw;
+    z-index: 2;
+}
 
 #title .scroll_icon {
     
