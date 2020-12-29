@@ -202,7 +202,6 @@ body {height: 200000px;}
 }
 #title .earth_broken svg {
     width: 50vw; height: 50vw;
-    z-index: 2;
     bottom: 7vh;
 }
 
@@ -481,5 +480,13 @@ body {height: 200000px;}
     margin-left: -0.6vw;
 
 }
+
+/* aboutme */
+#aboutme {
+    width: 100vw; height: 750vw;
+    background: linear-gradient(to left, #EBE0FF, #D0C8FE);
+}
+#aboutme .aboutme {}
+#aboutme .aboutme .box {}
 
 
