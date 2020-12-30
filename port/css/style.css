@@ -61,6 +61,7 @@ body {height: 200000px;}
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
 
+/* title 로고 */
 #title .logo {
     
 }
@@ -84,6 +85,7 @@ body {height: 200000px;}
     
 }
 
+/* title 제목 */
 #title h2 {
     white-space:normal;
     font-family: 'Montserrat', sans-serif;
@@ -109,6 +111,7 @@ body {height: 200000px;}
     letter-spacing: 1vw;
 }
 
+/* title 메뉴바 */
 #title .menu {
     position: fixed;
     bottom: 2.6vw;
@@ -171,6 +174,7 @@ body {height: 200000px;}
     
 }
 
+/* title 지구 */
 #title .earth {    
     display:flex; justify-content:space-around; align-items:center; height:100vh; 
 }
@@ -203,6 +207,7 @@ body {height: 200000px;}
     bottom: 7vh;
 }
 
+/* title 스크롤 */
 #title .scroll_icon {
     color: #18154C;
     z-index: 50;
@@ -223,7 +228,8 @@ body {height: 200000px;}
     width: 100vw; height: 1000vw;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
-#skill .html {}
+
+/* skill 설명 */
 #skill .html .left_html {
     padding-left:4.5vw;
     padding-top: 4.5vw;
@@ -484,10 +490,123 @@ body {height: 200000px;}
     width: 100vw; height: 2000vw;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
+
+/* aboutme 왼쪽부분 */
 #aboutme .aboutme {}
+
 #aboutme .aboutme .box {
-    background-color: #000;
+    background-color: #3D3970;
     width: 49.4vw; height: 100vw;
+    left: 74vw;
+    z-index: 5;
+}
+#aboutme .aboutme .about_left {
+    padding-right: 57.9vw;
+    padding-top: 3vw;
+}
+#aboutme .aboutme .about_left h2 {
+    font-family: 'S-CoreDream-9Black';
+    font-size: 4.5vw;
+    line-height: 6vw;
+    letter-spacing: 0.3vw;
+    color: #18154C;
+    padding-bottom: 3vw;
+}
+#aboutme .aboutme .about_left p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.5vw;
+    color: #3D3970;
+    line-height: 2.2vw;
+    letter-spacing: 0.11vw;
+    padding-bottom: 5vw;
+    padding-top: 1vw;
+    width: 31vw;
+}
+#aboutme .aboutme .about_left .button {
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    border: 1vw solid #3C46FB;
+    background: #3C46FB;
+    display: inline-block;
+    width: 11vw;
+    height: 3.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3vw;
+    font-size: 1.3vw;
+    font-weight: 300;
 }
 
+/* aboutme 오른쪽부분 */
+#aboutme .aboutme .about_txt1 {
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 2vw;
+    left: 73.9vw;
+    color: #fff;
+    white-space: nowrap;
+    z-index: 5;
+}
+#aboutme .aboutme .about_txt2 {
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 2vw;
+    left: 73.9vw;
+    color: #fff;
+    white-space: nowrap;
+    z-index: 5;
+}
+#aboutme .aboutme .about_txt3 {
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 2vw;
+    left: 73.9vw;
+    color: #fff;
+    white-space: nowrap;
+    z-index: 5;
+}
+#aboutme .aboutme .about_txt4 {
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 2vw;
+    left: 73.9vw;
+    color: #fff;
+    white-space: nowrap;
+    z-index: 5;
+}
+#aboutme .aboutme .about_txt5 {
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 2vw;
+    left: 73.9vw;
+    color: #fff;
+    white-space: nowrap;
+    z-index: 5;
+}
+#aboutme .aboutme .about_txt6 {
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 2vw;
+    left: 73.9vw;
+    color: #fff;
+    white-space: nowrap;
+    z-index: 5;
+}
+#aboutme .aboutme .about_txt7 {
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 2vw;
+    left: 73.9vw;
+    color: #fff;
+    white-space: nowrap;
+    z-index: 5;
+}
+#aboutme .aboutme .about_txt1 span {
+    color: #83CBF0;
+}
+#aboutme .aboutme .about_txt2 span {
+    color: #FF8177;
+}
+#aboutme .aboutme .about_txt3 span {
+    color: #83CBF0;
+}
+#aboutme .aboutme .about_txt4 span {
+    color: #FCFE8A;
+}
+#aboutme .aboutme .about_txt5 span {
+    color: #705AFB;
+}
 
