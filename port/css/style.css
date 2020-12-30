@@ -225,7 +225,7 @@ body {height: 200000px;}
 
 /* skill */
 #skill {
-    width: 100vw; height: 500vw;
+    width: 100vw; height: 800vw;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
 
@@ -610,3 +610,6 @@ body {height: 200000px;}
     color: #705AFB;
 }
 
+#aboutme .crush svg {
+    width: 30vw; height: 30vw;
+}
