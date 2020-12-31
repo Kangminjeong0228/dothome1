@@ -487,7 +487,7 @@ body {height: 200000px;}
 
 /* aboutme */
 #aboutme {
-    width: 100vw; height: 4500vw;
+    width: 100vw; height: 6500vw;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
 
@@ -496,7 +496,6 @@ body {height: 200000px;}
 
 #aboutme .aboutme .box {
     background-color: #3D3970;
-    width: 49.4vw; height: 100vw;
     left: 74vw;
     z-index: 5;
 }
