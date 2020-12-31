@@ -622,7 +622,7 @@ body {height: 200000px;}
     white-space: nowrap;
     color: #3D3970;
     font-size: 1.2vw;
-    font-family: 'S-CoreDream-6Bold';
+    font-family: 'S-CoreDream-7ExtraBold';
     line-height: 1.2;
 }
 #aboutme .crush .btn .btn_name span {
@@ -633,10 +633,15 @@ body {height: 200000px;}
 }
 
 /* about 이미지 */
-#aboutme .about_img svg {
-    width: 90vw; height: 70vh;
+#aboutme .about_img img {
+    width: auto; height: 70vh;
     margin-left: 38.6vw;
 }
 
+/* site */
+#site {
+    width: 100vw; height: 7500vh;
+    background: linear-gradient(to left, #EBE0FF, #D0C8FE);
+}
 
 
