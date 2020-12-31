@@ -613,6 +613,23 @@ body {height: 200000px;}
 #aboutme .crush svg {
     width: 25vw; height: 30vw;
     margin-right: 52.6vw;
+    margin-bottom: 2vw;
+}
+
+#aboutme .crush .btn .btn_name {
+    padding-right: 58vw;
+    padding-bottom: 2vw;
+    white-space: nowrap;
+    color: #3D3970;
+    font-size: 1.2vw;
+    font-family: 'S-CoreDream-6Bold';
+    line-height: 1.2;
+}
+#aboutme .crush .btn .btn_name span {
+    font-size: 3vw;
+    font-family: 'S-CoreDream-9Black';
+    padding-left: 3vw;
+
 }
 
 /* about 이미지 */
