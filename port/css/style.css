@@ -611,9 +611,9 @@ body {height: 200000px;}
 
 /* 화살표 */
 #aboutme .crush svg {
-    width: 30vw; height: 30vw;
-   
+    width: 25vw; height: 30vw;
     padding-bottom: 2.6vw;
+    margin-right: 52.6vw;
 }
 
 
