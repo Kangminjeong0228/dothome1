@@ -496,7 +496,6 @@ body {height: 200000px;}
 
 #aboutme .aboutme .box {
     background-color: #3D3970;
-    left: 74vw;
     z-index: 5;
 }
 #aboutme .aboutme .about_left {
@@ -640,7 +639,7 @@ body {height: 200000px;}
 
 /* site */
 #site {
-    width: 100vw; height: 7500vh;
+    width: 10000vw; height: 100vh;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
 
