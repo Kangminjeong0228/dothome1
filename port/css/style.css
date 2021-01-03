@@ -639,8 +639,24 @@ body {height: 200000px;}
 
 /* site */
 #site {
-    width: 10000vw; height: 100vh;
+    width: 100vw; height: 10000vh;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
+    z-index: 1;
 }
+#site .site_box .sitebox {
+    width: 100vw; height: 100vh;
+    background: #F1EFFB;
+    z-index: 1;
+}
+#site .site_box .sitebox .webstandard {
+    background: #fff;
+    z-index: 3;
+}
+#site .site_box .sitebox .webstandard .box {
+    
+}
+#site .site_box .sitebox .webstandard .box h2 {}
+#site .site_box .sitebox .webstandard .box p {}
+#site .site_box .sitebox .webstandard .box img {}
 
 
