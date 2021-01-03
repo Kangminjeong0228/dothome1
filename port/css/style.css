@@ -35,6 +35,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* 레이아웃 */
 * {margin: 0; padding: 0; box-sizing: border-box;}
@@ -648,15 +654,96 @@ body {height: 200000px;}
     background: #F1EFFB;
     z-index: 1;
 }
-#site .site_box .sitebox .webstandard {
-    background: #fff;
-    z-index: 3;
-}
-#site .site_box .sitebox .webstandard .box {
+#site .webstandard {
     
 }
-#site .site_box .sitebox .webstandard .box h2 {}
-#site .site_box .sitebox .webstandard .box p {}
-#site .site_box .sitebox .webstandard .box img {}
+#site .webstandard .box {
+    background: #D0C8FE;
+}
+#site .webstandard .box h2 {
+    color: #fff;
+    font-family: 'S-CoreDream-8Heavy';
+    font-size : 4.4vw;
+    position: fixed; 
+    transform: translate(7vw, 8vw);
+    letter-spacing: .1vw;
+}
+#site .webstandard .box p {
+    position: fixed; 
+    font-family: 'S-CoreDream-4Regular';
+    font-size : 1.2vw;
+    color: #3D3970;
+    transform: translate(7vw, 14.5vw);
+    width: 50%;
+    line-height: 1.6;
+   
+}
+#site .webstandard .box .btn {
+    position: fixed; 
+    transform: translate(7vw, 20vw);
+    width: 9.5vw;
+    height: 3vw;
+    border-radius: 40vw;
+    background: #3C46FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-size: 1.2vw;
+    color: #fff;
+    font-weight: 100;
+}
+#site .webstandard .box .img img {
+    margin-left: 16vw;
+    margin-top: 10vw;
+    width: auto; height: 33vw;
+}
+#site .webstandard .code {}
+#site .webstandard .code .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 28.5vw;
+}
+#site .webstandard .code .btn .btn1 {
+    width: 7.2vw; height: 5.3vh;
+    border-radius: 5%;
+    background: #39455D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+#site .webstandard .code .btn .btn2 {
+    margin-left: .5vw;
+    width: 7.2vw; height: 5.3vh;
+    border-radius: 5%;
+    background: #39455D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+#site .webstandard .code .text {
+    font-family: 'S-CoreDream-4Regular';
+    margin-left: 49vw;
+    padding-bottom: 3vh;
+    color: #3D3970;
+    font-size: 1vw;
+    width: 35vw;
+    margin-top: 3.3vh;
+    line-height: 1.4; 
+}
+#site .webstandard .code .img img {
+    margin-left: 49vw;
+    margin-top: 1vh;
+    width: 35vw; height: 60vh;
+}
+
+
 
 
