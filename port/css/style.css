@@ -659,6 +659,7 @@ body {height: 200000px;}
 }
 #site .webstandard .box {
     background: #D0C8FE;
+    z-index: 1;
 }
 #site .webstandard .box h2 {
     color: #fff;
@@ -750,6 +751,7 @@ body {height: 200000px;}
 }
 #site .responsive .box {
     background: #e1bee7;
+    z-index: 1;
 }
 #site .responsive .box h2 {
     color: #fff;
@@ -840,178 +842,8 @@ body {height: 200000px;}
     
 }
 #site .megabox .box {
-    background: #f3e5f5;
-}
-#site .megabox .box h2 {
-    color: #fff;
-    font-family: 'S-CoreDream-8Heavy';
-    font-size : 4.4vw;
-    position: fixed; 
-    transform: translate(7vw, 8vw);
-    letter-spacing: .1vw;
-}
-#site .megabox .box p {
-    position: fixed; 
-    font-family: 'S-CoreDream-4Regular';
-    font-size : 1.2vw;
-    color: #3D3970;
-    transform: translate(7vw, 14.5vw);
-    width: 50%;
-    line-height: 1.6;
-   
-}
-#site .megabox .box .btn {
-    position: fixed; 
-    transform: translate(7vw, 20vw);
-    width: 9.5vw;
-    height: 3vw;
-    border-radius: 40vw;
-    background: #3C46FB;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
-    font-size: 1.2vw;
-    color: #fff;
-    font-weight: 100;
-}
-#site .megabox .box .img img {
-    margin-left: 16vw;
-    margin-top: 10vw;
-    width: auto; height: 33vw;
-}
-#site .megabox .code {}
-#site .megabox .code .btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 20.5vw;
-}
-#site .megabox .code .btn .btn1 {
-    width: 7.2vw; height: 5.3vh;
-    border-radius: 5%;
-    background: #39455D;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
-    font-weight: 300;
-    font-size: 1.2vw;
-}
-
-#site .megabox .code .text {
-    font-family: 'S-CoreDream-4Regular';
-    margin-left: 49vw;
-    padding-bottom: 3vh;
-    color: #3D3970;
-    font-size: 1vw;
-    width: 35vw;
-    margin-top: 3.3vh;
-    line-height: 1.4; 
-}
-#site .megabox .code .img img {
-    margin-left: 49vw;
-    margin-top: 1vh;
-    width: 35vw; height: 60vh;
-}
-
-/* react */
-#site .react {
-    
-}
-#site .react .box {
-    background: #D0C8FE;
-}
-#site .react .box h2 {
-    color: #fff;
-    font-family: 'S-CoreDream-8Heavy';
-    font-size : 4.4vw;
-    position: fixed; 
-    transform: translate(7vw, 8vw);
-    letter-spacing: .1vw;
-}
-#site .react .box p {
-    position: fixed; 
-    font-family: 'S-CoreDream-4Regular';
-    font-size : 1.2vw;
-    color: #3D3970;
-    transform: translate(7vw, 14.5vw);
-    width: 50%;
-    line-height: 1.6;
-   
-}
-#site .react .box .btn {
-    position: fixed; 
-    transform: translate(7vw, 20vw);
-    width: 9.5vw;
-    height: 3vw;
-    border-radius: 40vw;
-    background: #3C46FB;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
-    font-size: 1.2vw;
-    color: #fff;
-    font-weight: 100;
-}
-#site .react .box .img img {
-    margin-left: 16vw;
-    margin-top: 10vw;
-    width: auto; height: 33vw;
-}
-#site .react .code {}
-#site .react .code .btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 8.5vw;
-}
-#site .react .code .btn .btn1 {
-    width: 7.2vw; height: 5.3vh;
-    border-radius: 5%;
-    background: #39455D;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
-    font-weight: 300;
-    font-size: 1.2vw;
-}
-#site .react .code .btn .btn2 {
-    margin-left: .5vw;
-    width: 7.2vw; height: 5.3vh;
-    border-radius: 5%;
-    background: #39455D;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
-    font-weight: 300;
-    font-size: 1.2vw;
-}
-#site .react .code .text {
-    font-family: 'S-CoreDream-4Regular';
-    margin-left: 49vw;
-    padding-bottom: 3vh;
-    color: #3D3970;
-    font-size: 1vw;
-    width: 35vw;
-    margin-top: 3.3vh;
-    line-height: 1.4; 
-}
-#site .react .code .img img {
-    margin-left: 49vw;
-    margin-top: 1vh;
-    width: 35vw; height: 60vh;
-}
-
-/* megabox */
-#site .megabox {
-    
-}
-#site .megabox .box {
     background:#b39ddb;
+    z-index: 1;
 }
 #site .megabox .box h2 {
     color: #fff;
@@ -1092,6 +924,7 @@ body {height: 200000px;}
 }
 #site .react .box {
     background:#d1c4e9 ;
+    z-index: 1;
 }
 #site .react .box h2 {
     color: #fff;
@@ -1136,7 +969,7 @@ body {height: 200000px;}
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 20.5vw;
+    padding-left: 28.5vw;
 }
 #site .react .code .btn .btn1 {
     width: 7.2vw; height: 5.3vh;
@@ -1149,7 +982,18 @@ body {height: 200000px;}
     font-weight: 300;
     font-size: 1.2vw;
 }
-
+#site .react .code .btn .btn2 {
+    margin-left: .5vw;
+    width: 7.2vw; height: 5.3vh;
+    border-radius: 5%;
+    background: #39455D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-weight: 300;
+    font-size: 1.2vw;
+}
 #site .react .code .text {
     font-family: 'S-CoreDream-4Regular';
     margin-left: 49vw;
@@ -1172,6 +1016,7 @@ body {height: 200000px;}
 }
 #site .dothome .box {
     background: #ede7f6;
+    z-index: 1;
 }
 #site .dothome .box h2 {
     color: #fff;
@@ -1205,6 +1050,7 @@ body {height: 200000px;}
     font-size: 1.2vw;
     color: #fff;
     font-weight: 100;
+    
 }
 #site .dothome .box .img img {
     margin-left: 16vw;
@@ -1249,7 +1095,4 @@ body {height: 200000px;}
 #script {}
 #script .script {}
 #script .script .box {}
-
-
-
 
