@@ -965,7 +965,7 @@ body {height: 200000px;}
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 20.5vw;
+    margin-left: 8.5vw;
 }
 #site .react .code .btn .btn1 {
     width: 7.2vw; height: 5.3vh;
@@ -978,7 +978,18 @@ body {height: 200000px;}
     font-weight: 300;
     font-size: 1.2vw;
 }
-
+#site .react .code .btn .btn2 {
+    margin-left: .5vw;
+    width: 7.2vw; height: 5.3vh;
+    border-radius: 5%;
+    background: #39455D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-weight: 300;
+    font-size: 1.2vw;
+}
 #site .react .code .text {
     font-family: 'S-CoreDream-4Regular';
     margin-left: 49vw;
@@ -1000,7 +1011,7 @@ body {height: 200000px;}
     
 }
 #site .megabox .box {
-    background:#f3e5f5;
+    background:#b39ddb;
 }
 #site .megabox .box h2 {
     color: #fff;
@@ -1080,7 +1091,7 @@ body {height: 200000px;}
     
 }
 #site .react .box {
-    background: #fce4ec;
+    background:#d1c4e9 ;
 }
 #site .react .box h2 {
     color: #fff;
@@ -1160,7 +1171,7 @@ body {height: 200000px;}
     
 }
 #site .dothome .box {
-    background: #f8bbd0;
+    background: #ede7f6;
 }
 #site .dothome .box h2 {
     color: #fff;
@@ -1233,6 +1244,12 @@ body {height: 200000px;}
     margin-top: 1vh;
     width: 35vw; height: 60vh;
 }
+
+/* script */
+#script {}
+#script .script {}
+#script .script .box {}
+
 
 
 
