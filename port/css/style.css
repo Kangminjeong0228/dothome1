@@ -1120,7 +1120,7 @@ body {height: 200000px;}
 
 }
 #script .script .box .script_page .left {
-    transform: translate(-28.5vw, 5vh);
+    transform: translate(-22.7vw, 28vh);
 }
 #script .script .box .script_page .left h2 {
     font-family: 'S-CoreDream-8Heavy';
@@ -1143,11 +1143,15 @@ body {height: 200000px;}
     line-height: 1.6;
 }
 #script .script .box .script_page .right {
-    transform: translate(34vw, -55vh);
+    transform: translate(22vw, -29vh);
 }
 #script .script .box .script_page .right .script_btn {
     display: flex;
-    
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-weight: 350;
+    font-size: 1.1vw;
+    padding-bottom: 3vh;
+    margin-left: 20vw;
 }
 #script .script .box .script_page .right .script_btn .jquery_code {
     width: 12vw; height: 7vh;
@@ -1168,5 +1172,9 @@ body {height: 200000px;}
     justify-content: center;
     margin-left: 1vw;
 }
-#script .script .box .script_page .right .parallax_script {}
-
+#script .script .box .script_page .right .parallax_script {
+    overflow: hidden;
+}
+#script .script .box .script_page .right .parallax_script iframe { 
+    width: 45vw; height: 22vw;
+}
