@@ -1116,4 +1116,57 @@ body {height: 200000px;}
     z-index: 3;
     background: #fff;
 }
+#script .script .box .script_page {
+
+}
+#script .script .box .script_page .left {
+    transform: translate(-28.5vw, 5vh);
+}
+#script .script .box .script_page .left h2 {
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 4.8vw;
+    color: #3C46FB;
+}
+#script .script .box .script_page .left h3 {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.6vw;
+    color: rgba(60,70,251,70%);
+    font-weight: 100;
+}
+#script .script .box .script_page .left p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.3vw;
+    width: 32.9vw;
+    font-weight: 100;
+    padding-top: 5.5vw;
+    letter-spacing: .06vw;
+    line-height: 1.6;
+}
+#script .script .box .script_page .right {
+    transform: translate(34vw, -55vh);
+}
+#script .script .box .script_page .right .script_btn {
+    display: flex;
+    
+}
+#script .script .box .script_page .right .script_btn .jquery_code {
+    width: 12vw; height: 7vh;
+    border-radius: 30vw;
+    background: #3C46FB;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#script .script .box .script_page .right .script_btn .javascript_code {
+    width: 12vw; height: 7vh;
+    border-radius: 30vw;
+    background: #3C46FB;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vw;
+}
+#script .script .box .script_page .right .parallax_script {}
 
