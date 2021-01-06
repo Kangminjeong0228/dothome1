@@ -1135,12 +1135,13 @@ body {height: 200000px;}
 }
 #script .script .box .script_page .left p {
     font-family: 'S-CoreDream-3Light';
-    font-size: 1.3vw;
-    width: 32.9vw;
+    font-size: 1.25vw;
+    width: 31.8vw;
     font-weight: 100;
-    padding-top: 5.5vw;
+    padding-top: 4vw;
     letter-spacing: .06vw;
-    line-height: 1.6;
+    line-height: 1.75;
+    color: #454141;
 }
 #script .script .box .script_page .right {
     transform: translate(22vw, -29vh);
