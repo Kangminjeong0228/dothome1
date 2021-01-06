@@ -1120,13 +1120,39 @@ body {height: 200000px;}
 
 }
 #script .script .box .script_page .left {
-    transform: translate(-22.7vw, 28vh);
+    transform: translate(-22.7vw, 16.5vw);
 }
-#script .script .box .script_page .left h2 {
+#script .script .box .script_page .left svg {
     font-family: 'S-CoreDream-8Heavy';
-    font-size: 4.8vw;
-    color: #3C46FB;
+    position: fixed;
+    transform: translate(-31.3%, -70%);
+    z-index: 1000;
 }
+#script .script .box .script_page .left svg text {
+    text-transform: uppercase;
+    font-size: 20.8vh;
+    animation: stroke 7s 3 alternate;
+}
+@keyframes stroke {
+    0%   {
+      fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+      stroke-dashoffset: 25%;
+      stroke-dasharray: 0 50%;
+      stroke-width: 2;
+    }
+    70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);}
+    80%  {
+      fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+      stroke-width: 3;
+    }
+    100% {
+      fill: #3C46FB; stroke: rgba(54,95,160,0);
+      stroke-dashoffset: -25%;
+      stroke-dasharray: 50% 0;
+      stroke-width: 0;
+    }
+}
+
 #script .script .box .script_page .left h3 {
     font-family: 'S-CoreDream-3Light';
     font-size: 1.6vw;
@@ -1144,7 +1170,7 @@ body {height: 200000px;}
     color: #454141;
 }
 #script .script .box .script_page .right {
-    transform: translate(22vw, -29vh);
+    transform: translate(22vw, -21vh);
 }
 #script .script .box .script_page .right .script_btn {
     display: flex;
@@ -1179,3 +1205,4 @@ body {height: 200000px;}
 #script .script .box .script_page .right .parallax_script iframe { 
     width: 45vw; height: 22vw;
 }
+
