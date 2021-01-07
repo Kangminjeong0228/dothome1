@@ -1182,6 +1182,7 @@ body {height: 200000px;}
 #script .script .box .parallax_page .right .parallax_script iframe { 
     width: 45vw; height: 22vw;
 }
+
 /* script_mouse */
 #script .script .box .mouse_page {
     transform: translate(-29.3vw, 59vh);
