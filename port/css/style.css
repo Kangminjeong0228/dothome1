@@ -1208,7 +1208,7 @@ body {height: 200000px;}
     color: #454141;
 }
 #script .script .box .mouse_page .right {
-    transform: translate(28vw, -29vh);
+    transform: translate(28vw, -20.5vh);
 }
 #script .script .box .mouse_page .right .mouse_btn {
     display: flex;
@@ -1272,7 +1272,7 @@ body {height: 200000px;}
     color: #454141;
 }
 #script .script .box .slider_page .right {
-    transform: translate(28vw, -29vh);
+    transform: translate(27vw, -19.4vh);
 }
 #script .script .box .slider_page .right .slider_btn {
     display: flex;
@@ -1281,7 +1281,7 @@ body {height: 200000px;}
     font-size: 1.1vw;
     padding-bottom: 2vh;
     margin-left: 22vw;
-    transform: translate(.8vw, -1.3vh);
+    transform: translate(1.8vw, -2.9vh);
 }
 #script .script .box .slider_page .right .slider_btn .jquery_code {
     width: 10.5vw; height: 6.5vh;
@@ -1306,6 +1306,72 @@ body {height: 200000px;}
     overflow: hidden;
 }
 #script .script .box .slider_page .right .slider_script iframe { 
+    width: 45vw; height: 22vw;
+    position: relative;
+    z-index: 1003;
+}
+/* quiz */
+#script .script .box .quiz_page {
+    transform: translate(-29.3vw, 59vh);
+    z-index: 1;
+}
+#script .script .box .quiz_page .left {
+ 
+}
+#script .script .box .quiz_page .left h3 {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.6vw;
+    color: rgba(60,70,251,70%);
+    font-weight: 100;
+    line-height: 0;
+    
+}
+#script .script .box .quiz_page .left p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.25vw;
+    width: 31.8vw;
+    font-weight: 100;
+    padding-top: 3.2vw;
+    letter-spacing: .06vw;
+    line-height: 1.75;
+    color: #454141;
+    transform: translate(0, 5vh);
+}
+#script .script .box .quiz_page .right {
+    transform: translate(26vw, -17.5vh);
+}
+#script .script .box .quiz_page .right .quiz_btn {
+    display: flex;
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-weight: 350;
+    font-size: 1.1vw;
+    padding-bottom: 2vh;
+    margin-left: 22vw;
+    transform: translate(2.75vw, -4.8vh);
+}
+#script .script .box .quiz_page .right .quiz_btn .jquery_code {
+    width: 10.5vw; height: 6.5vh;
+    border-radius: 30vw;
+    background: #3C46FB;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#script .script .box .quiz_page .right .quiz_btn .javascript_code {
+    width: 11vw; height: 6.5vh;
+    border-radius: 30vw;
+    background: #3C46FB;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vw;
+}
+#script .script .box .quiz_page .right .quiz_script {
+    overflow: hidden;
+}
+#script .script .box .quiz_page .right .quiz_script iframe { 
     width: 45vw; height: 22vw;
     position: relative;
     z-index: 1003;
