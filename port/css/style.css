@@ -645,7 +645,7 @@ body {height: 200000px;}
 
 /* site */
 #site {
-    width: 100vw; height: 10000vh;
+    width: 100vw; height: 1000vh;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
     z-index: 1;
 }
@@ -1107,8 +1107,8 @@ body {height: 200000px;}
 
 /* script */
 #script {
-    width: 100vw; height: 10000vh;
-    background: #fff;
+    width: 100vw; height: 1000vh;
+    background: #000;
     z-index: 1;
 }
 #script .script {}
@@ -1377,3 +1377,12 @@ body {height: 200000px;}
     position: relative;
     z-index: 1003;
 }
+
+/* animation */
+#animation{
+    width: 100vw; height: 10000vh;
+    background: linear-gradient(to right, #FFD4B5 80%, #FFD4B5 100% , #FFA084 100% );
+    z-index: 2;
+}
+#animation .animation {}
+
