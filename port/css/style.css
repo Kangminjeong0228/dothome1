@@ -1398,3 +1398,6 @@ body {height: 200000px;}
     letter-spacing: .4vw;
     z-index: 2;
 }
+#animation .animation .shapes {
+    background: #fff;
+}
