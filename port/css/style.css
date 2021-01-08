@@ -1380,9 +1380,20 @@ body {height: 200000px;}
 
 /* animation */
 #animation{
-    width: 100vw; height: 10000vh;
-    background: linear-gradient(to right, #FFD4B5 80%, #FFD4B5 100% , #FFA084 100% );
+    width: 100vw; height: 100000vh;
+    background: linear-gradient(to top, #FFD4B5 80%, #FFD4B5 100% , #FFA084 100% );
     z-index: 2;
 }
-#animation .animation {}
+#animation .animation {
 
+}
+#animation .animation .text{
+    font-family: 'S-CoreDream-9Black';
+    display: flex;
+    font-size: 5vw;
+    background: linear-gradient(to bottom, #1420F2, #12153F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .4vw;
+    z-index: 2;
+}
