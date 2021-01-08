@@ -1398,6 +1398,8 @@ body {height: 200000px;}
     letter-spacing: .4vw;
     z-index: 2;
 }
-#animation .animation .shapes iframe {
-    background: rgba(255,255,255,0.3);
-}
+#animation .animation .heart {transform: translate(0vw; 100vh);}
+#animation .animation .cube {}
+#animation .animation .wave {}
+#animation .animation .shapes {}
+#animation .animation .rocket {}
