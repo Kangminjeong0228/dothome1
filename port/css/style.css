@@ -1178,6 +1178,7 @@ body {height: 200000px;}
 }
 #script .script .box .parallax_page .right .parallax_script {
     overflow: hidden;
+    
 }
 #script .script .box .parallax_page .right .parallax_script iframe { 
     width: 45vw; height: 22vw;
