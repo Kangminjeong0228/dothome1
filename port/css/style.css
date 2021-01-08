@@ -1398,6 +1398,6 @@ body {height: 200000px;}
     letter-spacing: .4vw;
     z-index: 2;
 }
-#animation .animation .shapes {
-    background: #fff;
+#animation .animation .shapes iframe {
+    background: rgba(255,255,255,0.3);
 }
