@@ -1378,6 +1378,19 @@ body {height: 200000px;}
     position: relative;
     z-index: 1003;
 }
+#script .script .box .quiz_page .right .quiz_script iframe::-webkit-scrollbar {
+    width: 10px;
+    background-color: green;
+}
+#script .script .box .quiz_page .right .quiz_script iframe::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 10px;
+  }
+  #script .script .box .quiz_page .right .quiz_script iframe::-webkit-scrollbar-track {
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+  }
 
 /* animation */
 #animation{
@@ -1398,8 +1411,46 @@ body {height: 200000px;}
     letter-spacing: .4vw;
     z-index: 2;
 }
-#animation .animation .heart {transform: translate(0vw; 100vh);}
-#animation .animation .cube {}
-#animation .animation .wave {}
-#animation .animation .shapes {}
-#animation .animation .rocket {}
+#animation .animation .heart {
+    margin-top: -6vh;
+}
+#animation .animation .cube {
+    margin-top: 6vh;
+}
+#animation .animation .wave {
+    margin-top: -6vh;
+}
+#animation .animation .shapes {
+    margin-top: 6vh;
+}
+#animation .animation .rocket {
+    margin-top: -6vh;
+}
+#animation .animation .txt {
+    text-align: left;
+    color: #42459C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    white-space: wrap;
+    text-align: right;
+    line-height: 1;
+    font-size: 1.2vw;
+    margin-top: -2.5vh;
+    margin-right: -1.5vw;
+    z-index: 3;
+    position: relative;
+}
+#animation .animation .txt strong {
+    font-weight: 800;
+    font-size: 2.5vh;
+}
+#animation .animation .btn {
+    background-color: #fff;
+    display: inline-block;
+    width: 6vw; height: 4vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
