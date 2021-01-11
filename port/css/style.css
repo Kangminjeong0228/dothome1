@@ -41,6 +41,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* 레이아웃 */
 * {margin: 0; padding: 0; box-sizing: border-box;}
@@ -1107,7 +1113,7 @@ body {height: 200000px;}
 
 /* script */
 #script {
-    width: 100vw; height: 1000vh;
+    width: 100vw; height: 10000vh;
     background: linear-gradient(to top, #FFD4B5 80%, #FFD4B5 100% , #FFA084 100% );
     z-index: 1;
 }
@@ -1378,7 +1384,7 @@ body {height: 200000px;}
     position: relative;
     z-index: 1003;
 }
-#script .script .box .quiz_page .right .quiz_script iframe::-webkit-scrollbar {
+/* #script .script .box .quiz_page .right .quiz_script iframe::-webkit-scrollbar {
     width: 10px;
     background-color: green;
 }
@@ -1390,11 +1396,11 @@ body {height: 200000px;}
     background-color: red;
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px white;
-  }
+  } */
 
 /* animation */
 #animation{
-    width: 100vw; height: 1000vh;
+    width: 100vw; height: 5000vh;
     background: linear-gradient(to top, #FFD4B5 80%, #FFD4B5 100% , #FFA084 100% );
     z-index: 2;
 }
@@ -1435,22 +1441,49 @@ body {height: 200000px;}
     white-space: wrap;
     text-align: right;
     line-height: 1;
-    font-size: 1.2vw;
-    margin-top: -2.5vh;
-    margin-right: -1.5vw;
+    font-size: 1.6vw;
+    margin-top: -1.9vh;
+    margin-left: 5.5vw;
     z-index: 3;
     position: relative;
 }
 #animation .animation .txt strong {
     font-weight: 800;
-    font-size: 2.5vh;
+    font-size: 2vw;
 }
 #animation .animation .btn {
-    background-color: #fff;
-    display: inline-block;
-    width: 6vw; height: 4vh;
-    border-radius: 30px;
+    font-family: 'Cafe24Ohsquare';
+    font-size: 1vw;
+    color: #fff;
+    background-color: #EB622F;
+    display: inline;
+    width: 8vw; height:6.2vh;
+    border-radius: 30vw;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    margin-top: 26vh;
+    margin-left: 20vw;
+}
+#animation .animation .cube .btn {
+    background: #f67444;
+}
+#animation .animation .wave .btn {
+    background: #F58C2B;
+}
+#animation .animation .shapes .btn {
+    background: #FFB13C;
+}
+#animation .animation .rocket .btn {
+    background: #F5C276;
+}
+
+/* contact */
+#contact {
+    width: 100vw; height: 800vw;
+    background: linear-gradient(to left, #24195F, #5D21F5, #57118D);
+    z-index: 1001;
+}
+#contact .contact .box {
+    background: #000;
 }
