@@ -1532,3 +1532,51 @@ body {height: 10000vh; width: 100vw; overflow-x:hidden}
     width: 95%;
     text-align: center;
 }
+#contact .contact .contact_box {
+    background: #BB8FF7;
+    width: 45vw; height: 25vw;
+    border-radius: 30px;
+    font-family: 'Cafe24Ohsquare';
+    font-size: .8vw;
+}
+#contact .contact .contact_box .name {
+    width: 26vw; height: 4vw;
+    background: #fff;
+    margin-left: 8vw;
+    margin-top: -8vw;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+#contact .contact .contact_box .email {
+    width: 26vw; height: 4vw;
+    background: #fff;
+    margin-left: 8vw;
+    margin-top: -3vw;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+#contact .contact .contact_box .message {
+    width: 26vw; height: 10vw;
+    background: #fff;
+    margin-left: 8vw;
+    margin-top: 5vw;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+#contact .contact .contact_box .send_btn {
+    width: 11.5vw; height: 3.2vw;
+    background: #fff;
+    margin-top: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+    font-family: 'Cafe24Ohsquare';
+    font-size: 1vw;
+}
+#contact .contact .contact_box .sendimg{
+    margin-left: -14vw;
+}
