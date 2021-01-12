@@ -250,6 +250,368 @@ cursorText.forEach(elem => {
 </code></pre>
             </div>
             <!-- //Intro2 -->
+            <!-- Intro3 -->
+            <div class="bs-docs-section">
+                <h2 id="intro3" class="page-header">mouseEffect03</h2>
+                <p class="bs-callout bs-callout-info">마우스 효과 - Blend Effect</p>
+                <iframe width="100%" height="570px" src="mouseEffect03-jquery.html" frameborder="0"></iframe>
+                <h3>jQuery</h3>
+<pre class="line-numbers language-js"><code>//움직임 효과
+$(document).mousemove(function(e){
+    gsap.to(".cursor",{duration: 0.4, left: e.pageX, top: e.pageY});
+});
+
+//오버 효과
+$(".contents em").hover(function(){
+    $(".cursor").addClass("active");
+},function(){
+    $(".cursor").removeClass("active");
+});
+
+//출력용
+$(".info.bottom li").click(function(){
+    const text = $(this).text();
+    $(".info.bottom li").removeClass("active");
+    $(this).addClass("active");
+    $(".cursor").css("mix-blend-mode", text);
+});
+</code></pre>
+<h3>Javascript</h3>
+<pre class="line-numbers language-js"><code>//선택자
+const cursor = document.querySelector(".cursor");
+const contentEm = document.querySelectorAll(".contents em");
+const infoLi = document.querySelectorAll(".info.bottom li");
+//움직임 효과
+document.addEventListener("mousemove", function(e){
+    gsap.to(cursor, {duration: 0.3, left: e.pageX, top: e.pageY});
+});
+//오버 효과
+contentEm.forEach(elem => {
+    elem.addEventListener("mouseenter", () => {
+        cursor.classList.add("active");
+    });
+    elem.addEventListener("mouseleave", () => {
+        cursor.classList.remove("active");
+    });
+});
+//출력용
+infoLi.forEach(info => {
+    info.addEventListener("click", function() {
+        const text = this.textContent || this.innerHTML;
+        cursor.style.mixBlendMode = text;
+        infoLi.forEach(li => {
+            li.classList.remove("active");
+            this.classList.add("active");
+        });
+    });
+});
+</code></pre>
+            </div>
+            <!-- //Intro3 -->
+            <!-- Intro4 -->
+            <div class="bs-docs-section">
+                <h2 id="intro4" class="page-header">mouseEffect04</h2>
+                <p class="bs-callout bs-callout-info">마우스 효과 - 마우스 방향에 따라 움직이기</p>
+                <iframe width="100%" height="570px" src="mouseEffect04-jquery.html" frameborder="0"></iframe>
+                <h3>jQuery</h3>
+<pre class="line-numbers language-js"><code>let x = 0,
+    y = 0;
+    mouseX = 0,
+    mouseY = 0,
+    angleX = 0,
+    angleY = 0,
+    fmouseX = 0,
+    fmouseY = 0;
+
+$(window).mousemove(function(e){
+    x = e.pageX;
+    y = e.pageY;
+
+    // mouseX = $(window).width()/2 - x; //마우스의 x축 좌표값을 가운데로 설정
+    // mouseY = $(window).height()/2 - y; // 마우스의 y축 좌표값을 가운데로 설정
+    
+    //마우스의 x축 y축 최소값 -50 최대값 50으로 설정
+    mouseX = Math.max(-50, Math.min(50,$(window).width()/2 - x));
+    mouseY = Math.max(-50, Math.min(50,$(window).height()/2 - y));
+
+    angleX = (12*mouseX) /100;
+    angleY = (12*mouseY) /100;
+
+    fmouseX += (angleX - fmouseX) *0.1;
+    fmouseY += (angleY - fmouseY) *0.1;
+
+    //커서
+    gsap.to(".cursor",{duration:0.3, left: x, top: y});
+
+    //움직임
+    $(".move-image").css({"transform": "translate(-50%, -50%) perspective(600px) rotateX("+fmouseY+"deg) rotateY("+ -fmouseX+"deg)"}); 
+});
+
+//출력용
+$(window).mousemove(function(e){
+    $(".pageX").text(x);
+    $(".pageY").text(y);
+    $(".mouseX").text(mouseX);
+    $(".mouseY").text(mouseY);
+    $(".angleX").text(angleX);
+    $(".angleY").text(angleY);
+    $(".fmouseX").text(Math.round(fmouseX));
+    $(".fmouseY").text(Math.round(fmouseY));
+});
+</code></pre>
+<h3>Javascript</h3>
+<pre class="line-numbers language-js"><code>let x = 0,
+    y = 0,
+   mouseX = 0,
+   mouseY = 0,
+   angleX = 0,
+   angleY = 0,
+   fmouseX = 0,
+   fmouseY = 0;
+document.addEventListener("mousemove", function(e){
+   x = e.pageX;
+   y = e.pageY;
+   //mouseX = window.innerWidth/2 - x;
+   //mouseY = window.innerHeight/2 - y;
+   mouseX = Math.max(-100, Math.min(100, window.innerWidth/2 - x));
+   mouseY = Math.max(-100, Math.min(100, window.innerHeight/2 - y));
+   angleX = (12 * mouseX) / 100;
+   angleY = (12 * mouseY) / 100;
+   fmouseX += (angleX - fmouseX) * 0.1;
+   fmouseY += (angleY - fmouseY) * 0.1;
+   //움직임
+   const move = document.querySelector(".move-image");
+   move.style.transform = "translate(-50%, -50%) perspective(600px) rotateX("+fmouseY+"deg) rotateY("+ -fmouseX+"deg)";
+   //커서
+   gsap.to(".cursor", {duration: 0.3, left: x, top: y});
+});
+//출력용
+document.addEventListener("mousemove", function(){
+   document.querySelector(".pageX").textContent = x;
+   document.querySelector(".pageY").textContent = y;
+   document.querySelector(".mouseX").textContent = mouseX;
+   document.querySelector(".mouseY").textContent = mouseY;
+});
+</code></pre>
+            </div>
+            <!-- //Intro4 -->
+            <!-- Intro5 -->
+            <div class="bs-docs-section">
+                <h2 id="intro5" class="page-header">mouseEffect05</h2>
+                <p class="bs-callout bs-callout-info">마우스 효과 - 마우스 방향에 따라 움직이기</p>
+                <iframe width="100%" height="570px" src="mouseEffect05-javascript.html" frameborder="0"></iframe>
+                <h3>jQuery</h3>
+<pre class="line-numbers language-js"><code>$(".move-image").mousemove(function(e){
+    gsap.to(".cursor", {duration: 0.2, left: e.pageX - 10, top: e.pageY - 10});
+    
+    let x = e.clientX - ($(".move-image").width()/2 + $(".move-image").position().left);
+    let y = e.clientY - ($(".move-image").height()/2 + $(".move-image").position().top);
+
+    $(".img").attr({"style":"transform:translate("+x/20+"px, "+y/20+"px)"});
+});
+
+//출력용
+$(window).mousemove(function(e){
+    $(".clientX").text(e.clientX);
+    $(".clientY").text(e.clientY);
+});
+</code></pre>
+<h3>Javascript</h3>
+<pre class="line-numbers language-js"><code>let x = 0;
+let y = 0;
+const moveImg = document.querySelector(".move-image");
+moveImg.addEventListener("mousemove", function(e){
+    const rect = this.getBoundingClientRect();
+    console.log(rect);
+    this.style.setProperty("--x", e.clientX - ((rect.width/2) + rect.left));
+    this.style.setProperty("--y", e.clientY - ((rect.height/2) + rect.top));
+    gsap.to(".cursor", {duration: .2, left: e.pageX, top: e.pageY});
+});
+</code></pre>
+            </div>
+            <!-- //Intro5 -->
+            <!-- Intro6 -->
+            <div class="bs-docs-section">
+                <h2 id="intro6" class="page-header">mouseEffect06</h2>
+                <p class="bs-callout bs-callout-info">마우스 효과 - 마우스 방향에 따라 움직이기</p>
+                <iframe width="100%" height="570px" src="mouseEffect06-javascript.html" frameborder="0"></iframe>
+                <h3>jQuery</h3>
+<pre class="line-numbers language-js"><code>$(window).mousemove(function(e){
+    let x = e.pageX;
+    let y = e.pageY;
+    let mouseX = ( x- $(".word").offset().left - $(".word").width()/2 ) / $(".word").width() * 5;
+    let mouseY = ( x- $(".word").offset().top - $(".word").height()/2 ) / $(".word").height() * 5;
+
+    $(".word").css({textShadow:"10px -20px 0px rgba(255, 165, 9, 0.4), -10px 20px 0px rgba(255, 35, 251, 0.4), 20px -10px 0px rgba(255, 255, 73, 0.4), -20px 10px 0px rgba(102, 249, 255, 0.4)"});
+    $(".word").css({textShadow:""+mouseX+"px -"+mouseY+"px 0px rgba(255, 165, 9, 0.4), -"+mouseX+"px "+mouseY+"px 0px rgba(255, 35, 251, 0.4)"});
+
+    $(".mouseX").text(parseInt(mouseX));
+    $(".mouseY").text(parseInt(mouseY));
+    $(".mouseX2").text(parseInt(-mouseX));
+    $(".mouseY2").text(parseInt(-mouseY));
+})
+</code></pre>
+<h3>Javascript</h3>
+<pre class="line-numbers language-js"><code>const word = document.querySelector(".word");
+// const shadow = e => {
+//     const { x, y } = e;
+//     const rect = word.getBoundingClientRect();
+//     const mouseX = (x - rect.left - rect.width/2) / rect.width * 5;
+//     const mouseY = (y - rect.top - rect.height/2) / rect.height * 5;
+//     word.style.textShadow = `${mouseX}px ${-mouseY}px 0px rgba(255, 165, 0, 0.4),
+//                             ${-mouseX}px ${mouseY}px 0px rgba(255, 35, 251, 0.4),
+//                             ${mouseY}px ${-mouseX}px 0px rgba(255, 255, 73, 0.4),
+//                             ${-mouseY}px ${mouseX}px 0px rgba(102, 249, 255, 0.4)`
+// };
+// window.addEventListener("mousemove", shadow);
+
+//다중일때
+window.addEventListener("mousemove", e => {
+    document.querySelectorAll(".word").forEach( elem => {
+        const { x, y } = e;
+        const rect = elem.getBoundingClientRect();
+        const mouseX = (x - rect.left - rect.width/2) / rect.width * 5;
+        const mouseY = (y - rect.top - rect.height/2) / rect.height * 5;
+        elem.style.textShadow = `${mouseX}px ${-mouseY}px 0px rgba(255, 165, 0, 0.4),
+                                ${-mouseX}px ${mouseY}px 0px rgba(255, 35, 251, 0.4),
+                                ${mouseY}px ${-mouseX}px 0px rgba(255, 255, 73, 0.4),
+                                ${-mouseY}px ${mouseX}px 0px rgba(102, 249, 255, 0.4)`
+    });
+});
+</code></pre>
+            </div>
+            <!-- //Intro6 -->
+            <!-- Intro7 -->
+            <div class="bs-docs-section">
+                <h2 id="intro7" class="page-header">mouseEffect07</h2>
+                <p class="bs-callout bs-callout-info">마우스 효과 - 마우스 방향에 따라 움직이기</p>
+                <iframe width="100%" height="570px" src="mouseEffect07-javascript.html" frameborder="0"></iframe>
+                <h3>jQuery</h3>
+<pre class="line-numbers language-js"><code>const cursorWidth = $(".cursor").outerWidth()/2;
+const cursorHeight = $(".cursor").outerHeight()/2;
+
+$(window).mousemove(function(e){
+    gsap.to(".cursor", {duration: 0.5, left: e.pageX - cursorWidth, top: e.pageY - cursorHeight});
+})
+</code></pre>
+<h3>Javascript</h3>
+<pre class="line-numbers language-js"><code>class MaskSVG {
+    constructor(obj){
+        this.el = document.body.querySelector('#svg-mask');
+        this.rect = document.body.querySelectorAll('.svg-mask--rect');
+        this.circle = document.body.querySelectorAll('.svg-mask--circle');
+        this.clicked = false;
+        this.init();
+    }
+
+    init(){
+        this.handleResize();
+        this.binds();
+        this.events();
+    }
+
+    binds(){
+        this.handleResize = this.handleResize.bind(this);
+        this.handleMouse = this.handleMouse.bind(this);
+        this.handleClick = this.handleClick.bind(this);
+    }
+    
+    events(){
+        window.addEventListener('resize', this.handleResize);
+        window.addEventListener('mousemove', this.handleMouse);
+        window.addEventListener('touchmove', this.handleMouse);
+        window.addEventListener('click', this.handleClick);
+    }
+
+    handleMouse(e){
+        gsap.to(this.circle, {
+            duration: 0.7,
+            cx: e.clientX || e.touches[0].clientX,
+            cy: e.clientY || e.touches[0].clientY,
+            ease: 'power2.out'
+        });
+    }
+
+    handleResize(){
+        this.minRadius = window.innerWidth * 0.1;
+        this.maxRadius = window.innerWidth * 1.1;
+        
+        gsap.set([this.el, this.rect],{
+            width: `${window.innerWidth}px`,
+            height: `${window.innerHeight}px`
+        });
+
+        gsap.set(this.circle,{
+            r: `${this.minRadius}px`
+        });
+    }
+
+    handleClick(){
+        this.clicked = !this.clicked;
+        gsap.to(this.circle, {
+            duration: 1,
+            r: this.clicked ? this.maxRadius : this.minRadius,
+            ease: 'power3.inOut'
+        })
+    }
+}
+new MaskSVG();
+</code></pre>
+            </div>
+            <!-- //Intro7 -->
+            <!-- Intro8 -->
+            <div class="bs-docs-section">
+                <h2 id="intro8" class="page-header">mouseEffect08</h2>
+                <p class="bs-callout bs-callout-info">마우스 효과 - 마우스 방향에 따라 움직이기</p>
+                <iframe width="100%" height="570px" src="mouseEffect08-javascript.html" frameborder="0"></iframe>
+                <h3>jQuery</h3>
+<pre class="line-numbers language-js"><code>$(window).on("mousemove", mouseMove);
+
+function mouseMove(e){
+    let positionSlow = (e.pageX - ($(window).width()/2)) * 0.1;
+    let positionFast = (e.pageX - ($(window).width()/2)) * 0.2;
+
+    gsap.to(".span-slow", {
+        duration: .4,
+        x: positionSlow
+    });
+    gsap.to(".span-fast", {
+        duration: .4,
+        x: -positionFast
+    });
+}
+</code></pre>
+<h3>Javascript</h3>
+<pre class="line-numbers language-js"><code>class Mouse {
+    constructor(obj) {
+        this.slow = document.body.querySelectorAll(".span-slow");
+        this.fast = document.body.querySelectorAll(".span-fast");
+        this.init();
+    }
+    init(){
+        this.binds();
+        this.events();
+    }
+
+    binds(){
+        this.handleMouse = this.handleMouse.bind(this);
+    }
+
+    events(){
+        window.addEventListener('mousemove', this.handleMouse);
+    }
+
+    handleMouse(e){
+        this.positionSlow = (e.pageX - (window.innerWidth/2)) * 0.1;
+        this.positionFast = (e.pageX - (window.innerWidth/2)) * 0.2;
+        gsap.to(this.slow, {duration: .4, x: this.positionSlow});
+        gsap.to(this.fast, {duration: .4, x: -this.positionFast})
+    }
+}
+new Mouse();
+</code></pre>
+            </div>
+            <!-- //Intro8 -->
                 
             </div>
             <!-- //col-md-12 -->
