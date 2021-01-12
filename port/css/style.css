@@ -1499,11 +1499,36 @@ body {height: 10000vh; width: 100vw; overflow-x:hidden}
     opacity: 0.7;
 }
 #contact .contact .circle3 {
-    background: rgba(236,169,145,55%);
+    background: linear-gradient(to bottom, #ECA991 25%, #EB774D 89%, #f76834 98%);
     z-index: 4;
     opacity: 1;
 }
-#contact .contact .leaf svg {
-    width: 20vw; height: 20vw;
+#contact .contact .leaf-right svg {
+    width: 70vw; height: 70vw;
     z-index: 5;
+    margin-left: 80vw;
+    margin-top: 60vw;
+}
+#contact .contact .leaf-left1 svg {
+    width: 40vw; height: 40vw;
+    margin-left: -50vw;
+    margin-top: -10vw;
+}
+#contact .contact .leaf-left2 svg {
+    width: 80vw; height: 70vw;
+    margin-left: -78vw;
+    margin-top: -18vw;
+}
+#contact .contact .leaf-left3 svg {
+    width: 85vw; height: 70vw;
+    margin-top: -36vw;
+    margin-left: -74vw;
+}
+#contact .contact .text h1 {
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 6.2vw;
+    color: white;
+    word-break: keep-all;
+    width: 95%;
+    text-align: center;
 }
