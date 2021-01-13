@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINJEONG PORTFOLIO</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="./css/font.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/skrollr@0.6.26/dist/skrollr.min.js"></script>
+    <script>
+        var s = skrollr.init();
+
+        $(window).scroll(function(){
+            let scrollTop = $(window).scrollTop();
+            $(".scroll").text(scrollTop);
+        });
+    </script>
+</body>
+</html>
