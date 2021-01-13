@@ -1578,5 +1578,8 @@ body {height: 10000vh; width: 100vw; overflow-x:hidden}
     font-size: 1vw;
 }
 #contact .contact .contact_box .sendimg{
-    margin-left: -14vw;
+    margin-left: -13.5vw;
+}
+#contact .contact .contact_box .sendimg img {
+    width: 15vw;
 }
