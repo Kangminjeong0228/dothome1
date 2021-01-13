@@ -106,8 +106,7 @@ body {height: 10000vh; width: 100vw; overflow-x:hidden}
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 1vw;
-    z-index: 4;
-    
+    z-index: 4; 
 }
 #title .h2_2 {
     white-space:normal;
