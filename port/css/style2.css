@@ -511,6 +511,7 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     width: 100vw; height: 1000vh;
     background: linear-gradient(to left, #EBE0FF, #beb2ff);
 }
+/* about_left */
 #about .about_left {
     right: -35vw;
     padding-top: 4.5vw;
@@ -544,7 +545,51 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     font-size: 1.3vw;
     font-weight: 300;
 }
+/* about_right */
 #about .about_right .box {
     height: 4500vh; width: 52vw;
     background: #18154C;
+}
+#about .about_right .introduce {
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 2vw;
+    color: #fff;
+    white-space: nowrap;
+}
+#about .about_right .introduce .txt1 {
+    left: 73.9vw; margin-top:-28vh;
+}
+#about .about_right .introduce .txt2 {
+    left: 73.9vw; margin-top:-18vh;
+}
+#about .about_right .introduce .txt3 {
+    left: 73.9vw; margin-top:-8vh;
+}
+#about .about_right .introduce .txt4 {
+    left: 73.9vw; margin-top: 4vh;
+}
+#about .about_right .introduce .txt5 {
+    left: 73.9vw; margin-top: 14vh;
+}
+#about .about_right .introduce .txt6 {
+    left: 73.9vw; margin-top: 24vh;
+}
+#about .about_right .introduce .txt7 {
+    left: 73.9vw; margin-top: 20vh;
+}
+
+#about .about_right .introduce .txt1 span  {
+    color: #83CBF0;
+}
+#about .about_right .introduce .txt2 span {
+    color: #FF8177;
+}
+#about .about_right .introduce .txt3 span {
+    color: #83CBF0;
+}
+#about .about_right .introduce .txt4 span {
+    color: #FCFE8A;
+}
+#about .about_right .introduce .txt5 span {
+    color: #705AFB;
 }
