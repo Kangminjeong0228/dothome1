@@ -22,7 +22,7 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
 /* logo-scrollbar */
 #logo-scrollbar {}
 #logo-scrollbar .logo {
-    transform: translate(-46vw,-43.5vh);
+    transform: translate(-45vw,-43.5vh);
 }
 /* logo-scrollbar_logo */
 #logo-scrollbar .logo .logo_title {
@@ -214,7 +214,7 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
 
 }
 #skill .html .html_left {
-    right: -43vw;
+    right: -35vw;
     padding-top: 4.5vw;
 }
 #skill .html .html_left h2 {
@@ -226,9 +226,9 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
 }
 #skill .html .html_left p {
     font-family: 'S-CoreDream-3Light';
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     color: #3D3970;
-    line-height: 2.2vw;
+    line-height: 2vw;
     padding-bottom: 2vw;
     width: 30vw;
 }
@@ -247,7 +247,8 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     font-weight: 300;
 }
 #skill .html .html_right {
-    
+   padding-left: 35vw;
+   margin-top: -13vw;
 }
 #skill .html .html_right h3 {
     font-family: 'S-CoreDream-6Bold';
