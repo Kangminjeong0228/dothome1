@@ -67,42 +67,64 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     background-color: #3c46fb;
     box-shadow: 0 0 0 0.25rem #ff8177;
     width: .5vw; height: .5vw;
+    z-index: 10001;
 }
 #logo-scrollbar .scrollbar .circle .circle2 {
     border-radius: 50%;
     background-color: #3c46fb;
     box-shadow: 0 0 0 0.25rem #ff8177;
     width: .5vw; height: .5vw;
+    z-index: 10001;
 }
 #logo-scrollbar .scrollbar .circle .circle3 {
     border-radius: 50%;
     background-color: #3c46fb;
     box-shadow: 0 0 0 0.25rem #ff8177;
     width: .5vw; height: .5vw;
+    z-index: 10001;
 }
 #logo-scrollbar .scrollbar .circle .circle4 {
     border-radius: 50%;
     background-color: #3c46fb;
     box-shadow: 0 0 0 0.25rem #ff8177;
     width: .5vw; height: .5vw;
+    z-index: 10001;
 }
 #logo-scrollbar .scrollbar .circle .circle5 {
     border-radius: 50%;
     background-color: #3c46fb;
     box-shadow: 0 0 0 0.25rem #ff8177;
     width: .5vw; height: .5vw;
+    z-index: 10001;
 }
 #logo-scrollbar .scrollbar .circle .circle6 {
     border-radius: 50%;
     background-color: #3c46fb;
     box-shadow: 0 0 0 0.25rem #ff8177;
     width: .5vw; height: .5vw;
+    z-index: 10001;
 }
 #logo-scrollbar .scrollbar .circle .circle7 {
     border-radius: 50%;
     background-color: #3c46fb;
     box-shadow: 0 0 0 0.25rem #ff8177;
     width: .5vw; height: .5vw;
+    z-index: 10001;
+}
+/* logo-scrollbar_scrollbar 진행상황 */
+#logo-scrollbar .scrollbar .section .section1 {
+    bottom: 2.6vw;
+    margin: 0 auto;
+    height: 1vw;
+    border-bottom: 0.18vw solid rgb(60, 70, 251);
+    z-index: 10000;
+}
+#logo-scrollbar .scrollbar .section .section2 {
+    bottom: 2.6vw;
+    margin: 0 auto;
+    height: 1vw;
+    border-bottom: 0.18vw solid rgb(60, 70, 251);
+    z-index: 10000;
 }
 
 /* title */
@@ -161,9 +183,7 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
 #title .earth_broken {
     z-index: 3; 
 }
-#title .earth_broken svg {
-    
-}
+
 /* title_scroll */
 #title .scroll_icon {
     color: #18154C;
@@ -185,10 +205,17 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     100% {top: 100%;}
 }
 
-
-
 /* skill */
 #skill {
-    width: 100vw; height: 1000vh;
+    width: 100vw; height: 2000vh;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
+#skill .html {
+
+}
+#skill .html .html_left {
+
+}
+#skill .html .html_left h2 {}
+#skill .html .html_left p {}
+#skill .html .html_left button {}

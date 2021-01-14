@@ -236,7 +236,7 @@ body {height: 10000vh; width: 100vw; overflow-x:hidden}
 
 /* skill */
 #skill {
-    width: 100vw; height: 800vw;
+    width: 100vw; height: 2000vw;
     background: linear-gradient(to left, #EBE0FF, #D0C8FE);
 }
 
