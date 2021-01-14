@@ -181,8 +181,7 @@ body {height: 10000vh; width: 100vw; overflow-x:hidden}
     border-radius: 50vw;
     background-color: #3c46fb;
     box-shadow: 0 0 0 0.25rem #ff8177;
-    width: .5vw; height: .5vw;
-    
+    width: .5vw; height: .5vw;   
 }
 
 /* title 지구 */
@@ -493,7 +492,6 @@ body {height: 10000vh; width: 100vw; overflow-x:hidden}
     color: #3D3970;
     font-size: 1vw;
     margin-left: -0.6vw;
-
 }
 
 /* aboutme */

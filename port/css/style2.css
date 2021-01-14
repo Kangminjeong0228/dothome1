@@ -130,7 +130,7 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
 /* title */
 #title {
     width: 100vw; height: 200vh;
-    background: linear-gradient(to left, #EBE0FF, #D0C8FE);
+    background: linear-gradient(to left, #EBE0FF, #beb2ff);
 }
 #title {}
 #title .title {
@@ -141,7 +141,7 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
 }
 #title .title h2 {
     font-size: 10vw;
-    background: linear-gradient(to bottom, #BB8FF7, #E8A8BE);
+    background: linear-gradient(90deg, #ff8177, #8437fd );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
@@ -152,15 +152,13 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     /* text-shadow: 1.5vw 1.5vw 0vw rgba(255,255,255,0.5); */
     color: #fff;
     opacity: 10%;
-    padding-right: 2vw;
-    padding-bottom: 1vw;
 }
 /* title_earth */
 #title .earth {    
     display:flex; justify-content:space-around; align-items:center; height:100vh; 
 }
 #title .earth_box { 
-    background: #e8e9ff;
+    background: #e4e5ff;
     z-index: 1;
     margin-top: 20vw;
 }
@@ -208,11 +206,10 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
 /* skill */
 #skill {
     width: 100vw; height: 2000vh;
-    background: linear-gradient(to left, #EBE0FF, #D0C8FE);
+    background: linear-gradient(to left, #EBE0FF, #beb2ff);
 }
-#skill .html {
 
-}
+/* skill_html */
 #skill .html .html_left {
     right: -35vw;
     padding-top: 4.5vw;
@@ -254,7 +251,7 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     font-family: 'S-CoreDream-6Bold';
     color: #3D3970;
     font-size: 1vw;
-    margin-left: -0.6vw;
+    margin-left: -0.5vw;
 }
 #skill .html .html_right .line {
     border-left: .2vh solid #3C46FB;
@@ -262,12 +259,249 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     height: 9vw;
     z-index: 2;
     position: relative;
-    margin-left: .34vw;
+    margin-left: .29vw;
 }
 #skill .html .html_right .circle {
     border-radius: 50vw;
     background-color: #3c46fb;
     box-shadow: 0 0 0 5vw rgba(60, 70, 251, 0.2);
     width: .7vw; height: .7vw;
+    z-index: -1;
+}
+
+/* skill_css */
+#skill .css .css_left {
+    right: -35vw;
+    padding-top: 4.5vw;
+}
+#skill .css .css_left h2 {
+    font-family: 'S-CoreDream-9Black';
+    font-size: 4.5vw;
+    line-height: 2vw;
+    color: #18154C;
+    padding-bottom: 2.7vw;
+}
+#skill .css .css_left p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.3vw;
+    color: #3D3970;
+    line-height: 2vw;
+    padding-bottom: 2vw;
+    width: 30vw;
+}
+#skill .css .css_left .button {
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    border: 1vw solid #3C46FB;
+    background: #3C46FB;
+    display: inline-block;
+    width: 11vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3vw;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+#skill .css .css_right {
+   padding-left: 54vw;
+   margin-top: -16vw;
+}
+#skill .css .css_right h3 {
+    font-family: 'S-CoreDream-6Bold';
+    color: #3D3970;
+    font-size: 1vw;
+    margin-left: -0.5vw;
+}
+#skill .css .css_right .line {
+    border-left: .2vh solid #3C46FB;
+    width: 1vh;
+    height: 3.5vw;
+    z-index: 2;
+    position: relative;
+    margin-left: .2vw;
+}
+#skill .css .css_right .circle {
+    border-radius: 50vw;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 2vw rgba(60, 70, 251, 0.2);
+    width: .45vw; height: .45vw;
+    z-index: -1;
+}
+/* skill_javascript */
+#skill .javascript .javascript_left {
+    right: -35vw;
+    padding-top: 4.5vw;
+}
+#skill .javascript .javascript_left h2 {
+    font-family: 'S-CoreDream-9Black';
+    font-size: 4.5vw;
+    line-height: 2vw;
+    color: #18154C;
+    padding-bottom: 2.7vw;
+}
+#skill .javascript .javascript_left p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.3vw;
+    color: #3D3970;
+    line-height: 2vw;
+    padding-bottom: 2vw;
+    width: 30vw;
+}
+#skill .javascript .javascript_left .button {
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    border: 1vw solid #3C46FB;
+    background: #3C46FB;
+    display: inline-block;
+    width: 11vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3vw;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+#skill .javascript .javascript_right {
+   padding-left: 20vw;
+   margin-top: -5vw;
+}
+#skill .javascript .javascript_right h3 {
+    font-family: 'S-CoreDream-6Bold';
+    color: #3D3970;
+    font-size: 1vw;
+    margin-left: -0.4vw;
+}
+#skill .javascript .javascript_right .line {
+    border-left: .2vh solid #3C46FB;
+    width: 1vh;
+    height: 9vw;
+    z-index: 2;
+    position: relative;
+    margin-left: .279vw;
+}
+#skill .javascript .javascript_right .circle {
+    border-radius: 50vw;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 4.5vw rgba(60, 70, 251, 0.2);
+    width: .6vw; height: .6vw;
+    z-index: -1;
+}
+/* skill_react */
+#skill .react .react_left {
+    right: -35vw;
+    padding-top: 4.5vw;
+}
+#skill .react .react_left h2 {
+    font-family: 'S-CoreDream-9Black';
+    font-size: 4.5vw;
+    line-height: 2vw;
+    color: #18154C;
+    padding-bottom: 2.7vw;
+}
+#skill .react .react_left p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.3vw;
+    color: #3D3970;
+    line-height: 2vw;
+    padding-bottom: 2vw;
+    width: 30vw;
+}
+#skill .react .react_left .button {
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    border: 1vw solid #3C46FB;
+    background: #3C46FB;
+    display: inline-block;
+    width: 11vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3vw;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+#skill .react .react_right {
+   padding-left: 50vw;
+   margin-top: -8vw;
+}
+#skill .react .react_right h3 {
+    font-family: 'S-CoreDream-6Bold';
+    color: #3D3970;
+    font-size: 1vw;
+    margin-left: -0.3vw;
+}
+#skill .react .react_right .line {
+    border-left: .2vh solid #3C46FB;
+    width: 1vh;
+    height: 7.9vw;
+    z-index: 2;
+    position: relative;
+    margin-left: .4vw;
+}
+#skill .react .react_right .circle {
+    border-radius: 50vw;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 6vw rgba(60, 70, 251, 0.2);
+    width: .75vw; height: .75vw;
+    z-index: -1;
+}
+/* skill_php */
+#skill .php .php_left {
+    right: -35vw;
+    padding-top: 4.5vw;
+}
+#skill .php .php_left h2 {
+    font-family: 'S-CoreDream-9Black';
+    font-size: 4.5vw;
+    line-height: 2vw;
+    color: #18154C;
+    padding-bottom: 2.7vw;
+}
+#skill .php .php_left p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.3vw;
+    color: #3D3970;
+    line-height: 2vw;
+    padding-bottom: 2vw;
+    width: 29.5vw;
+}
+#skill .php .php_left .button {
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    border: 1vw solid #3C46FB;
+    background: #3C46FB;
+    display: inline-block;
+    width: 11vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3vw;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+#skill .php .php_right {
+   padding-left: 67vw;
+   margin-top: 2vw;
+}
+#skill .php .php_right h3 {
+    font-family: 'S-CoreDream-6Bold';
+    color: #3D3970;
+    font-size: 1vw;
+    margin-left: -0.3vw;
+}
+#skill .php .php_right .line {
+    border-left: .2vh solid #3C46FB;
+    width: 1vh;
+    height: 6.5vw;
+    z-index: 2;
+    position: relative;
+    margin-left: .28vw;
+}
+#skill .php .php_right .circle {
+    border-radius: 50vw;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 4vw rgba(60, 70, 251, 0.2);
+    width: .6vw; height: .6vw;
     z-index: -1;
 }
