@@ -214,8 +214,59 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
 
 }
 #skill .html .html_left {
-
+    right: -43vw;
+    padding-top: 4.5vw;
 }
-#skill .html .html_left h2 {}
-#skill .html .html_left p {}
-#skill .html .html_left button {}
+#skill .html .html_left h2 {
+    font-family: 'S-CoreDream-9Black';
+    font-size: 4.5vw;
+    line-height: 2vw;
+    color: #18154C;
+    padding-bottom: 2.7vw;
+}
+#skill .html .html_left p {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.2vw;
+    color: #3D3970;
+    line-height: 2.2vw;
+    padding-bottom: 2vw;
+    width: 30vw;
+}
+#skill .html .html_left .button {
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    border: 1vw solid #3C46FB;
+    background: #3C46FB;
+    display: inline-block;
+    width: 11vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3vw;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+#skill .html .html_right {
+    
+}
+#skill .html .html_right h3 {
+    font-family: 'S-CoreDream-6Bold';
+    color: #3D3970;
+    font-size: 1vw;
+    margin-left: -0.6vw;
+}
+#skill .html .html_right .line {
+    border-left: .2vh solid #3C46FB;
+    width: 1vh;
+    height: 9vw;
+    z-index: 2;
+    position: relative;
+    margin-left: .34vw;
+}
+#skill .html .html_right .circle {
+    border-radius: 50vw;
+    background-color: #3c46fb;
+    box-shadow: 0 0 0 5vw rgba(60, 70, 251, 0.2);
+    width: .7vw; height: .7vw;
+    z-index: -1;
+}
