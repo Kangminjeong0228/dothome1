@@ -32,16 +32,16 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
 }
 #logo-scrollbar .logo .logo_titlename {
     margin-top: -.2vw;
-    margin-left: 2.7vw;
+    margin-left: 4.7vw;
 }
 #logo-scrollbar .logo .logo_titlename h1 {
     font-family: 'S-CoreDream-4Regular';
-    font-size: 1.2vw; 
+    font-size: .2vw; 
     color: #18154C;
 }
 #logo-scrollbar .logo .logo_titlename h1 strong {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     color: #1E1A51;
     margin-left: .3vw;
 } 
@@ -557,39 +557,70 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     white-space: nowrap;
 }
 #about .about_right .introduce .txt1 {
-    left: 73.9vw; margin-top:-28vh;
+    left: 73.9vw; margin-top:-27vh;
 }
 #about .about_right .introduce .txt2 {
-    left: 73.9vw; margin-top:-18vh;
+    left: 73.9vw; margin-top:-17vh;
 }
 #about .about_right .introduce .txt3 {
-    left: 73.9vw; margin-top:-8vh;
+    left: 73.9vw; margin-top:-7vh;
 }
 #about .about_right .introduce .txt4 {
-    left: 73.9vw; margin-top: 4vh;
+    left: 73.9vw; margin-top: 3vh;
 }
 #about .about_right .introduce .txt5 {
-    left: 73.9vw; margin-top: 14vh;
+    left: 73.9vw; margin-top: 13vh;
 }
 #about .about_right .introduce .txt6 {
-    left: 73.9vw; margin-top: 24vh;
+    left: 73.9vw; margin-top: 23vh;
 }
 #about .about_right .introduce .txt7 {
-    left: 73.9vw; margin-top: 20vh;
+    left: 73.9vw; margin-top: -1vh;
 }
 
 #about .about_right .introduce .txt1 span  {
-    color: #83CBF0;
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #about .about_right .introduce .txt2 span {
-    color: #FF8177;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f98f 19%, #fd868c 60%, #fe9a8b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #about .about_right .introduce .txt3 span {
-    color: #83CBF0;
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #about .about_right .introduce .txt4 span {
-    color: #FCFE8A;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #about .about_right .introduce .txt5 span {
-    color: #705AFB;
+    background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* about_crush */
+#about .about_right .crush svg {
+    width: 25vw; height: 30vw;
+    margin-right: 52.6vw;
+    margin-bottom: 2vw;
+}
+
+#about .about_right .crush .crush_name {
+    padding-right: 58vw;
+    padding-bottom: 2vw;
+    white-space: nowrap;
+    color: #3D3970;
+    font-size: 1.5vw;
+    font-family: 'S-CoreDream-7ExtraBold';
+    line-height: 1.2;
+}
+#about .about_right .crush .crush_name span {
+    font-size: 3vw;
+    font-family: 'S-CoreDream-9Black';
+    padding-left: 3vw;
 }
