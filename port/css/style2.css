@@ -126,6 +126,13 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     border-bottom: 0.18vw solid rgb(60, 70, 251);
     z-index: 10000;
 }
+#logo-scrollbar .scrollbar .section .section3 {
+    bottom: 2.6vw;
+    margin: 0 auto;
+    height: 1vw;
+    border-bottom: 0.18vw solid rgb(60, 70, 251);
+    z-index: 10000;
+}
 
 /* title */
 #title {
@@ -508,7 +515,7 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
 
 /* about */
 #about {
-    width: 100vw; height: 1000vh;
+    width: 100vw; height: 2500vh;
     background: linear-gradient(to left, #EBE0FF, #beb2ff);
 }
 /* about_left */
@@ -624,3 +631,20 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     font-family: 'S-CoreDream-9Black';
     padding-left: 3vw;
 }
+/* about_img */
+#about .about_right .aboutimg {
+    position: fixed; 
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/3.jpg);
+    background-size:cover;
+    background-position: 50% 50%;
+    width: 50vw;
+    height: 100vh;
+    margin-left: 25vw;
+}
+/* #about .about_right .aboutimg img{
+    width: 50vw;
+    height: auto;
+    margin-left: 50vw;
+} */
