@@ -18,21 +18,7 @@
 </head>
 <body>
     <div class="scroll">0</div>
-    <!-- loading -->
-    <div class="progress">
-        <span class="progress-text">0</span>
-        <div class="porgress-ani">
-            <div class="bubble_container">
-                <div class="spring">
-                  <span class="bubbles bubble1s"></span>
-                  <span class="bubbles bubble2s"></span>
-                  <span class="bubbles bubble3s"></span>
-                  <span class="bubbles bubble4s"></span>
-                  <span class="bubbles bubble5s"></span>
-                </div>
-              </div>
-        </div>
-    </div>
+   
 
     <div id="wrap"
         data-0 = "display:block"
@@ -1015,36 +1001,7 @@
         });
 
         // 로딩
-        function loading(){
-        const   progress = $(".progress"),
-                progressText = progress.find(".progress-text");
-
-        let imgLoad = imagesLoaded("body"),
-            imgTotal = imgLoad.images.length,
-            imgLoaded = 0,
-            imgCurrent = 0,
-            progressTimer = setInterval(updateProgress, 1000/60);
-
-            imgLoad.on("progress",function(){
-                imgLoaded++;
-            })
-
-            function updateProgress(){
-                let target = (imgLoaded / imgTotal) * 100;
-
-                imgCurrent += (target - imgCurrent) * 0.1;
-                progressText.text(Math.floor(imgCurrent) + "%");
-
-                if(imgCurrent >= 100) {
-                    clearInterval(progressTimer)
-                    progress.delay(1000).fadeOut(1000)
-                }
-                if(imgCurrent > 99) {
-                    imgCurrent = 100;
-                } 
-            }
-        }
-        loading ();
+        
     </script>
 </body>
 </html>
