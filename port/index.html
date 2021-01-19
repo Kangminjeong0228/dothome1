@@ -1010,7 +1010,7 @@
         var s = skrollr.init();
 
         $(window).scroll(function(){
-            let scrollTop = $(window).scrollTop();
+            let scrollTop = parseInt($(window).scrollTop());
             $(".scroll").text(scrollTop);
         });
 
