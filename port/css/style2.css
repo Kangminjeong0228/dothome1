@@ -19,6 +19,9 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     z-index: 1000;
 }
 
+body {
+    
+}
 /* logo-scrollbar */
 #logo-scrollbar {}
 #logo-scrollbar .logo {
@@ -641,10 +644,149 @@ body {height: 100vh; width: 100vw; overflow-x:hidden;}
     background-position: 50% 50%;
     width: 50vw;
     height: 100vh;
-    margin-left: 25vw;
+    margin-left: 25.5vw;
 }
-/* #about .about_right .aboutimg img{
-    width: 50vw;
-    height: auto;
-    margin-left: 50vw;
-} */
+
+/* site */
+#site {
+    width: 100vw; height: 1000vh;
+    background: linear-gradient(to left,  #EBE0FF, #beb2ff);
+}
+#site .sitebox {
+    width: 100vw; height: 100vh;
+    background: #F1EFFB;
+    z-index: 1001;
+}
+/* site_webstandard */
+#site .webstandard .box {
+    background: #D0C8FE;
+    z-index: 2;
+}
+#site .webstandard .box h2 {
+    color: #fff;
+    font-family: 'S-CoreDream-8Heavy';
+    font-size : 4.4vw;
+    position: fixed; 
+    transform: translate(7vw, 8vw);
+    letter-spacing: .1vw;
+}
+#site .webstandard .box p {
+    position: fixed; 
+    font-family: 'S-CoreDream-4Regular';
+    font-size : 1.2vw;
+    color: #3D3970;
+    transform: translate(7vw, 14.5vw);
+    width: 49%;
+    line-height: 1.6;
+   
+}
+#site .webstandard .box .btn {
+    position: fixed; 
+    transform: translate(7vw, 20vw);
+    width: 9.5vw;
+    height: 3vw;
+    border-radius: 40vw;
+    background: #3C46FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-size: 1.2vw;
+    color: #fff;
+    font-weight: 100;
+    z-index: 1001;
+}
+#site .webstandard .box .img img {
+    margin-left: 16vw;
+    margin-top: 10vw;
+    width: auto; height: 53vw;
+}
+#site .webstandard .code {
+    z-index: 1;
+}
+#site .webstandard .code .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 28.5vw;
+}
+#site .webstandard .code .btn .btn1 {
+    width: 7.2vw; height: 5.3vh;
+    border-radius: 3px;
+    background: #39455D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+#site .webstandard .code .btn .btn2 {
+    margin-left: .5vw;
+    width: 7.2vw; height: 5.3vh;
+    border-radius: 3px;
+    background: #39455D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+#site .webstandard .code .text {
+    font-family: 'S-CoreDream-4Regular';
+    margin-left: 49vw;
+    padding-bottom: 3vh;
+    color: #3D3970;
+    font-size: 1vw;
+    width: 35vw;
+    margin-top: 3.3vh;
+    line-height: 1.4; 
+}
+/* site_webstandard code tab-menu */
+.webstandard_tap {
+    margin-left: 49vw;
+    
+}
+.webstandard_tap ul.tabs{
+    float: left;
+    height: 5.2vh;
+    border: 1px solid #1D2538;
+    box-sizing: none;
+    
+}
+.webstandard_tap ul.tabs li{
+    float: left;
+    width: 11.6vw;
+    text-align: center;
+    cursor: pointer;
+    line-height: 24px;
+    background-color: #1D2538;
+    color: #fff;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1vw;
+    border: 1px solid #1D2538;
+}
+.webstandard_tap ul.tabs li.active {
+    font-family: 'S-CoreDream-4Regular';
+    font-size: 1.1vw;
+    background-color: #364159;
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+.webstandard_tap .tab_wrap{
+    width: 35vw;
+    float: left;
+    height: 53vh;
+    background-color: #364159;
+    border-top: none;
+    overflow: scroll;
+    padding: 10px;
+    
+}
+.wrap .tab_wrap .tab_content{
+    padding: 10px;
+    display: none;
+    font-size: 15px;
+    
+}

@@ -392,14 +392,68 @@
                     data-13000 = "display:none;"
                     data-15000 = "display:block;"
                 >
-                    <!-- <img src="./img/6.jpg" alt="어바웃이미지"> -->
                 </div>
             </div>
         </section>
         <!-- //about -->
 
         <!-- site -->
-        <section id="site"></section>
+        <section id="site"
+            data-20999 = "display:none;"
+            data-21000 = "display:block;"
+            data-30000 = "display:block;"
+        >
+            <div class="sitebox fixed"
+                data-21000 = "display:block; left:-200vw; height: 100vh; width: 100vw;"
+                data-22500 = "display:block; left:50vw; height: 100vh; width: 100vw;"
+                data-30000 = "display:none;"
+            >
+                <!-- webstandard -->
+                <div class="webstandard">
+                    <div class="box fixed"
+                        data-22500 = "display:block; left:-100vw; height: 100vh; width: 50vw;"
+                        data-24000 = "display:block; left:24.4vw; height: 100vh; width: 50vw;"
+                        data-30000 = "display:none;"
+                    >
+                        <div class="wbstandard_cont">
+                            <h2>WEBSTANDARD</h2>
+                            <p>모든 사용자가 웹사이트 이용에 불편이 없도록 웹표준을 준수하여 만든 웹사이트입니다.</p>
+                            <div class="btn"><a href="https://kangminjeong0228.github.io/dothome1/webstandard/index.html#">for View</a></div>
+                            <div class="img fixed">
+                                <img src="./img/웹표준img.png" alt="목업이미지">
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="code fixed"
+                        data-24000 = " opacity:0; display:none;"
+                        data-25000 = " opacity:1; display:block;"
+                        data-26000 = "opacity:1; display:block;"
+                        data-27000 = "opacity:1; display:none;"
+                    >
+                        <div class="btn">
+                            <div class="btn1"><a href="https://kangminjeong0228.github.io/dothome1/webstandard/index.html#">SITE</a></div>
+                            <div class="btn2"><a href="https://www.figma.com/proto/3agU9FIXicIyDTnOFfNIWh/%EC%9B%B9%ED%91%9C%EC%A4%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%9D%BC%EC%9D%B8?node-id=19%3A60&viewport=691%2C-720%2C0.3517568111419678&scaling=min-zoom">FIGMA</a></div>
+                        </div>
+                        <div class="text">인식의용이성, 이해의용이성 등 모든 사용자가 사이트를 이용할 수 있도록 웹표준을 준수하여 사이트를 만들었습니다.</div>
+                        <div class="webstandard_tap">
+                            <ul class="tabs">
+                                <li class="active" rel="tab1">html</li>
+                                <li rel="tab2">style</li>
+                                <li rel="tab3">reset</li>
+                            </ul>
+                            <div class="tab_wrap">
+                                <div id="tab1" class="tab_content">
+<pre class="line-numbers language-js"><code>
+</code></pre>
+                                </div>
+                                <div id="tab2" class="tab_content">2번탭 내용</div>
+                                <div id="tab3" class="tab_content">3번탭 내용</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- //site -->
 
         <!-- script -->
@@ -438,6 +492,23 @@
                 elem.style.textShadow = `${mouseX}px ${-mouseY}px 0px  rgba(255, 129, 119, 0.2),
                                         ${-mouseY}px ${mouseX}px 0px rgba(132, 55, 253, 0.2)`
             });
+        });
+
+        //탭
+        $("document").ready(function() {
+        //attr 현재속성
+       
+            $(".tab_content").hide();
+            $(".tab_content").eq(0).show();
+       
+       
+            $("ul.tabs li").click(function(){
+                $("ul.tabs li").removeClass("active")
+                $(this).addClass("active")
+                $(".tab_content").hide();
+                var tabid = $(this).attr("rel");
+                $("#"+tabid).fadeIn();
+            })
         });
     </script>
 </body>
