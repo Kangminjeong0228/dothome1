@@ -803,17 +803,16 @@ body {
 }
 .webstandard_tap ul.tabs{
     float: left;
-    height: 5.2vh;
+    height: 4.2vh;
     border: 1px solid #1D2538;
     box-sizing: none;
-    
 }
 .webstandard_tap ul.tabs li{
     float: left;
     width: 11.6vw;
     text-align: center;
     cursor: pointer;
-    line-height: 24px;
+    line-height: 4vh;
     background-color: #1D2538;
     color: #fff;
     font-family: 'S-CoreDream-3Light';
