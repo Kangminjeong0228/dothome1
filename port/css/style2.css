@@ -693,7 +693,7 @@ body {
     position: fixed; 
     left: 50%; top: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(../img/3.jpg);
+    background-image: url(../img/about.jpg);
     background-size:cover;
     background-position: 50% 50%;
     width: 50vw;
@@ -799,8 +799,7 @@ body {
 }
 /* site_webstandard code tab-menu */
 .webstandard_tap {
-    margin-left: 49vw;
-    
+    margin-left: 49vw;  
 }
 .webstandard_tap ul.tabs{
     float: left;
@@ -835,12 +834,10 @@ body {
     background-color: #364159;
     border-top: none;
     overflow: scroll;
-    padding: 10px;
-    
+    padding: 10px; 
 }
 .wrap .tab_wrap .tab_content{
     padding: 10px;
     display: none;
     font-size: 15px;
-    
 }
