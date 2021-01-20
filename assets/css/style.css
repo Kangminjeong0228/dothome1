@@ -2047,7 +2047,175 @@
 .control {}
 .control h3 {margin-top:30px;}
 
+/* figma */
+.portfolio {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.portfolio h2 {
+	font-size: 20px;
+}
+.portfolio a {
+	font-size: 15px;
+	padding: 15px;
+}
 
+.react {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.react h2 {
+	font-size: 20px;
+}
+.react a {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.vue {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.vue h2 {
+	font-size: 20px;
+}
+.vue a {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.mySQL {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.mySQL h2 {
+	font-size: 20px;
+}
+.mySQL a {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.php {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.php h2 {
+	font-size: 20px;
+}
+.php a {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.ResponsiveSite {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.ResponsiveSite h2 {
+	font-size: 20px;
+}
+.ResponsiveSite a {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.WebstandardSite {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.WebstandardSite h2 {
+	font-size: 20px;
+}
+.WebstandardSite a {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.Script {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.Script h2 {
+	font-size: 20px;
+}
+.Script a {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.Effect {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.Effect h2 {
+	font-size: 20px;
+}
+.Effect a {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.jQuery {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.jQuery h2 {
+	font-size: 20px;
+}
+.jQuery a {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.Javascript {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.Javascript h2 {
+	font-size: 20px;
+}
+.Javascript a {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.CSS {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.CSS h2 {
+	font-size: 20px;
+}
+.CSS a {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.HTML {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.HTML h2 {
+	font-size: 20px;
+}
+.HTML a {
+	font-size: 15px;
+	padding: 15px;
+}
 
 
 
