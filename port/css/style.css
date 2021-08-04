@@ -1609,8 +1609,12 @@ body.active {
     margin-left: 8vw;
     margin-top: -8vw;
     border-radius: 1vw;
-    padding-left: 1vw;
-    padding-top: 1vw;
+    padding-left: 15px;    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: none;
+    outline: none;
 }
 #contact .contact .contact_box .email {
     width: 26vw; height: 4vw;
@@ -1618,8 +1622,12 @@ body.active {
     margin-left: 8vw;
     margin-top: -3vw;
     border-radius: 1vw;
-    padding-left: 1vw;
-    padding-top: 1vw;
+    padding-left: 15px;    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: none;
+    outline: none;
 }
 #contact .contact .contact_box .message {
     width: 26vw; height: 10vw;
@@ -1627,8 +1635,12 @@ body.active {
     margin-left: 8vw;
     margin-top: 5vw;
     border-radius: 1vw;
-    padding-left: 1vw;
-    padding-top: 1vw;
+    padding-left: 15px;    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: none;
+    outline: none;
 }
 #contact .contact .contact_box .send_btn {
     width: 11.5vw; height: 3.2vw;
@@ -1640,6 +1652,7 @@ body.active {
     border-radius: 1vw;
     font-family: 'Cafe24Ohsquare';
     font-size: 1vw;
+    
 }
 #contact .contact .contact_box .sendimg{
     margin-left: -13.5vw;
